@@ -264,7 +264,7 @@ elif st.session_state["aba_atual"] == "Add Book":
         st.stop()
     
     # Extrai editoras únicas e ordena
-    editoras_existentes = sorted(df["publisher"].dropna().unique())
+    editoras_existentes = sorted(df_existente["publisher"].dropna().unique())
 
     with st.form("form_books"):
         title_form = st.text_input("Title")
