@@ -266,7 +266,7 @@ elif st.session_state["aba_atual"] == "Add Book":
     with st.form("form_books"):
         title_form = st.text_input("Title")
         isbn_form = st.text_input("ISBN")
-        genre_form = st.text_input("Genre")
+        genre_form = st.selectbox("Choose a genre", ["Romance", "Teoria da literatura/linguística", "Poesia", "Contos", "Infanto-juvenil", "Biografia", "História", "Autoajuda", "Infantil","Outros","Artes","Cozinha","Ciências","Tecnologia","Negócios","Economia","Teologia","Sociologia", "Filosofia","Educação","Demonologia","Quadrinhos sérios", "Quandrinhos leves","Mangás"])
         author_form = st.text_input("Author")
         publisher_form = st.text_input("Publisher")
         year_form = st.text_input("Year")
