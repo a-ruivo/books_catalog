@@ -19,7 +19,7 @@ aba_atual = st.sidebar.radio("Pages", ["Books", "Dashboard", "Add Book", "Book M
 st.session_state["aba_atual"] = aba_atual
 
 # Carrega a imagem da pasta local
-image = Image.open("doc/capa.png")
+image = Image.open("docs/capa.png")
 
 # Exibe a imagem no topo
 st.image(image, use_container_width=True)
