@@ -262,12 +262,6 @@ elif st.session_state["aba_atual"] == "Add Book":
         st.warning("Enter the password to access this page.")
         st.stop()
 
-    # Campos fora do formulário
-    codigo_colecao_add = st.text_input("Collection code")
-    numero_carta_add = st.text_input("Card number")
-    padrao_add = st.number_input("Regular quantity", min_value=0)
-    foil_add = st.number_input("Foil quantity", min_value=0)
-
     with st.form("form_books"):
         title_form = st.text_input("Title")
         isbn_form = st.text_input("ISBN")
