@@ -268,7 +268,17 @@ elif st.session_state["aba_atual"] == "Add Book":
         isbn_form = st.text_input("ISBN")
         genre_form = st.selectbox("Choose a genre", ["Romance", "Teoria da literatura/linguística", "Poesia", "Contos", "Infanto-juvenil", "Biografia", "História", "Autoajuda", "Infantil","Outros","Artes","Cozinha","Ciências","Tecnologia","Negócios","Economia","Teologia","Sociologia", "Filosofia","Educação","Demonologia","Quadrinhos sérios", "Quadrinhos leves","Mangás"])
         author_form = st.text_input("Author")
-        publisher_form = st.text_input("Publisher")
+        # Extrai editoras únicas e ordena
+        editoras_existentes = sorted(df["publisher"].dropna().unique())
+
+        # Selectbox com opção de "Outro"
+        opcao = st.selectbox("Select a publisher ou choose 'New Publisher'", editoras_existentes + ["New Publisher"])
+
+        # Se "Outro" for selecionado, mostra campo de texto
+        if opcao == "New Publisher":
+            publisher_form = st.text_input("Enter new publisher")
+        else:
+            publisher_form = opcao
         year_form = st.text_input("Year")
         collection_form = st.text_input("Collection")
         volume_form = st.text_input("Volume")
@@ -317,7 +327,7 @@ elif st.session_state["aba_atual"] == "Add Book":
         if ja_existe:
             st.warning("This book already is in the collection.")
         else:
-            df_form = pd.concat([df_existente, nova_carta], ignore_index=True)
+            df_form = pd.concat([df_existente, nova_carta], ignore_index=True).drop_duplicates()
 
             imagem_bytes = imagem_upload.read()
             sucesso_img, msg_img = salvar_imagem_em_github(imagem_bytes, REPO, caminho_imagem_repo, GITHUB_TOKEN)
