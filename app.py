@@ -318,9 +318,9 @@ elif st.session_state["aba_atual"] == "Add Book":
                     st.success("Imagem enviada para o GitHub com sucesso!")
                 else:
                     st.error(msg_img)
-                sucesso, mensagem = salvar_csv_em_github(df_form, REPO, CSV_PATH, GITHUB_TOKEN)
+                sucesso, mensagem = salvar_csv_em_github(nova_carta, REPO, CSV_PATH, GITHUB_TOKEN)
                 if sucesso:
-                    st.session_state["df"] = df_form
+                    st.session_state["df"] = nova_carta
                     st.success("Book added!")
                 else:
                     st.error(f"Error saving in GitHub: {mensagem}")
