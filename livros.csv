@@ -1,1 +1,2 @@
 isbn,genre,cover,title,authors,publisher,year,price,collection,volume,pages,type,preco_medio
+0,Romance,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/o_estrangeiro.jpg,O Estrangeiro,Albert Camus,Record,2023,,None,None,126,Collection,58.73
