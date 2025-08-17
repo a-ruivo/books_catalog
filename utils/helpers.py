@@ -52,28 +52,33 @@ def adicionar_preco_medio(df, nova_coluna="preco_medio"):
             media = round(sum(precos) / len(precos), 2)
             print(f"[✓] Preço médio para '{title}' com ano e editora: R$ {media}")
             return media
+        
+        else:
 
-        # Tentativa 2: título + ano
-        url2 = (
-            f"https://www.estantevirtual.com.br/busca?"
-            f"q={titulo_formatado}&ano-de-publicacao={year_formatado}"
-        )
-        precos = extrair_precos(url2)
-        if precos:
-            media = round(sum(precos) / len(precos), 2)
-            print(f"[✓] Preço médio para '{title}' com ano: R$ {media}")
-            return media
+            # Tentativa 2: título + ano
+            url2 = (
+                f"https://www.estantevirtual.com.br/busca?"
+                f"q={titulo_formatado}&ano-de-publicacao={year_formatado}"
+            )
+            precos = extrair_precos(url2)
+            if precos:
+                media = round(sum(precos) / len(precos), 2)
+                print(f"[✓] Preço médio para '{title}' com ano: R$ {media}")
+                return media
 
-        # Tentativa 3: apenas título
-        url3 = f"https://www.estantevirtual.com.br/busca?q={titulo_formatado}"
-        precos = extrair_precos(url3)
-        if precos:
-            media = round(sum(precos) / len(precos), 2)
-            print(f"[✓] Preço médio para '{title}' apenas: R$ {media}")
-            return media
+            else:
+                # Tentativa 3: apenas título
+                url3 = f"https://www.estantevirtual.com.br/busca?q={titulo_formatado}"
+                precos = extrair_precos(url3)
+                if precos:
+                    media = round(sum(precos) / len(precos), 2)
+                    print(f"[✓] Preço médio para '{title}' apenas: R$ {media}")
+                    return media
+                
+                else:
 
-        print(f"[✗] Nenhum preço encontrado para '{title}' — atribuindo R$ 0.00")
-        return 0.0
+                    print(f"[✗] Nenhum preço encontrado para '{title}' — atribuindo R$ 0.00")
+                    return 0.0
 
     df[nova_coluna] = df.apply(
         lambda row: buscar_preco(row["title"], row["year"], row["publisher"]),
