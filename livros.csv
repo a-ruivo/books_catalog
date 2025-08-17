@@ -4,4 +4,5 @@ isbn,genre,cover,title,authors,publisher,year,collection,volume,pages,type,preco
 9788535913873,Contos,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/a_cidade_ilhada.jpg,A cidade ilhada,Milton Hatoum,Companhia das Letras,2007,,,125,Collection,15.68
 0,Teoria da literatura/linguística,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/gramatica_latina.jpg,Grámatica Latina,Napoleão Mendes de Almeida,Saraiva,1968,,,538,Collection,153.95
 9786558021506,Teoria da literatura/linguística,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/carta_de_uma_orientadora.jpg,Carta de uma orientadora,Debora Diniz,Civilização Brasileira,2024,,,207,Collection,142.3
-9788571640399,Romance,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/relato_de_um_certo_oriente.jpg,Relato de um certo Oriente,Milton Hatoum,Companhia das Letras,2019,None,None,189,Collection,25.76
+9788571640399,Romance,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/relato_de_um_certo_oriente.jpg,Relato de um certo Oriente,Milton Hatoum,Companhia das Letras,2019,,,189,Collection,25.76
+9788535916744,Contos,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/obra_completa.jpg,Obra completa,Murilo Rubião,Companhia de bolso,2020,None,None,227,Collection,130.83
