@@ -265,12 +265,13 @@ elif st.session_state["aba_atual"] == "Add Book":
     
     # Extrai editoras únicas e ordena
     editoras_existentes = sorted(df_existente["publisher"].dropna().unique())
+    autores_existentes = sorted(df_existente["authors"].dropna().unique())
 
     with st.form("form_books"):
         title_form = st.text_input("Title")
         isbn_form = st.text_input("ISBN")
         genre_form = st.selectbox("Choose a genre", ["Romance", "Teoria da literatura/linguística", "Poesia", "Contos", "Infanto-juvenil", "Biografia", "História", "Autoajuda", "Infantil","Outros","Artes","Cozinha","Ciências","Tecnologia","Negócios","Economia","Teologia","Sociologia", "Filosofia","Educação","Demonologia","Quadrinhos sérios", "Quadrinhos leves","Mangás"])
-        author_form = st.text_input("Author")
+        opcao_autor = st.selectbox("Select a author ou choose 'New Author'", autores_existentes + ["New Author"])
         # Selectbox com opção de "Outro"
         opcao = st.selectbox("Select a publisher ou choose 'New Publisher'", editoras_existentes + ["New Publisher"])
         year_form = st.text_input("Year")
@@ -282,6 +283,10 @@ elif st.session_state["aba_atual"] == "Add Book":
         enviado = st.form_submit_button("Add book")
 
     if enviado:
+        if opcao_autor == "New Author":
+            author_form = st.text_input("Enter new author")
+        else:
+            author_form = opcao_autor
                 # Se "Outro" for selecionado, mostra campo de texto
         if opcao == "New Publisher":
             publisher_form = st.text_input("Enter new publisher")
