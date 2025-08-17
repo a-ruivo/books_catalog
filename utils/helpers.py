@@ -53,51 +53,51 @@ def adicionar_preco_medio(df, nova_coluna="preco_medio"):
             return None
 
         soup1 = BeautifulSoup(response1.text, "html.parser")
-        precos = []
-        for tag in soup1.find_all("span", string=re.compile(r"R\$")):
-            texto = tag.get_text(strip=True)
-            valor = re.sub(r"[^\d,]", "", texto)
+        precos1 = []
+        for tag1 in soup1.find_all("span", string=re.compile(r"R\$")):
+            texto1 = tag1.get_text(strip=True)
+            valor1 = re.sub(r"[^\d,]", "", texto1)
             try:
-                valor_float = float(valor.replace(",", "."))
-                precos.append(valor_float)
-            except ValueError as ve:
-                print(f"Erro ao converter '{valor}' para float: {ve}")
+                valor_float1 = float(valor1.replace(",", "."))
+                precos1.append(valor_float1)
+            except ValueError as ve1:
+                print(f"Erro ao converter '{valor1}' para float: {ve1}")
                 continue
         soup2 = BeautifulSoup(response2.text, "html.parser")
         precos2 = []
-        for tag in soup2.find_all("span", string=re.compile(r"R\$")):
-            texto = tag.get_text(strip=True)
-            valor = re.sub(r"[^\d,]", "", texto)
+        for tag2 in soup2.find_all("span", string=re.compile(r"R\$")):
+            texto2 = tag2.get_text(strip=True)
+            valor2 = re.sub(r"[^\d,]", "", texto2)
             try:
-                valor_float = float(valor.replace(",", "."))
-                precos.append(valor_float)
-            except ValueError as ve:
-                print(f"Erro ao converter '{valor}' para float: {ve}")
+                valor_float2 = float(valor2.replace(",", "."))
+                precos2.append(valor_float2)
+            except ValueError as ve2:
+                print(f"Erro ao converter '{valor2}' para float: {ve2}")
                 continue
         soup3 = BeautifulSoup(response3.text, "html.parser")
         precos3 = []
-        for tag in soup3.find_all("span", string=re.compile(r"R\$")):
-            texto = tag.get_text(strip=True)
-            valor = re.sub(r"[^\d,]", "", texto)
+        for tag3 in soup3.find_all("span", string=re.compile(r"R\$")):
+            texto3 = tag3.get_text(strip=True)
+            valor3 = re.sub(r"[^\d,]", "", texto3)
             try:
-                valor_float = float(valor.replace(",", "."))
-                precos.append(valor_float)
-            except ValueError as ve:
-                print(f"Erro ao converter '{valor}' para float: {ve}")
+                valor_float3 = float(valor3.replace(",", "."))
+                precos3.append(valor_float3)
+            except ValueError as ve3:
+                print(f"Erro ao converter '{valor3}' para float: {ve3}")
                 continue
 
-        if precos:
-            media = round(sum(precos) / len(precos), 2)
+        if precos1:
+            media = round(sum(precos1) / len(precos1), 2)
             print(f"Preço médio para '{title}': R$ {media}")
             return media
         else:
             if precos2:
-                media = round(sum(precos) / len(precos), 2)
+                media = round(sum(precos2) / len(precos2), 2)
                 print(f"Preço médio para '{title}': R$ {media}")
                 return media
             else:
                 if precos3:
-                    media = round(sum(precos) / len(precos), 2)
+                    media = round(sum(precos3) / len(precos3), 2)
                     print(f"Preço médio para '{title}': R$ {media}")
                     return media
                 else:
