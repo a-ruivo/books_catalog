@@ -15,8 +15,13 @@ def carregar_csv_do_github(repo, path, token):
         conteudo_base64 = r.json()["content"]
         conteudo_csv = base64.b64decode(conteudo_base64).decode()
         return pd.read_csv(StringIO(conteudo_csv))
+    elif r.status_code == 404:
+        # Arquivo não existe: retorna DataFrame vazio com colunas padrão
+        colunas = ["isbn", "genre", "cover", "title", "authors", "publisher", "year", "price", "collection", "volume", "pages", "type"]
+        return pd.DataFrame(columns=colunas)
     else:
         raise Exception(f"Erro ao carregar CSV do GitHub: {r.status_code} - {r.text}")
+
 
 def salvar_csv_em_github(df_novo, repo, path, token):
     import base64, requests, pandas as pd
