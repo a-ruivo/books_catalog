@@ -256,7 +256,7 @@ elif st.session_state["aba_atual"] == "Dashboard":
 
 elif st.session_state["aba_atual"] == "Add Book":
     st.header("Add book to collection")
-    df_existente = st.session_state["df"]
+    df_existente = st.session_state.get("df", pd.DataFrame())
 
     if acesso_restrito:
         st.warning("Enter the password to access this page.")
@@ -277,53 +277,63 @@ elif st.session_state["aba_atual"] == "Add Book":
         enviado = st.form_submit_button("Add book")
 
     if enviado:
-        nome_arquivo = formatar_nome_arquivo(title_form)
         campos_obrigatorios = [
             title_form, isbn_form, genre_form, author_form, publisher_form,
             year_form, collection_form, volume_form, pages_form, type_form
         ]
         if any(campo in [None, "", 0] for campo in campos_obrigatorios) or imagem_upload is None:
             st.warning("Por favor, preencha todos os campos obrigatórios e envie uma imagem.")
-        else:
-            nova_carta = pd.DataFrame([{
-                "title": title_form,
-                "isbn": isbn_form,
-                "genre": genre_form,
-                "authors": author_form,
-                "publisher": publisher_form,
-                "year": year_form,
-                "collection": collection_form,
-                "volume": volume_form,
-                "pages": pages_form,
-                "type": type_form,
-                "cover": f"https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/{nome_arquivo}.jpg"
-            }])
+            st.stop()
 
+        nome_arquivo = formatar_nome_arquivo(title_form)
+        caminho_imagem_repo = f"images/{nome_arquivo}.jpg"
+
+        nova_carta = pd.DataFrame([{
+            "title": title_form,
+            "isbn": isbn_form,
+            "genre": genre_form,
+            "authors": author_form,
+            "publisher": publisher_form,
+            "year": year_form,
+            "collection": collection_form,
+            "volume": volume_form,
+            "pages": pages_form,
+            "type": type_form,
+            "cover": f"https://raw.githubusercontent.com/a-ruivo/books_catalog/main/{caminho_imagem_repo}"
+        }])
+
+        try:
             nova_carta = adicionar_preco_medio(nova_carta)
+        except Exception as e:
+            st.error(f"Erro ao calcular preço médio: {e}")
+            st.stop()
 
-            ja_existe = (
-                (df_existente["title"] == title_form) &
-                (df_existente["type"] == type_form)
-            ).any()
+        ja_existe = (
+            (df_existente["title"] == title_form) &
+            (df_existente["type"] == type_form)
+        ).any()
 
-            if ja_existe:
-                st.warning("This book already is in the collection.")
+        if ja_existe:
+            st.warning("This book already is in the collection.")
+        else:
+            df_form = pd.concat([df_existente, nova_carta], ignore_index=True)
+
+            imagem_bytes = imagem_upload.read()
+            sucesso_img, msg_img = salvar_imagem_em_github(imagem_bytes, REPO, caminho_imagem_repo, GITHUB_TOKEN)
+
+            if sucesso_img:
+                st.success("Imagem enviada para o GitHub com sucesso!")
             else:
-                df_form = pd.concat([df_existente, nova_carta], ignore_index=True)
-                imagem_bytes = imagem_upload.read()
-                caminho_imagem_repo = f"images/{nome_arquivo}.jpg"
-                sucesso_img, msg_img = salvar_imagem_em_github(imagem_bytes, REPO, caminho_imagem_repo, GITHUB_TOKEN)
+                st.error(msg_img)
+                st.stop()
 
-                if sucesso_img:
-                    st.success("Imagem enviada para o GitHub com sucesso!")
-                else:
-                    st.error(msg_img)
-                sucesso, mensagem = salvar_csv_em_github(nova_carta, REPO, CSV_PATH, GITHUB_TOKEN)
-                if sucesso:
-                    st.session_state["df"] = nova_carta
-                    st.success("Book added!")
-                else:
-                    st.error(f"Error saving in GitHub: {mensagem}")
+            sucesso_csv, msg_csv = salvar_csv_em_github(df_form, REPO, CSV_PATH, GITHUB_TOKEN)
+            if sucesso_csv:
+                st.session_state["df"] = df_form
+                st.success("Book added!")
+            else:
+                st.error(f"Error saving in GitHub: {msg_csv}")
+
 
 elif st.session_state["aba_atual"] == "Book Manager":
     st.header("Book Manager")
