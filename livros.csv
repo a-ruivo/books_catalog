@@ -23,6 +23,7 @@ isbn,genre,cover,title,authors,publisher,year,collection,volume,pages,type,preco
 9788582850749,Romance,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/noites_brancas.jpg,Noites brancas,Fiódor Dostoievski,Penguin,2018,,,110,Collection,51.74
 9788563560605,Romance,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/o_jardim_secreto.jpg,O jardim secreto,Frances Hodgson Burnett,Penguin,2022,,,338,Collection,29.36
 9788535909555,Romance,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/a_revolucao_dos_bichos.jpg,A revolução dos bichos,George Orwell,Companhia das Letras,2021,,,147,Collection,23.81
+0,Romance,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/vidas_secas.jpg,Vidas secas,Graciliano Ramos,Record,1982,,,155,Collection,48.94
 9788501014863,Romance,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/o_estrangeiro.jpg,O Estrangeiro,Albert Camus,Record,2023,,,126,Collection,58.73
 9788582850350,Romance,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/dom_casmurro.jpg,Dom Casmurro,Machado de Assis,Penguin,2016,,,389,Collection,22.44
 9788535913873,Contos,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/a_cidade_ilhada.jpg,A cidade ilhada,Milton Hatoum,Companhia das Letras,2007,,,125,Collection,15.68
@@ -47,3 +48,4 @@ isbn,genre,cover,title,authors,publisher,year,collection,volume,pages,type,preco
 9788563560605,Romance,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/o_jardim_secreto.jpg,O jardim secreto,Frances Hodgson Burnett,Penguin,2022,None,None,338,Collection,29.36
 9788535909555,Romance,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/a_revolucao_dos_bichos.jpg,A revolução dos bichos,George Orwell,Companhia das Letras,2021,None,None,147,Collection,23.81
 0,Romance,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/vidas_secas.jpg,Vidas secas,Graciliano Ramos,Record,1982,None,None,155,Collection,48.94
+9788563560315,Romance,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/madame_bovary.jpg,Madame Bovary,Gustave Flaubert,Penguin,2011,None,None,491,Collection,44.57
