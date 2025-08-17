@@ -10,12 +10,14 @@ import plotly.graph_objects as go
 from PIL import Image
 import os
 import unicodedata
+from requests.utils import quote
 
 from config import CSV_PATH, REPO, GITHUB_TOKEN, TTL
 
-def adicionar_preco_medio(df, coluna_titulo="title", nova_coluna="preco_medio"):
-    def buscar_preco(title):
-        url = f"https://www.estantevirtual.com.br/busca?q={requests.utils.quote(title)}"
+def adicionar_preco_medio(df, nova_coluna="preco_medio"):
+    def buscar_preco(title,year,publisher):
+        publisher_formatado = quote(publisher.lower().replace(" ", "-"))
+        url = f"https://www.estantevirtual.com.br/busca?q={requests.utils.quote(title)}&ano-de-publicacao={requests.utils.quote(year)}&editora={requests.utils.quote(publisher_formatado)}"
         headers = {"User-Agent": "Mozilla/5.0"}
         try:
             response = requests.get(url, headers=headers, timeout=10)
@@ -44,7 +46,7 @@ def adicionar_preco_medio(df, coluna_titulo="title", nova_coluna="preco_medio"):
             print(f"Nenhum preço encontrado para '{title}'")
             return None
 
-    df[nova_coluna] = df[coluna_titulo].apply(buscar_preco)
+    df[nova_coluna] = df.apply(lambda row: buscar_preco(row["title"], row["year"], row["publisher"]), axis=1)
     return df
 
 def autenticar():
