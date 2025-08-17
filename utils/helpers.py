@@ -17,7 +17,7 @@ from config import CSV_PATH, REPO, GITHUB_TOKEN, TTL
 def adicionar_preco_medio(df, nova_coluna="preco_medio"):
     def buscar_preco(title, year, publisher):
         # Garantir que os valores são strings
-        titulo_formatado = quote(str(title).lower().replace(" ", "+"))
+        titulo_formatado = quote(str(title).lower().replace(" ", "-"))
         publisher_formatado = quote(str(publisher).lower().replace(" ", "-"))
         year_formatado = quote(str(year))
 

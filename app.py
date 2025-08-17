@@ -172,7 +172,7 @@ if st.session_state["aba_atual"] == "Books":
                     st.markdown(f"**Genre:** {livro.genre}")
                     st.markdown(f"**Publisher:** {livro.publisher}")
                     st.markdown(f"**Price:** R$ {livro.preco_medio:.2f}")
-                    titulo_formatado = quote(str(livro.title).replace(" ", "+"))
+                    titulo_formatado = quote(str(livro.title).lower().replace(" ", "-"))
                     year_formatado = quote(str(livro.year))
                     publisher_formatado = quote(str(livro.publisher).lower().replace(" ", "-"))
 
