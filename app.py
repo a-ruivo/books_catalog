@@ -78,10 +78,6 @@ if st.session_state["aba_atual"] == "Books":
     df["preco_medio"] = df["preco_medio"].astype(float)
     df["nome_arquivo"] = df["title"].apply(formatar_nome_arquivo)
 
-    # Métricas
-    total_livros = len(df)
-    valor_total = df["preco_medio"].sum()
-
     # Filtros
     ordenar_por = st.sidebar.selectbox("Ordenar por", ["Title", "Genre", "Author", "Price", "Publisher", "Year", "Collection", "Type"], index=0)
     ordem = st.sidebar.radio("Ordem", ["Ascending", "Descending"], index=0)
@@ -137,6 +133,10 @@ if st.session_state["aba_atual"] == "Books":
     if valor_min == valor_max:
         valor_max += 1.0
     df = df[(df["preco_medio"] >= valor_min) & (df["preco_medio"] <= valor_max)]
+
+    # Métricas
+    total_livros = len(df)
+    valor_total = df["preco_medio"].sum()
 
     # Métricas visuais
     col1, col2 = st.columns(2)
@@ -310,7 +310,7 @@ elif st.session_state["aba_atual"] == "Add Book":
             st.stop()
 
         ja_existe = (
-            (df_existente["title"] == title_form) &
+            (df_existente["title"].apply(formatar_nome_arquivo) == formatar_nome_arquivo(title_form)) &
             (df_existente["type"] == type_form)
         ).any()
 
