@@ -26,6 +26,7 @@ isbn,genre,cover,title,authors,publisher,year,collection,volume,pages,type,preco
 0,Romance,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/vidas_secas.jpg,Vidas secas,Graciliano Ramos,Record,1982,,,155,Collection,48.94
 9788563560315,Romance,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/madame_bovary.jpg,Madame Bovary,Gustave Flaubert,Penguin,2011,,,491,Collection,44.57
 0,Romance,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/moby_dick.jpg,Moby Dick,Herman Melville,Abril,1983,Moby Dick,1.0,375,Collection,57.86
+9788582850107,Romance,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/o_pai_goriot.jpg,O pai Goriot,Honoré de Blazac,Penguin,2015,,,307,Collection,25.31
 9788501014863,Romance,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/o_estrangeiro.jpg,O Estrangeiro,Albert Camus,Record,2023,,,126,Collection,58.73
 9788582850350,Romance,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/dom_casmurro.jpg,Dom Casmurro,Machado de Assis,Penguin,2016,,,389,Collection,22.44
 9788535913873,Contos,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/a_cidade_ilhada.jpg,A cidade ilhada,Milton Hatoum,Companhia das Letras,2007,,,125,Collection,15.68
@@ -53,3 +54,4 @@ isbn,genre,cover,title,authors,publisher,year,collection,volume,pages,type,preco
 9788563560315,Romance,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/madame_bovary.jpg,Madame Bovary,Gustave Flaubert,Penguin,2011,None,None,491,Collection,44.57
 0,Romance,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/moby_dick.jpg,Moby Dick,Herman Melville,Abril,1983,Moby Dick,1,375,Collection,57.86
 9788582850107,Romance,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/o_pai_goriot.jpg,O pai Goriot,Honoré de Blazac,Penguin,2015,None,None,307,Collection,25.31
+9788501012074,Romance,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/cem_anos_de_solidao.jpg,Cem anos de solidão,Gabriel García Márquez,Record,2014,None,None,446,Collection,51.06
