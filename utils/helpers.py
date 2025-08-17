@@ -12,15 +12,15 @@ import os
 
 from config import CSV_PATH, REPO, GITHUB_TOKEN, TTL
 
-def adicionar_preco_medio(df, coluna_titulo="titulo", nova_coluna="preco_medio"):
-    def buscar_preco(titulo):
-        url = f"https://www.estantevirtual.com.br/busca?q={requests.utils.quote(titulo)}"
+def adicionar_preco_medio(df, coluna_titulo="title", nova_coluna="preco_medio"):
+    def buscar_preco(title):
+        url = f"https://www.estantevirtual.com.br/busca?q={requests.utils.quote(title)}"
         headers = {"User-Agent": "Mozilla/5.0"}
         try:
             response = requests.get(url, headers=headers, timeout=10)
             response.raise_for_status()
         except Exception as e:
-            print(f"Erro ao buscar '{titulo}': {e}")
+            print(f"Erro ao buscar '{title}': {e}")
             return None
 
         soup = BeautifulSoup(response.text, "html.parser")
