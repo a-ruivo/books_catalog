@@ -2,4 +2,9 @@ isbn,genre,cover,title,authors,publisher,year,collection,volume,pages,type,preco
 9788501014863,Romance,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/o_estrangeiro.jpg,O Estrangeiro,Albert Camus,Record,2023,,,126,Collection,58.73
 9788582850350,Romance,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/dom_casmurro.jpg,Dom Casmurro,Machado de Assis,Penguin,2016,,,389,Collection,22.44
 9788535913873,Contos,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/a_cidade_ilhada.jpg,A cidade ilhada,Milton Hatoum,Companhia das Letras,2007,,,125,Collection,15.68
+0,Teoria da literatura/linguística,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/gramatica_latina.jpg,Grámatica Latina,Napoleão Mendes de Almeida,Saraiva,1968,,,538,Collection,153.95
+9788501014863,Romance,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/o_estrangeiro.jpg,O Estrangeiro,Albert Camus,Record,2023,,,126,Collection,58.73
+9788582850350,Romance,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/dom_casmurro.jpg,Dom Casmurro,Machado de Assis,Penguin,2016,,,389,Collection,22.44
+9788535913873,Contos,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/a_cidade_ilhada.jpg,A cidade ilhada,Milton Hatoum,Companhia das Letras,2007,,,125,Collection,15.68
 0,Teoria da literatura/linguística,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/gramatica_latina.jpg,Grámatica Latina,Napoleão Mendes de Almeida,Saraiva,1968,None,None,538,Collection,153.95
+9786558021506,Teoria da literatura/linguística,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/carta_de_uma_orientadora.jpg,Carta de uma orientadora,Debora Diniz,Civilização Brasileira,2024,None,None,207,Collection,142.3
