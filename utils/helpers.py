@@ -4,6 +4,12 @@ import pandas as pd
 import re
 import time
 import streamlit as st
+import matplotlib.pyplot as plt
+from matplotlib.patches import FancyBboxPatch
+import plotly.graph_objects as go
+from PIL import Image
+import os
+
 from config import CSV_PATH, REPO, GITHUB_TOKEN, TTL
 
 def adicionar_preco_medio(df, coluna_titulo="titulo", nova_coluna="preco_medio"):
