@@ -165,6 +165,7 @@ if st.session_state["aba_atual"] == "Books":
 
                 # Detalhes do livro
                 with st.expander("Details", expanded=False):
+                    st.markdown(f"**Title:** {livro.title}")
                     st.markdown(f"**Author:** {livro.authors}")
                     st.markdown(f"**Genre:** {livro.genre}")
                     st.markdown(f"**Publisher:** {livro.publisher}")
