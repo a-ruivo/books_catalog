@@ -16,8 +16,9 @@ from config import CSV_PATH, REPO, GITHUB_TOKEN, TTL
 
 def adicionar_preco_medio(df, nova_coluna="preco_medio"):
     def buscar_preco(title,year,publisher):
+        titulo_formatado = title.replace(" ", "+")
         publisher_formatado = quote(publisher.lower().replace(" ", "-"))
-        url = f"https://www.estantevirtual.com.br/busca?q={requests.utils.quote(title)}&ano-de-publicacao={requests.utils.quote(year)}&editora={requests.utils.quote(publisher_formatado)}"
+        url = f"https://www.estantevirtual.com.br/busca?q={requests.utils.quote(titulo_formatado)}&ano-de-publicacao={requests.utils.quote(year)}&editora={requests.utils.quote(publisher_formatado)}"
         headers = {"User-Agent": "Mozilla/5.0"}
         try:
             response = requests.get(url, headers=headers, timeout=10)

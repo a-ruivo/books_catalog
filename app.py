@@ -5,6 +5,8 @@ from matplotlib.patches import FancyBboxPatch
 import plotly.graph_objects as go
 from PIL import Image
 import os
+from requests.utils import quote
+import requests
 
 from config import CSV_PATH, REPO, GITHUB_TOKEN
 from utils.github import salvar_csv_em_github, alterar_csv_em_github, carregar_csv_do_github, salvar_imagem_em_github
@@ -171,7 +173,8 @@ if st.session_state["aba_atual"] == "Books":
                     st.markdown(f"**Publisher:** {livro.publisher}")
                     st.markdown(f"**Price:** R$ {livro.preco_medio:.2f}")
                     titulo_formatado = livro.title.replace(" ", "+")
-                    url_estante = f"https://www.estantevirtual.com.br/busca?q={titulo_formatado}"
+                    publisher_formatado = quote(livro.publisher.lower().replace(" ", "-"))
+                    url_estante = f"https://www.estantevirtual.com.br/busca?q={requests.utils.quote(titulo_formatado)}&ano-de-publicacao={requests.utils.quote(livro.year)}&editora={requests.utils.quote(publisher_formatado)}"
                     st.markdown(f"[🔍 See price in Estante Virtual]({url_estante})", unsafe_allow_html=True)
                     st.markdown(f"**Published in year:** {livro.year}")
 
