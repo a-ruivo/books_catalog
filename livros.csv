@@ -8,6 +8,7 @@ isbn,genre,cover,title,authors,publisher,year,collection,volume,pages,type,preco
 9788535916744,Contos,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/obra_completa.jpg,Obra completa,Murilo Rubião,Companhia de bolso,2020,,,227,Collection,130.83
 9788563560520,Romance,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/quincas_borba.jpg,Quincas Borba,Machado de Assis,Penguin,2012,,,344,Collection,34.73
 9788520927977,Infanto-juvenil,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/as_melhores_historias_das_mil_e_uma_noites.jpg,As melhores histórias das mil e uma noites,Carlos Heitor Cony,Nova Fronteira,2012,,,241,Collection,19.11
+9788501102126,Romance,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/o_professor.jpg,O Professor,Cristovão Tezza,Record,2014,,,237,Collection,19.87
 9788501014863,Romance,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/o_estrangeiro.jpg,O Estrangeiro,Albert Camus,Record,2023,,,126,Collection,58.73
 9788582850350,Romance,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/dom_casmurro.jpg,Dom Casmurro,Machado de Assis,Penguin,2016,,,389,Collection,22.44
 9788535913873,Contos,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/a_cidade_ilhada.jpg,A cidade ilhada,Milton Hatoum,Companhia das Letras,2007,,,125,Collection,15.68
@@ -18,3 +19,4 @@ isbn,genre,cover,title,authors,publisher,year,collection,volume,pages,type,preco
 9788563560520,Romance,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/quincas_borba.jpg,Quincas Borba,Machado de Assis,Penguin,2012,None,None,344,Collection,34.73
 9788520927977,Infanto-juvenil,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/as_melhores_historias_das_mil_e_uma_noites.jpg,As melhores histórias das mil e uma noites,Carlos Heitor Cony,Nova Fronteira,2012,None,None,241,Collection,19.11
 9788501102126,Romance,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/o_professor.jpg,O Professor,Cristovão Tezza,Record,2014,None,None,237,Collection,19.87
+9788535926156,Crônicas,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/o_poder_ultrajovem.jpg,O poder ultrajovem,Carlos Drummond de Andrade,Companhia das Letras,2009,None,None,238,Collection,17.89
