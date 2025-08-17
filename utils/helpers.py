@@ -30,12 +30,6 @@ def adicionar_preco_medio(df, nova_coluna="preco_medio"):
         )
         headers = {"User-Agent": "Mozilla/5.0"}
         try:
-            response1 = requests.get(url1, headers=headers, timeout=10)
-            response1.raise_for_status()
-        except Exception as e:
-            print(f"Erro ao buscar '{title}': {e}")
-            return None
-        try:
             response2 = requests.get(url2, headers=headers, timeout=10)
             response2.raise_for_status()
         except Exception as e:
@@ -48,17 +42,6 @@ def adicionar_preco_medio(df, nova_coluna="preco_medio"):
             print(f"Erro ao buscar '{title}': {e}")
             return None
 
-        soup1 = BeautifulSoup(response1.text, "html.parser")
-        precos1 = []
-        for tag1 in soup1.find_all("span", string=re.compile(r"R\$")):
-            texto1 = tag1.get_text(strip=True)
-            valor1 = re.sub(r"[^\d,]", "", texto1)
-            try:
-                valor_float1 = float(valor1.replace(",", "."))
-                precos1.append(valor_float1)
-            except ValueError as ve1:
-                print(f"Erro ao converter '{valor1}' para float: {ve1}")
-                continue
         soup2 = BeautifulSoup(response2.text, "html.parser")
         precos2 = []
         for tag2 in soup2.find_all("span", string=re.compile(r"R\$")):
@@ -82,23 +65,18 @@ def adicionar_preco_medio(df, nova_coluna="preco_medio"):
                 print(f"Erro ao converter '{valor3}' para float: {ve3}")
                 continue
 
-        if precos1:
-            media = round(sum(precos1) / len(precos1), 2)
+        if precos2:
+            media = round(sum(precos2) / len(precos2), 2)
             print(f"Preço médio para '{title}': R$ {media}")
             return media
         else:
-            if precos2:
-                media = round(sum(precos2) / len(precos2), 2)
+            if precos3:
+                media = round(sum(precos3) / len(precos3), 2)
                 print(f"Preço médio para '{title}': R$ {media}")
                 return media
             else:
-                if precos3:
-                    media = round(sum(precos3) / len(precos3), 2)
-                    print(f"Preço médio para '{title}': R$ {media}")
-                    return media
-                else:
-                    print(f"Nenhum preço encontrado para '{title}'")
-                    return 0
+                print(f"Nenhum preço encontrado para '{title}'")
+                return 0
 
     df[nova_coluna] = df.apply(
         lambda row: buscar_preco(row["title"], row["year"], row["publisher"]),
