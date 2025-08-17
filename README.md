@@ -1,4 +1,4 @@
-# Project 2 - Book collecion with wishlist and prices scrapping from Estante Virtual
+# Project 3 - Book collecion with wishlist and prices scrapping from Estante Virtual
 
 Link: https://allan-and-ayla-book-collection.streamlit.app/
 
