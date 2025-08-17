@@ -5,6 +5,22 @@ isbn,genre,cover,title,authors,publisher,year,collection,volume,pages,type,preco
 0,Teoria da literatura/linguística,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/gramatica_latina.jpg,Grámatica Latina,Napoleão Mendes de Almeida,Saraiva,1968,,,538,Collection,153.95
 9786558021506,Teoria da literatura/linguística,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/carta_de_uma_orientadora.jpg,Carta de uma orientadora,Debora Diniz,Civilização Brasileira,2024,,,207,Collection,142.3
 9788571640399,Romance,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/relato_de_um_certo_oriente.jpg,Relato de um certo Oriente,Milton Hatoum,Companhia das Letras,2019,,,189,Collection,25.76
+9788535916744,Contos,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/obra_completa.jpg,Obra completa,Murilo Rubião,Companhia de bolso,2020,,,227,Collection,130.83
+9788563560520,Romance,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/quincas_borba.jpg,Quincas Borba,Machado de Assis,Penguin,2012,,,344,Collection,34.73
+9788520927977,Infanto-juvenil,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/as_melhores_historias_das_mil_e_uma_noites.jpg,As melhores histórias das mil e uma noites,Carlos Heitor Cony,Nova Fronteira,2012,,,241,Collection,19.11
+9788501102126,Romance,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/o_professor.jpg,O Professor,Cristovão Tezza,Record,2014,,,237,Collection,19.87
+9788535926156,Crônicas,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/o_poder_ultrajovem.jpg,O poder ultrajovem,Carlos Drummond de Andrade,Companhia das Letras,2009,,,238,Collection,17.89
+853250812x,Romance,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/a_hora_da_estrela.jpg,A hora da estrela,Clarice Lispector,Rocco,1998,none,,87,Collection,58.68
+9788571640597,Romance,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/boca_do_inferno.jpg,Boca do Inferno,Ana Miranda,Companhia das Letras,2014,,,330,Collection,25.27
+9788535922646,Romance,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/a_ultima_quimera.jpg,A Última Quimera,Ana Miranda,Companhia das Letras,2016,,,323,Collection,18.85
+8508073259,Romance,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/a_reliquia.jpg,A Relíquia,Eça de Queirós,Ática,1999,Série Bom Livros,,224,Collection,18.75
+9788582850879,Romance,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/euclides_da_cunha.jpg,Os Sertões,Euclides da Cunha,Penguin,2019,,,693,Collection,36.67
+9788501014863,Romance,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/o_estrangeiro.jpg,O Estrangeiro,Albert Camus,Record,2023,,,126,Collection,58.73
+9788582850350,Romance,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/dom_casmurro.jpg,Dom Casmurro,Machado de Assis,Penguin,2016,,,389,Collection,22.44
+9788535913873,Contos,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/a_cidade_ilhada.jpg,A cidade ilhada,Milton Hatoum,Companhia das Letras,2007,,,125,Collection,15.68
+0,Teoria da literatura/linguística,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/gramatica_latina.jpg,Grámatica Latina,Napoleão Mendes de Almeida,Saraiva,1968,,,538,Collection,153.95
+9786558021506,Teoria da literatura/linguística,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/carta_de_uma_orientadora.jpg,Carta de uma orientadora,Debora Diniz,Civilização Brasileira,2024,,,207,Collection,142.3
+9788571640399,Romance,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/relato_de_um_certo_oriente.jpg,Relato de um certo Oriente,Milton Hatoum,Companhia das Letras,2019,,,189,Collection,25.76
 9788535916744,Contos,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/obra_completa.jpg,Obra completa,Murilo Rubião,Companhia de bolso,2020,None,None,227,Collection,130.83
 9788563560520,Romance,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/quincas_borba.jpg,Quincas Borba,Machado de Assis,Penguin,2012,None,None,344,Collection,34.73
 9788520927977,Infanto-juvenil,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/as_melhores_historias_das_mil_e_uma_noites.jpg,As melhores histórias das mil e uma noites,Carlos Heitor Cony,Nova Fronteira,2012,None,None,241,Collection,19.11
@@ -15,3 +31,4 @@ isbn,genre,cover,title,authors,publisher,year,collection,volume,pages,type,preco
 9788535922646,Romance,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/a_ultima_quimera.jpg,A Última Quimera,Ana Miranda,Companhia das Letras,2016,None,None,323,Collection,18.85
 8508073259,Romance,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/a_reliquia.jpg,A Relíquia,Eça de Queirós,Ática,1999,Série Bom Livros,None,224,Collection,18.75
 9788582850879,Romance,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/euclides_da_cunha.jpg,Os Sertões,Euclides da Cunha,Penguin,2019,None,None,693,Collection,36.67
+9788573263053,Romance,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/os_demonios.jpg,Os Demônios,Fiódor Dostoievski,34,2004,None,None,699,Collection,42.23
