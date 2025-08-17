@@ -27,7 +27,7 @@ def adicionar_preco_medio(df, nova_coluna="preco_medio"):
 
             soup = BeautifulSoup(response.text, "html.parser")
             precos = []
-            for tag in soup.find_all("span", string=re.compile(r"R\\$")):
+            for tag in soup.find_all("span", string=re.compile(r"R\$[\d,.]+")):
                 texto = tag.get_text(strip=True)
                 valor = re.sub(r"[^\d,]", "", texto)
                 try:

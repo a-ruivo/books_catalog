@@ -182,7 +182,7 @@ if st.session_state["aba_atual"] == "Books":
                         f"q={titulo_formatado}&ano-de-publicacao={year_formatado}&editora={publisher_formatado}"
                     )
 
-                    st.markdown(f"[🔍 Ver preço na Estante Virtual (com editora)]({url_estante})", unsafe_allow_html=True)
+                    st.markdown(f"[🔍 See price in Estante Virtual (title + publisher + year)]({url_estante})", unsafe_allow_html=True)
 
                     # Tentativa 2: título + ano
                     url_estante_ano = (
@@ -190,12 +190,12 @@ if st.session_state["aba_atual"] == "Books":
                         f"q={titulo_formatado}&ano-de-publicacao={year_formatado}"
                     )
 
-                    st.markdown(f"[🔍 Ver preço na Estante Virtual (com ano)]({url_estante_ano})", unsafe_allow_html=True)
+                    st.markdown(f"[🔍 See price in Estante Virtual (title + year)]({url_estante_ano})", unsafe_allow_html=True)
 
                     # Tentativa 3: apenas título
                     url_estante_titulo = f"https://www.estantevirtual.com.br/busca?q={titulo_formatado}"
 
-                    st.markdown(f"[🔍 Ver preço na Estante Virtual (apenas título)]({url_estante_titulo})", unsafe_allow_html=True)
+                    st.markdown(f"[🔍 See price in Estante Virtual (title)]({url_estante_titulo})", unsafe_allow_html=True)
                     st.markdown(f"**Published in year:** {livro.year}")
 
 elif st.session_state["aba_atual"] == "Dashboard":
