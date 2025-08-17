@@ -21,12 +21,8 @@ def adicionar_preco_medio(df, nova_coluna="preco_medio"):
         publisher_formatado = quote(str(publisher).lower().replace(" ", "-"))
         year_formatado = quote(str(year))
 
-        url1 = (
-            f"https://www.estantevirtual.com.br/busca?q={titulo_formatado}&searchField=titulo-autor&ano-de-publicacao={year_formatado}&editora={publisher_formatado}"
-        )
-
         url2 = (
-            f"https://www.estantevirtual.com.br/busca?q={titulo_formatado}&searchField=titulo-autor&ano-de-publicacao={year_formatado}"
+            f"https://www.estantevirtual.com.br/busca?q={titulo_formatado}&searchField=titulo-autor&editora={publisher_formatado}"
         )
 
         url3 = (

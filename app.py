@@ -176,18 +176,10 @@ if st.session_state["aba_atual"] == "Books":
                     year_formatado = quote(str(livro.year))
                     publisher_formatado = quote(str(livro.publisher).lower().replace(" ", "-"))
 
-                    # Tentativa 1: título + ano + editora
-                    url_estante = (
-                        f"https://www.estantevirtual.com.br/busca?"
-                        f"q={titulo_formatado}&searchField=titulo-autor&ano-de-publicacao={year_formatado}&editora={publisher_formatado}"
-                    )
-
-                    st.markdown(f"[🔍 See price in Estante Virtual (title + publisher + year)]({url_estante})", unsafe_allow_html=True)
-
                     # Tentativa 2: título + ano
                     url_estante_ano = (
                         f"https://www.estantevirtual.com.br/busca?"
-                        f"q={titulo_formatado}&searchField=titulo-autor&ano-de-publicacao={year_formatado}"
+                        f"q={titulo_formatado}&searchField=titulo-autor&editora={publisher_formatado}"
                     )
 
                     st.markdown(f"[🔍 See price in Estante Virtual (title + year)]({url_estante_ano})", unsafe_allow_html=True)
