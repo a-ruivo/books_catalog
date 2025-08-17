@@ -182,7 +182,7 @@ if st.session_state["aba_atual"] == "Books":
                         f"q={titulo_formatado}&searchField=titulo-autor&editora={publisher_formatado}"
                     )
 
-                    st.markdown(f"[🔍 See price in Estante Virtual (title + year)]({url_estante_ano})", unsafe_allow_html=True)
+                    st.markdown(f"[🔍 See price in Estante Virtual (title + publisher)]({url_estante_ano})", unsafe_allow_html=True)
 
                     # Tentativa 3: apenas título
                     url_estante_titulo = f"https://www.estantevirtual.com.br/busca?q={titulo_formatado}&searchField=titulo-autor"
