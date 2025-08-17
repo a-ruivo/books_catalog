@@ -9,6 +9,7 @@ from matplotlib.patches import FancyBboxPatch
 import plotly.graph_objects as go
 from PIL import Image
 import os
+import unicodedata
 
 from config import CSV_PATH, REPO, GITHUB_TOKEN, TTL
 
@@ -55,7 +56,15 @@ def autenticar():
         st.error("Wrong password.")
 
 def formatar_nome_arquivo(titulo):
-    return re.sub(r"[^\w\-]", "_", titulo.strip()).lower()
+    # Normaliza acentos
+    titulo_normalizado = unicodedata.normalize("NFKD", titulo)
+    # Remove acentos e converte para ASCII
+    titulo_sem_acentos = titulo_normalizado.encode("ASCII", "ignore").decode("utf-8")
+    # Substitui cedilha manualmente (caso não tenha sido removido)
+    titulo_sem_acentos = titulo_sem_acentos.replace("ç", "c").replace("Ç", "C")
+    # Substitui caracteres não permitidos por "_"
+    return re.sub(r"[^\w\-]", "_", titulo_sem_acentos.strip()).lower()
+
 
 
 def gerar_grafico_barra(contagem, titulo, altura=1000):
