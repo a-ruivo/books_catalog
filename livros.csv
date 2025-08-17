@@ -40,6 +40,7 @@ isbn,genre,cover,title,authors,publisher,year,preco_medio,collection,volume,page
 9788568462966,Romance,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/fascinacao.jpg,Fascinação,Luci Collin,Kotter,2019,26.62,,,227,Collection
 9786586253818,Romance,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/flores_matinais_colhidas_ao_entardecer.jpg,Flores matinais colhidas ao entardecer,Lu Xun,Unicamp,2022,97.9,,,237,Collection
 9788535914306,Romance,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/as_meninas.jpg,As Meninas,Lygia Faundes Telles,Unicamp,2021,21.25,,,301,Collection
+9788535915389,Romance,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/ciranda_de_pedra.jpg,Ciranda de Pedra,Lygia Faundes Telles,Companhia das Letras,2020,33.68,,,219,Collection
 8571644756,Romance,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/o_mundo_de_sofia.jpg,O Mundo de Sofia,Jostein Gaarder,Companhia das Letras,1996,47.46,None,None,555,Collection
 9786558823063,Autoajuda,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/a_solucao_mindfulness.jpg,A Solução Mindfulness,Ronald D. Siegel,Artmed,2025,98.09,None,None,358,Collection
 9788595083561,Biografia,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/blue_nights.jpg,Blue Nights,Joan Didion,Harper Collins,2011,28.78,None,None,187,Collection
@@ -51,3 +52,4 @@ isbn,genre,cover,title,authors,publisher,year,preco_medio,collection,volume,page
 9786586253818,Romance,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/flores_matinais_colhidas_ao_entardecer.jpg,Flores matinais colhidas ao entardecer,Lu Xun,Unicamp,2022,97.9,None,None,237,Collection
 9788535914306,Romance,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/as_meninas.jpg,As Meninas,Lygia Faundes Telles,Unicamp,2021,21.25,None,None,301,Collection
 9788535915389,Romance,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/ciranda_de_pedra.jpg,Ciranda de Pedra,Lygia Faundes Telles,Companhia das Letras,2020,33.68,None,None,219,Collection
+9788535917710,Romance,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/verao_no_aquario.jpg,Verão no Aquário,Lygia Faundes Telles,Companhia das Letras,2020,50.52,None,None,231,Collection
