@@ -1,57 +1,30 @@
-isbn,genre,cover,title,authors,publisher,year,collection,volume,pages,type,preco_medio
-9788501014863,Romance,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/o_estrangeiro.jpg,O Estrangeiro,Albert Camus,Record,2023,,,126,Collection,58.73
-9788582850350,Romance,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/dom_casmurro.jpg,Dom Casmurro,Machado de Assis,Penguin,2016,,,389,Collection,22.44
-9788535913873,Contos,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/a_cidade_ilhada.jpg,A cidade ilhada,Milton Hatoum,Companhia das Letras,2007,,,125,Collection,15.68
-0,Teoria da literatura/linguística,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/gramatica_latina.jpg,Grámatica Latina,Napoleão Mendes de Almeida,Saraiva,1968,,,538,Collection,153.95
-9786558021506,Teoria da literatura/linguística,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/carta_de_uma_orientadora.jpg,Carta de uma orientadora,Debora Diniz,Civilização Brasileira,2024,,,207,Collection,142.3
-9788571640399,Romance,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/relato_de_um_certo_oriente.jpg,Relato de um certo Oriente,Milton Hatoum,Companhia das Letras,2019,,,189,Collection,25.76
-9788535916744,Contos,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/obra_completa.jpg,Obra completa,Murilo Rubião,Companhia de bolso,2020,,,227,Collection,130.83
-9788563560520,Romance,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/quincas_borba.jpg,Quincas Borba,Machado de Assis,Penguin,2012,,,344,Collection,34.73
-9788520927977,Infanto-juvenil,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/as_melhores_historias_das_mil_e_uma_noites.jpg,As melhores histórias das mil e uma noites,Carlos Heitor Cony,Nova Fronteira,2012,,,241,Collection,19.11
-9788501102126,Romance,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/o_professor.jpg,O Professor,Cristovão Tezza,Record,2014,,,237,Collection,19.87
-9788535926156,Crônicas,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/o_poder_ultrajovem.jpg,O poder ultrajovem,Carlos Drummond de Andrade,Companhia das Letras,2009,,,238,Collection,17.89
-853250812x,Romance,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/a_hora_da_estrela.jpg,A hora da estrela,Clarice Lispector,Rocco,1998,none,,87,Collection,58.68
-9788571640597,Romance,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/boca_do_inferno.jpg,Boca do Inferno,Ana Miranda,Companhia das Letras,2014,,,330,Collection,25.27
-9788535922646,Romance,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/a_ultima_quimera.jpg,A Última Quimera,Ana Miranda,Companhia das Letras,2016,,,323,Collection,18.85
-8508073259,Romance,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/a_reliquia.jpg,A Relíquia,Eça de Queirós,Ática,1999,Série Bom Livros,,224,Collection,18.75
-9788582850879,Romance,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/euclides_da_cunha.jpg,Os Sertões,Euclides da Cunha,Penguin,2019,,,693,Collection,36.67
-9788573263053,Romance,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/os_demonios.jpg,Os Demônios,Fiódor Dostoievski,34,2004,,,699,Collection,42.23
-9788573266467,Romance,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/crime_e_castigo.jpg,Crime e Castigo,Fiódor Dostoievski,34,2024,,,591,Collection,45.25
-9788573262711,Romance,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/duas_narrativas_fantasticas__a_docil_e_o_sonho_de_um_homem_ridiculos.jpg,Duas narrativas fantásticas: a dócil e o sonho de um homem ridículos,Fiódor Dostoievski,34,2024,,,123,Collection,30.0
-9788573262520,Romance,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/nietotchka_niezvanova.jpg,Niétotchka Niezvânova,Fiódor Dostoievski,34,2022,,,219,Collection,39.51
-9788573239415,Romance,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/os_irmaoes_karamazov.jpg,Os irmãoes Karamázov,Fiódor Dostoievski,Martin Claret,2022,,,911,Collection,101.32
-9788582850749,Romance,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/noites_brancas.jpg,Noites brancas,Fiódor Dostoievski,Penguin,2018,,,110,Collection,51.74
-9788563560605,Romance,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/o_jardim_secreto.jpg,O jardim secreto,Frances Hodgson Burnett,Penguin,2022,,,338,Collection,29.36
-9788535909555,Romance,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/a_revolucao_dos_bichos.jpg,A revolução dos bichos,George Orwell,Companhia das Letras,2021,,,147,Collection,23.81
-0,Romance,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/vidas_secas.jpg,Vidas secas,Graciliano Ramos,Record,1982,,,155,Collection,48.94
-9788563560315,Romance,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/madame_bovary.jpg,Madame Bovary,Gustave Flaubert,Penguin,2011,,,491,Collection,44.57
-0,Romance,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/moby_dick.jpg,Moby Dick,Herman Melville,Abril,1983,Moby Dick,1.0,375,Collection,57.86
-9788582850107,Romance,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/o_pai_goriot.jpg,O pai Goriot,Honoré de Blazac,Penguin,2015,,,307,Collection,25.31
-9788501014863,Romance,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/o_estrangeiro.jpg,O Estrangeiro,Albert Camus,Record,2023,,,126,Collection,58.73
-9788582850350,Romance,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/dom_casmurro.jpg,Dom Casmurro,Machado de Assis,Penguin,2016,,,389,Collection,22.44
-9788535913873,Contos,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/a_cidade_ilhada.jpg,A cidade ilhada,Milton Hatoum,Companhia das Letras,2007,,,125,Collection,15.68
-0,Teoria da literatura/linguística,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/gramatica_latina.jpg,Grámatica Latina,Napoleão Mendes de Almeida,Saraiva,1968,,,538,Collection,153.95
-9786558021506,Teoria da literatura/linguística,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/carta_de_uma_orientadora.jpg,Carta de uma orientadora,Debora Diniz,Civilização Brasileira,2024,,,207,Collection,142.3
-9788571640399,Romance,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/relato_de_um_certo_oriente.jpg,Relato de um certo Oriente,Milton Hatoum,Companhia das Letras,2019,,,189,Collection,25.76
-9788535916744,Contos,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/obra_completa.jpg,Obra completa,Murilo Rubião,Companhia de bolso,2020,None,None,227,Collection,130.83
-9788563560520,Romance,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/quincas_borba.jpg,Quincas Borba,Machado de Assis,Penguin,2012,None,None,344,Collection,34.73
-9788520927977,Infanto-juvenil,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/as_melhores_historias_das_mil_e_uma_noites.jpg,As melhores histórias das mil e uma noites,Carlos Heitor Cony,Nova Fronteira,2012,None,None,241,Collection,19.11
-9788501102126,Romance,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/o_professor.jpg,O Professor,Cristovão Tezza,Record,2014,None,None,237,Collection,19.87
-9788535926156,Crônicas,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/o_poder_ultrajovem.jpg,O poder ultrajovem,Carlos Drummond de Andrade,Companhia das Letras,2009,None,None,238,Collection,17.89
-853250812x,Romance,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/a_hora_da_estrela.jpg,A hora da estrela,Clarice Lispector,Rocco,1998,none,None,87,Collection,58.68
-9788571640597,Romance,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/boca_do_inferno.jpg,Boca do Inferno,Ana Miranda,Companhia das Letras,2014,None,None,330,Collection,25.27
-9788535922646,Romance,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/a_ultima_quimera.jpg,A Última Quimera,Ana Miranda,Companhia das Letras,2016,None,None,323,Collection,18.85
-8508073259,Romance,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/a_reliquia.jpg,A Relíquia,Eça de Queirós,Ática,1999,Série Bom Livros,None,224,Collection,18.75
-9788582850879,Romance,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/euclides_da_cunha.jpg,Os Sertões,Euclides da Cunha,Penguin,2019,None,None,693,Collection,36.67
-9788573263053,Romance,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/os_demonios.jpg,Os Demônios,Fiódor Dostoievski,34,2004,None,None,699,Collection,42.23
-9788573266467,Romance,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/crime_e_castigo.jpg,Crime e Castigo,Fiódor Dostoievski,34,2024,None,None,591,Collection,45.25
-9788573262711,Romance,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/duas_narrativas_fantasticas__a_docil_e_o_sonho_de_um_homem_ridiculos.jpg,Duas narrativas fantásticas: a dócil e o sonho de um homem ridículos,Fiódor Dostoievski,34,2024,None,None,123,Collection,30.0
-9788573262520,Romance,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/nietotchka_niezvanova.jpg,Niétotchka Niezvânova,Fiódor Dostoievski,34,2022,None,None,219,Collection,39.51
-9788573239415,Romance,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/os_irmaoes_karamazov.jpg,Os irmãoes Karamázov,Fiódor Dostoievski,Martin Claret,2022,None,None,911,Collection,101.32
-9788563560605,Romance,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/o_jardim_secreto.jpg,O jardim secreto,Frances Hodgson Burnett,Penguin,2022,None,None,338,Collection,29.36
-9788535909555,Romance,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/a_revolucao_dos_bichos.jpg,A revolução dos bichos,George Orwell,Companhia das Letras,2021,None,None,147,Collection,23.81
-0,Romance,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/vidas_secas.jpg,Vidas secas,Graciliano Ramos,Record,1982,None,None,155,Collection,48.94
-9788563560315,Romance,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/madame_bovary.jpg,Madame Bovary,Gustave Flaubert,Penguin,2011,None,None,491,Collection,44.57
-0,Romance,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/moby_dick.jpg,Moby Dick,Herman Melville,Abril,1983,Moby Dick,1,375,Collection,57.86
-9788582850107,Romance,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/o_pai_goriot.jpg,O pai Goriot,Honoré de Blazac,Penguin,2015,None,None,307,Collection,25.31
-9788501012074,Romance,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/cem_anos_de_solidao.jpg,Cem anos de solidão,Gabriel García Márquez,Record,2014,None,None,446,Collection,51.06
+isbn,genre,cover,title,authors,publisher,year,preco_medio,collection,volume,pages,type
+9788582850749,Romance,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/noites_brancas.jpg,Noites brancas,Fiódor Dostoievski,Penguin,2018,51.74,,,110,Collection
+9788501014863,Romance,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/o_estrangeiro.jpg,O Estrangeiro,Albert Camus,Record,2023,58.74,,,126,Collection
+9788582850350,Romance,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/dom_casmurro.jpg,Dom Casmurro,Machado de Assis,Penguin,2016,22.48,,,389,Collection
+9788535913873,Contos,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/a_cidade_ilhada.jpg,A cidade ilhada,Milton Hatoum,Companhia das Letras,2007,15.68,,,125,Collection
+0,Teoria da literatura/linguística,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/gramatica_latina.jpg,Grámatica Latina,Napoleão Mendes de Almeida,Saraiva,1968,156.56,,,538,Collection
+9786558021506,Teoria da literatura/linguística,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/carta_de_uma_orientadora.jpg,Carta de uma orientadora,Debora Diniz,Civilização Brasileira,2024,142.3,,,207,Collection
+9788571640399,Romance,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/relato_de_um_certo_oriente.jpg,Relato de um certo Oriente,Milton Hatoum,Companhia das Letras,2019,25.76,,,189,Collection
+9788535916744,Contos,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/obra_completa.jpg,Obra completa,Murilo Rubião,Companhia de bolso,2020,130.83,,,227,Collection
+9788563560520,Romance,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/quincas_borba.jpg,Quincas Borba,Machado de Assis,Penguin,2012,34.73,,,344,Collection
+9788520927977,Infanto-juvenil,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/as_melhores_historias_das_mil_e_uma_noites.jpg,As melhores histórias das mil e uma noites,Carlos Heitor Cony,Nova Fronteira,2012,19.11,,,241,Collection
+9788501102126,Romance,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/o_professor.jpg,O Professor,Cristovão Tezza,Record,2014,19.87,,,237,Collection
+9788535926156,Crônicas,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/o_poder_ultrajovem.jpg,O poder ultrajovem,Carlos Drummond de Andrade,Companhia das Letras,2009,17.89,,,238,Collection
+853250812x,Romance,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/a_hora_da_estrela.jpg,A hora da estrela,Clarice Lispector,Rocco,1998,58.73,none,,87,Collection
+9788571640597,Romance,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/boca_do_inferno.jpg,Boca do Inferno,Ana Miranda,Companhia das Letras,2014,25.27,,,330,Collection
+9788535922646,Romance,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/a_ultima_quimera.jpg,A Última Quimera,Ana Miranda,Companhia das Letras,2016,18.85,,,323,Collection
+8508073259,Romance,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/a_reliquia.jpg,A Relíquia,Eça de Queirós,Ática,1999,18.75,Série Bom Livros,,224,Collection
+9788582850879,Romance,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/euclides_da_cunha.jpg,Os Sertões,Euclides da Cunha,Penguin,2019,37.84,,,693,Collection
+9788573263053,Romance,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/os_demonios.jpg,Os Demônios,Fiódor Dostoievski,34,2004,42.23,,,699,Collection
+9788573266467,Romance,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/crime_e_castigo.jpg,Crime e Castigo,Fiódor Dostoievski,34,2024,45.25,,,591,Collection
+9788573262711,Romance,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/duas_narrativas_fantasticas__a_docil_e_o_sonho_de_um_homem_ridiculos.jpg,Duas narrativas fantásticas: a dócil e o sonho de um homem ridículos,Fiódor Dostoievski,34,2024,30.0,,,123,Collection
+9788573262520,Romance,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/nietotchka_niezvanova.jpg,Niétotchka Niezvânova,Fiódor Dostoievski,34,2022,39.51,,,219,Collection
+9788573239415,Romance,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/os_irmaoes_karamazov.jpg,Os irmãoes Karamázov,Fiódor Dostoievski,Martin Claret,2022,101.32,,,911,Collection
+9788563560605,Romance,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/o_jardim_secreto.jpg,O jardim secreto,Frances Hodgson Burnett,Penguin,2022,29.36,,,338,Collection
+9788535909555,Romance,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/a_revolucao_dos_bichos.jpg,A revolução dos bichos,George Orwell,Companhia das Letras,2021,23.81,,,147,Collection
+0,Romance,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/vidas_secas.jpg,Vidas secas,Graciliano Ramos,Record,1982,48.94,,,155,Collection
+9788563560315,Romance,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/madame_bovary.jpg,Madame Bovary,Gustave Flaubert,Penguin,2011,44.57,,,491,Collection
+0,Romance,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/moby_dick.jpg,Moby Dick,Herman Melville,Abril,1983,57.86,Moby Dick,1.0,375,Collection
+9788582850107,Romance,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/o_pai_goriot.jpg,O pai Goriot,Honoré de Blazac,Penguin,2015,25.31,,,307,Collection
+9788501012074,Romance,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/cem_anos_de_solidao.jpg,Cem anos de solidão,Gabriel García Márquez,Record,2014,51.06,,,446,Collection
