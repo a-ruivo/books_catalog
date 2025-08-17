@@ -284,6 +284,8 @@ elif st.session_state["aba_atual"] == "Add Book":
         if any(campo in [None, "", 0] for campo in campos_obrigatorios) or imagem_upload is None:
             st.warning("Por favor, preencha todos os campos obrigatórios e envie uma imagem.")
         else:
+            nome_arquivo = formatar_nome_arquivo(title_form)
+            imagem_bytes = imagem_upload.read()
             caminho_imagem_repo = f"images/{nome_arquivo}.jpg"
             sucesso_img, msg_img = salvar_imagem_em_github(imagem_bytes, REPO, caminho_imagem_repo, GITHUB_TOKEN)
 

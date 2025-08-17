@@ -46,7 +46,8 @@ def autenticar():
         st.error("Wrong password.")
 
 def formatar_nome_arquivo(titulo):
-    return re.sub(r"[^\w\-]", "_", titulo.strip())
+    return re.sub(r"[^\w\-]", "_", titulo.strip()).lower()
+
 
 def gerar_grafico_barra(contagem, titulo, altura=1000):
     fig = go.Figure()
