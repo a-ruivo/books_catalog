@@ -15,10 +15,17 @@ from requests.utils import quote
 from config import CSV_PATH, REPO, GITHUB_TOKEN, TTL
 
 def adicionar_preco_medio(df, nova_coluna="preco_medio"):
-    def buscar_preco(title,year,publisher):
-        titulo_formatado = title.replace(" ", "+")
-        publisher_formatado = quote(publisher.lower().replace(" ", "-"))
-        url = f"https://www.estantevirtual.com.br/busca?q={requests.utils.quote(titulo_formatado)}&ano-de-publicacao={requests.utils.quote(year)}&editora={requests.utils.quote(publisher_formatado)}"
+    def buscar_preco(title, year, publisher):
+        # Garantir que os valores são strings
+        titulo_formatado = quote(str(title).replace(" ", "+"))
+        publisher_formatado = quote(str(publisher).lower().replace(" ", "-"))
+        year_formatado = quote(str(year))
+
+        url = (
+            f"https://www.estantevirtual.com.br/busca?"
+            f"q={titulo_formatado}&ano-de-publicacao={year_formatado}&editora={publisher_formatado}"
+        )
+
         headers = {"User-Agent": "Mozilla/5.0"}
         try:
             response = requests.get(url, headers=headers, timeout=10)
@@ -47,7 +54,10 @@ def adicionar_preco_medio(df, nova_coluna="preco_medio"):
             print(f"Nenhum preço encontrado para '{title}'")
             return None
 
-    df[nova_coluna] = df.apply(lambda row: buscar_preco(row["title"], row["year"], row["publisher"]), axis=1)
+    df[nova_coluna] = df.apply(
+        lambda row: buscar_preco(row["title"], row["year"], row["publisher"]),
+        axis=1
+    )
     return df
 
 def autenticar():
