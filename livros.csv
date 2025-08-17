@@ -28,3 +28,4 @@ isbn,genre,cover,title,authors,publisher,year,preco_medio,collection,volume,page
 0,Romance,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/moby_dick.jpg,Moby Dick,Herman Melville,Abril,1983,57.86,Moby Dick,1.0,375,Collection
 9788582850107,Romance,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/o_pai_goriot.jpg,O pai Goriot,Honoré de Blazac,Penguin,2015,25.31,,,307,Collection
 9788501012074,Romance,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/cem_anos_de_solidao.jpg,Cem anos de solidão,Gabriel García Márquez,Record,2014,51.06,,,446,Collection
+0,Romance,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/a_divina_comedia.jpg,A Divina Comédia,Dante Alighieri,Edigraf,1965,47.63,A Divina Comédia,1,260,Collection
