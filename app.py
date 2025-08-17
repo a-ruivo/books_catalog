@@ -291,7 +291,6 @@ elif st.session_state["aba_atual"] == "Add Book":
                 st.success("Imagem enviada para o GitHub com sucesso!")
             else:
                 st.error(msg_img)
-                return  # interrompe o fluxo se a imagem falhar
 
 
             nova_carta = pd.DataFrame([{
