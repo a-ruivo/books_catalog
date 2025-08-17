@@ -27,6 +27,9 @@ def salvar_csv_em_github(df_novo, repo, path, token):
     import base64, requests, pandas as pd
     from io import StringIO
 
+    # Remove duplicatas do novo DataFrame antes de qualquer operação
+    df_novo = df_novo.drop_duplicates()
+
     url = f"https://api.github.com/repos/{repo}/contents/{path}"
     headers = {"Authorization": f"token {token}"}
 
@@ -40,7 +43,7 @@ def salvar_csv_em_github(df_novo, repo, path, token):
         except Exception as e:
             return False, f"Erro ao ler CSV existente: {e}"
 
-        # Remove duplicatas com base em colunas-chave (ajuste conforme necessário)
+        # Concatena e remove duplicatas
         df_final = pd.concat([df_atual, df_novo], ignore_index=True).drop_duplicates()
     else:
         sha = None
@@ -71,6 +74,7 @@ def salvar_csv_em_github(df_novo, repo, path, token):
         except Exception:
             erro = "Erro ao decodificar resposta da API"
         return False, erro
+
 
 
 def alterar_csv_em_github(df_novo, repo, path, token):
