@@ -25,14 +25,23 @@ def adicionar_preco_medio(df, coluna_titulo="title", nova_coluna="preco_medio"):
 
         soup = BeautifulSoup(response.text, "html.parser")
         precos = []
-        for tag in soup.find_all("span", string=re.compile(r"R\\$")):
+        for tag in soup.find_all("span", string=re.compile(r"R\$")):
             texto = tag.get_text(strip=True)
-            valor = re.sub(r"[^\d,]", "", texto).replace(",", ".")
+            valor = re.sub(r"[^\d,]", "", texto)
             try:
-                precos.append(float(valor))
-            except:
+                valor_float = float(valor.replace(",", "."))
+                precos.append(valor_float)
+            except ValueError as ve:
+                print(f"Erro ao converter '{valor}' para float: {ve}")
                 continue
-        return round(sum(precos) / len(precos), 2) if precos else None
+
+        if precos:
+            media = round(sum(precos) / len(precos), 2)
+            print(f"Preço médio para '{title}': R$ {media}")
+            return media
+        else:
+            print(f"Nenhum preço encontrado para '{title}'")
+            return None
 
     df[nova_coluna] = df[coluna_titulo].apply(buscar_preco)
     return df
