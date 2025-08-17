@@ -5,7 +5,7 @@ Link: https://allan-and-ayla-book-collection.streamlit.app/
 This project is a book collection manager, providing the average price based on the 'Estante Virtual' website scrapping.
 
 Page 1:
-![alt text](doc/image.png)
+![alt text](docs/image.png)
 
 How It Works – Step by Step
 1. Add books through the 'Add book' page, all data except the price must be added manually. 
