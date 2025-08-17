@@ -172,14 +172,14 @@ if st.session_state["aba_atual"] == "Books":
                     st.markdown(f"**Genre:** {livro.genre}")
                     st.markdown(f"**Publisher:** {livro.publisher}")
                     st.markdown(f"**Price:** R$ {livro.preco_medio:.2f}")
-                    titulo_formatado = quote(str(livro.title).lower().replace(" ", "-"))
+                    titulo_formatado = quote(str(livro.title).lower().replace(" ", "%20"))
                     year_formatado = quote(str(livro.year))
                     publisher_formatado = quote(str(livro.publisher).lower().replace(" ", "-"))
 
                     # Tentativa 1: título + ano + editora
                     url_estante = (
                         f"https://www.estantevirtual.com.br/busca?"
-                        f"q={titulo_formatado}&ano-de-publicacao={year_formatado}&editora={publisher_formatado}"
+                        f"q={titulo_formatado}&searchField=titulo-autor&ano-de-publicacao={year_formatado}&editora={publisher_formatado}"
                     )
 
                     st.markdown(f"[🔍 See price in Estante Virtual (title + publisher + year)]({url_estante})", unsafe_allow_html=True)
@@ -187,13 +187,13 @@ if st.session_state["aba_atual"] == "Books":
                     # Tentativa 2: título + ano
                     url_estante_ano = (
                         f"https://www.estantevirtual.com.br/busca?"
-                        f"q={titulo_formatado}&ano-de-publicacao={year_formatado}"
+                        f"q={titulo_formatado}&searchField=titulo-autor&ano-de-publicacao={year_formatado}"
                     )
 
                     st.markdown(f"[🔍 See price in Estante Virtual (title + year)]({url_estante_ano})", unsafe_allow_html=True)
 
                     # Tentativa 3: apenas título
-                    url_estante_titulo = f"https://www.estantevirtual.com.br/busca?q={titulo_formatado}"
+                    url_estante_titulo = f"https://www.estantevirtual.com.br/busca?q={titulo_formatado}&searchField=titulo-autor"
 
                     st.markdown(f"[🔍 See price in Estante Virtual (title)]({url_estante_titulo})", unsafe_allow_html=True)
                     st.markdown(f"**Published in year:** {livro.year}")
