@@ -17,7 +17,7 @@ def carregar_csv_do_github(repo, path, token):
         return pd.read_csv(StringIO(conteudo_csv))
     elif r.status_code == 404:
         # Arquivo não existe: retorna DataFrame vazio com colunas padrão
-        colunas = ["isbn", "genre", "cover", "title", "authors", "publisher", "year", "price", "collection", "volume", "pages", "type"]
+        colunas = ["isbn", "genre", "cover", "title", "authors", "publisher", "year", "price", "collection", "volume", "pages", "type","preco_medio"]
         return pd.DataFrame(columns=colunas)
     else:
         raise Exception(f"Erro ao carregar CSV do GitHub: {r.status_code} - {r.text}")
