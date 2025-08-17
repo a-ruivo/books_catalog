@@ -114,13 +114,23 @@ def salvar_imagem_em_github(imagem_bytes, repo, caminho_imagem, token, mensagem_
     headers = {"Authorization": f"token {token}"}
     imagem_base64 = base64.b64encode(imagem_bytes).decode("utf-8")
 
+    # Verifica se o arquivo já existe para obter o SHA
+    r_get = requests.get(url, headers=headers)
+    if r_get.status_code == 200:
+        sha = r_get.json().get("sha")
+    else:
+        sha = None  # Arquivo não existe, será criado
+
     payload = {
         "message": mensagem_commit,
-        "content": imagem_base64
+        "content": imagem_base64,
     }
 
-    r = requests.put(url, headers=headers, json=payload)
-    if r.status_code in [200, 201]:
+    if sha:
+        payload["sha"] = sha  # Necessário para atualizar
+
+    r_put = requests.put(url, headers=headers, json=payload)
+    if r_put.status_code in [200, 201]:
         return True, "Imagem salva com sucesso"
     else:
-        return False, f"Erro ao salvar imagem: {r.status_code} - {r.text}"
+        return False, f"Erro ao salvar imagem: {r_put.status_code} - {r_put.text}"
