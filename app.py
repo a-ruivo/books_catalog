@@ -50,7 +50,7 @@ with col2:
         df = df.drop_duplicates(keep="last")
 
         # Mantém apenas as colunas relevantes
-        df = df.loc[:, ["isbn", "genre", "cover", "title", "authors", "publisher", "year", "price", "collection", "volume", "pages", "type"]]
+        df = df.loc[:, ["isbn", "genre", "cover", "title", "authors", "publisher", "year", "preco_medio", "collection", "volume", "pages", "type"]]
 
         df_com_precos = adicionar_preco_medio(df)
         # Salva no GitHub e atualiza o estado
