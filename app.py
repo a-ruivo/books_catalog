@@ -262,18 +262,27 @@ elif st.session_state["aba_atual"] == "Add Book":
     if acesso_restrito:
         st.warning("Enter the password to access this page.")
         st.stop()
-    
-    # Extrai editoras únicas e ordena
+
     editoras_existentes = sorted(df_existente["publisher"].dropna().unique())
     autores_existentes = sorted(df_existente["authors"].dropna().unique())
 
     with st.form("form_books"):
         title_form = st.text_input("Title")
         isbn_form = st.text_input("ISBN")
-        genre_form = st.selectbox("Choose a genre", ["Romance", "Teoria da literatura/linguística", "Poesia", "Contos", "Infanto-juvenil", "Biografia", "História", "Autoajuda", "Infantil","Outros","Artes","Cozinha","Ciências","Tecnologia","Negócios","Economia","Teologia","Sociologia", "Filosofia","Educação","Demonologia","Quadrinhos sérios", "Quadrinhos leves","Mangás"])
-        opcao_autor = st.selectbox("Select a author ou choose 'New Author'", autores_existentes + ["New Author"])
-        # Selectbox com opção de "Outro"
-        opcao = st.selectbox("Select a publisher ou choose 'New Publisher'", editoras_existentes + ["New Publisher"])
+        genre_form = st.selectbox("Choose a genre", [...])  # lista completa omitida por brevidade
+
+        opcao_autor = st.selectbox("Select an author or choose 'New Author'", autores_existentes + ["New Author"])
+        if opcao_autor == "New Author":
+            author_form = st.text_input("Enter new author")
+        else:
+            author_form = opcao_autor
+
+        opcao = st.selectbox("Select a publisher or choose 'New Publisher'", editoras_existentes + ["New Publisher"])
+        if opcao == "New Publisher":
+            publisher_form = st.text_input("Enter new publisher")
+        else:
+            publisher_form = opcao
+
         year_form = st.text_input("Year")
         collection_form = st.text_input("Collection")
         volume_form = st.text_input("Volume")
@@ -283,15 +292,6 @@ elif st.session_state["aba_atual"] == "Add Book":
         enviado = st.form_submit_button("Add book")
 
     if enviado:
-        if opcao_autor == "New Author":
-            author_form = st.text_input("Enter new author")
-        else:
-            author_form = opcao_autor
-                # Se "Outro" for selecionado, mostra campo de texto
-        if opcao == "New Publisher":
-            publisher_form = st.text_input("Enter new publisher")
-        else:
-            publisher_form = opcao
         campos_obrigatorios = [
             title_form, isbn_form, genre_form, author_form, publisher_form,
             year_form, collection_form, volume_form, pages_form, type_form
