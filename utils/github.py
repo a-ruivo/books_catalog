@@ -105,3 +105,22 @@ def alterar_csv_em_github(df_novo, repo, path, token):
         except Exception:
             erro = "Erro ao decodificar resposta da API"
         return False, erro
+    
+
+def salvar_imagem_em_github(imagem_bytes, repo, caminho_imagem, token, mensagem_commit="Adicionando imagem de capa"):
+    import base64, requests
+
+    url = f"https://api.github.com/repos/{repo}/contents/{caminho_imagem}"
+    headers = {"Authorization": f"token {token}"}
+    imagem_base64 = base64.b64encode(imagem_bytes).decode("utf-8")
+
+    payload = {
+        "message": mensagem_commit,
+        "content": imagem_base64
+    }
+
+    r = requests.put(url, headers=headers, json=payload)
+    if r.status_code in [200, 201]:
+        return True, "Imagem salva com sucesso"
+    else:
+        return False, f"Erro ao salvar imagem: {r.status_code} - {r.text}"

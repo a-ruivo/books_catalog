@@ -7,7 +7,7 @@ from PIL import Image
 import os
 
 from config import CSV_PATH, REPO, GITHUB_TOKEN
-from utils.github import salvar_csv_em_github, alterar_csv_em_github, carregar_csv_do_github
+from utils.github import salvar_csv_em_github, alterar_csv_em_github, carregar_csv_do_github, salvar_imagem_em_github
 from utils.helpers import adicionar_preco_medio, autenticar, formatar_nome_arquivo, gerar_grafico_barra
 
 if "aba_atual" not in st.session_state:
@@ -284,13 +284,15 @@ elif st.session_state["aba_atual"] == "Add Book":
         if any(campo in [None, "", 0] for campo in campos_obrigatorios) or imagem_upload is None:
             st.warning("Por favor, preencha todos os campos obrigatórios e envie uma imagem.")
         else:
-            nome_arquivo = formatar_nome_arquivo(title_form)
-            caminho_local = f"images/{nome_arquivo}.jpg"
+            caminho_imagem_repo = f"images/{nome_arquivo}.jpg"
+            sucesso_img, msg_img = salvar_imagem_em_github(imagem_bytes, REPO, caminho_imagem_repo, GITHUB_TOKEN)
 
-            imagem_bytes = imagem_upload.read()
-            st.image(imagem_bytes, caption="Preview", use_container_width=True)
-            with open(caminho_local, "wb") as f:
-                f.write(imagem_bytes)
+            if sucesso_img:
+                st.success("Imagem enviada para o GitHub com sucesso!")
+            else:
+                st.error(msg_img)
+                return  # interrompe o fluxo se a imagem falhar
+
 
             nova_carta = pd.DataFrame([{
                 "title": title_form,
