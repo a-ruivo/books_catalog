@@ -277,6 +277,7 @@ elif st.session_state["aba_atual"] == "Add Book":
         enviado = st.form_submit_button("Add book")
 
     if enviado:
+        nome_arquivo = formatar_nome_arquivo(title_form)
         campos_obrigatorios = [
             title_form, isbn_form, genre_form, author_form, publisher_form,
             year_form, collection_form, volume_form, pages_form, type_form
@@ -309,7 +310,6 @@ elif st.session_state["aba_atual"] == "Add Book":
                 st.warning("This book already is in the collection.")
             else:
                 df_form = pd.concat([df_existente, nova_carta], ignore_index=True)
-                nome_arquivo = formatar_nome_arquivo(title_form)
                 imagem_bytes = imagem_upload.read()
                 caminho_imagem_repo = f"images/{nome_arquivo}.jpg"
                 sucesso_img, msg_img = salvar_imagem_em_github(imagem_bytes, REPO, caminho_imagem_repo, GITHUB_TOKEN)
