@@ -17,6 +17,7 @@ isbn,genre,cover,title,authors,publisher,year,collection,volume,pages,type,preco
 9788582850879,Romance,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/euclides_da_cunha.jpg,Os Sertões,Euclides da Cunha,Penguin,2019,,,693,Collection,36.67
 9788573263053,Romance,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/os_demonios.jpg,Os Demônios,Fiódor Dostoievski,34,2004,,,699,Collection,42.23
 9788573266467,Romance,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/crime_e_castigo.jpg,Crime e Castigo,Fiódor Dostoievski,34,2024,,,591,Collection,45.25
+9788573262711,Romance,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/duas_narrativas_fantasticas__a_docil_e_o_sonho_de_um_homem_ridiculos.jpg,Duas narrativas fantásticas: a dócil e o sonho de um homem ridículos,Fiódor Dostoievski,34,2024,,,123,Collection,30.0
 9788501014863,Romance,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/o_estrangeiro.jpg,O Estrangeiro,Albert Camus,Record,2023,,,126,Collection,58.73
 9788582850350,Romance,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/dom_casmurro.jpg,Dom Casmurro,Machado de Assis,Penguin,2016,,,389,Collection,22.44
 9788535913873,Contos,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/a_cidade_ilhada.jpg,A cidade ilhada,Milton Hatoum,Companhia das Letras,2007,,,125,Collection,15.68
@@ -36,3 +37,4 @@ isbn,genre,cover,title,authors,publisher,year,collection,volume,pages,type,preco
 9788573263053,Romance,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/os_demonios.jpg,Os Demônios,Fiódor Dostoievski,34,2004,None,None,699,Collection,42.23
 9788573266467,Romance,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/crime_e_castigo.jpg,Crime e Castigo,Fiódor Dostoievski,34,2024,None,None,591,Collection,45.25
 9788573262711,Romance,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/duas_narrativas_fantasticas__a_docil_e_o_sonho_de_um_homem_ridiculos.jpg,Duas narrativas fantásticas: a dócil e o sonho de um homem ridículos,Fiódor Dostoievski,34,2024,None,None,123,Collection,30.0
+9788573262520,Romance,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/nietotchka_niezvanova.jpg,Niétotchka Niezvânova,Fiódor Dostoievski,34,2022,None,None,219,Collection,39.51
