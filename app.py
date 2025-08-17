@@ -262,14 +262,15 @@ elif st.session_state["aba_atual"] == "Add Book":
     if acesso_restrito:
         st.warning("Enter the password to access this page.")
         st.stop()
+    
+    # Extrai editoras únicas e ordena
+    editoras_existentes = sorted(df["publisher"].dropna().unique())
 
     with st.form("form_books"):
         title_form = st.text_input("Title")
         isbn_form = st.text_input("ISBN")
         genre_form = st.selectbox("Choose a genre", ["Romance", "Teoria da literatura/linguística", "Poesia", "Contos", "Infanto-juvenil", "Biografia", "História", "Autoajuda", "Infantil","Outros","Artes","Cozinha","Ciências","Tecnologia","Negócios","Economia","Teologia","Sociologia", "Filosofia","Educação","Demonologia","Quadrinhos sérios", "Quadrinhos leves","Mangás"])
         author_form = st.text_input("Author")
-        # Extrai editoras únicas e ordena
-        editoras_existentes = sorted(df["publisher"].dropna().unique())
 
         # Selectbox com opção de "Outro"
         opcao = st.selectbox("Select a publisher ou choose 'New Publisher'", editoras_existentes + ["New Publisher"])
