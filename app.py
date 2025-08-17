@@ -284,17 +284,6 @@ elif st.session_state["aba_atual"] == "Add Book":
         if any(campo in [None, "", 0] for campo in campos_obrigatorios) or imagem_upload is None:
             st.warning("Por favor, preencha todos os campos obrigatórios e envie uma imagem.")
         else:
-            nome_arquivo = formatar_nome_arquivo(title_form)
-            imagem_bytes = imagem_upload.read()
-            caminho_imagem_repo = f"images/{nome_arquivo}.jpg"
-            sucesso_img, msg_img = salvar_imagem_em_github(imagem_bytes, REPO, caminho_imagem_repo, GITHUB_TOKEN)
-
-            if sucesso_img:
-                st.success("Imagem enviada para o GitHub com sucesso!")
-            else:
-                st.error(msg_img)
-
-
             nova_carta = pd.DataFrame([{
                 "title": title_form,
                 "isbn": isbn_form,
@@ -320,6 +309,15 @@ elif st.session_state["aba_atual"] == "Add Book":
                 st.warning("This book already is in the collection.")
             else:
                 df_form = pd.concat([df_existente, nova_carta], ignore_index=True)
+                nome_arquivo = formatar_nome_arquivo(title_form)
+                imagem_bytes = imagem_upload.read()
+                caminho_imagem_repo = f"images/{nome_arquivo}.jpg"
+                sucesso_img, msg_img = salvar_imagem_em_github(imagem_bytes, REPO, caminho_imagem_repo, GITHUB_TOKEN)
+
+                if sucesso_img:
+                    st.success("Imagem enviada para o GitHub com sucesso!")
+                else:
+                    st.error(msg_img)
                 sucesso, mensagem = salvar_csv_em_github(df_form, REPO, CSV_PATH, GITHUB_TOKEN)
                 if sucesso:
                     st.session_state["df"] = df_form
