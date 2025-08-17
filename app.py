@@ -271,15 +271,8 @@ elif st.session_state["aba_atual"] == "Add Book":
         isbn_form = st.text_input("ISBN")
         genre_form = st.selectbox("Choose a genre", ["Romance", "Teoria da literatura/linguística", "Poesia", "Contos", "Infanto-juvenil", "Biografia", "História", "Autoajuda", "Infantil","Outros","Artes","Cozinha","Ciências","Tecnologia","Negócios","Economia","Teologia","Sociologia", "Filosofia","Educação","Demonologia","Quadrinhos sérios", "Quadrinhos leves","Mangás"])
         author_form = st.text_input("Author")
-
         # Selectbox com opção de "Outro"
         opcao = st.selectbox("Select a publisher ou choose 'New Publisher'", editoras_existentes + ["New Publisher"])
-
-        # Se "Outro" for selecionado, mostra campo de texto
-        if opcao == "New Publisher":
-            publisher_form = st.text_input("Enter new publisher")
-        else:
-            publisher_form = opcao
         year_form = st.text_input("Year")
         collection_form = st.text_input("Collection")
         volume_form = st.text_input("Volume")
@@ -289,6 +282,11 @@ elif st.session_state["aba_atual"] == "Add Book":
         enviado = st.form_submit_button("Add book")
 
     if enviado:
+                # Se "Outro" for selecionado, mostra campo de texto
+        if opcao == "New Publisher":
+            publisher_form = st.text_input("Enter new publisher")
+        else:
+            publisher_form = opcao
         campos_obrigatorios = [
             title_form, isbn_form, genre_form, author_form, publisher_form,
             year_form, collection_form, volume_form, pages_form, type_form
