@@ -172,10 +172,30 @@ if st.session_state["aba_atual"] == "Books":
                     st.markdown(f"**Genre:** {livro.genre}")
                     st.markdown(f"**Publisher:** {livro.publisher}")
                     st.markdown(f"**Price:** R$ {livro.preco_medio:.2f}")
-                    titulo_formatado = livro.title.replace(" ", "+")
-                    publisher_formatado = quote(livro.publisher.lower().replace(" ", "-"))
-                    url_estante = f"https://www.estantevirtual.com.br/busca?q={requests.utils.quote(titulo_formatado)}&ano-de-publicacao={requests.utils.quote(livro.year)}&editora={requests.utils.quote(publisher_formatado)}"
-                    st.markdown(f"[🔍 See price in Estante Virtual]({url_estante})", unsafe_allow_html=True)
+                    titulo_formatado = quote(str(livro.title).replace(" ", "+"))
+                    year_formatado = quote(str(livro.year))
+                    publisher_formatado = quote(str(livro.publisher).lower().replace(" ", "-"))
+
+                    # Tentativa 1: título + ano + editora
+                    url_estante = (
+                        f"https://www.estantevirtual.com.br/busca?"
+                        f"q={titulo_formatado}&ano-de-publicacao={year_formatado}&editora={publisher_formatado}"
+                    )
+
+                    st.markdown(f"[🔍 Ver preço na Estante Virtual (com editora)]({url_estante})", unsafe_allow_html=True)
+
+                    # Tentativa 2: título + ano
+                    url_estante_ano = (
+                        f"https://www.estantevirtual.com.br/busca?"
+                        f"q={titulo_formatado}&ano-de-publicacao={year_formatado}"
+                    )
+
+                    st.markdown(f"[🔍 Ver preço na Estante Virtual (com ano)]({url_estante_ano})", unsafe_allow_html=True)
+
+                    # Tentativa 3: apenas título
+                    url_estante_titulo = f"https://www.estantevirtual.com.br/busca?q={titulo_formatado}"
+
+                    st.markdown(f"[🔍 Ver preço na Estante Virtual (apenas título)]({url_estante_titulo})", unsafe_allow_html=True)
                     st.markdown(f"**Published in year:** {livro.year}")
 
 elif st.session_state["aba_atual"] == "Dashboard":
