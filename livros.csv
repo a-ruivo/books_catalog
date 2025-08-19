@@ -55,6 +55,7 @@ isbn,genre,cover,title,authors,publisher,year,preco_medio,collection,volume,page
 9788561578350,Romance,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/a_briga_dos_dois_ivans.jpg,A briga dos dois ivans,N. V. Gógol,Grua,2014,19.89,A arte da novela,,91,Collection
 9788571646896,Romance,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/o_homem_que_confundiu_sua_mulher_com_um_chapeu.jpg,O homem que confundiu sua mulher com um chapéu,Oliver Sacks,Grua,2022,36.7,,,264,Collection
 8587193465,Biografia,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/memoria_de_um_anarquista_japones.jpg,Memória de um anarquista japonês,Osugi Sakae,Conrad,2002,24.76,Clássicos,,181,Collection
+8535904689,Romance,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/meu_nome_e_vermelho.jpg,Meu nome é Vermelho,Orhan Pamuk,Conrad,2006,26.67,,,534,Collection
 9788563560933,Contos,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/o_alienista.jpg,O alienista,Machado de Assis,Penguin,2021,40.16,None,None,99,Collection
 9788575038413,Romance,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/anna_karienina.jpg,Anna Kariênina,Liev Tolstói,Cosacnaify,2005,233.15,None,None,814,Collection
 0,Romance,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/ciume_da_morte.jpg,Ciúme da Morte,L. Romanowski,Parga,1977,34.57,None,None,346,Collection
@@ -68,3 +69,4 @@ isbn,genre,cover,title,authors,publisher,year,preco_medio,collection,volume,page
 9788571646896,Romance,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/o_homem_que_confundiu_sua_mulher_com_um_chapeu.jpg,O homem que confundiu sua mulher com um chapéu,Oliver Sacks,Grua,2022,36.7,None,None,264,Collection
 8587193465,Biografia,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/memoria_de_um_anarquista_japones.jpg,Memória de um anarquista japonês,Osugi Sakae,Conrad,2002,24.76,Clássicos,None,181,Collection
 8535904689,Romance,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/meu_nome_e_vermelho.jpg,Meu nome é Vermelho,Orhan Pamuk,Conrad,2006,26.67,None,None,534,Collection
+0,Romance,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/a_ausencia.jpg,A ausência,Peter Handke,Rocco,1989,35.89,None,None,126,Collection
