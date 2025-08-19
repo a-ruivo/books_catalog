@@ -49,6 +49,7 @@ isbn,genre,cover,title,authors,publisher,year,preco_medio,collection,volume,page
 978857326680,Romance,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/o_mestre_e_margarida.jpg,O mestre e margarida,Mikhail Bulgákov,34,2017,73.67,,,404,Collection
 9788540504370,Romance,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/aos_7_e_aos_40.jpg,Aos 7 e aos 40,João Anzanello Carrascoza,Cosacnaify,2013,54.55,,,153,Collection
 9788575031056,Romance,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/leao_de_chacara.jpg,Leão de chácara,João Antônio,Cosacnaify,2002,19.33,,,181,Collection
+0,Romance,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/macunaima.jpg,Macunaíma,Mário de Andrade,Itatiaia,1983,33.96,,,135,Collection
 9788563560933,Contos,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/o_alienista.jpg,O alienista,Machado de Assis,Penguin,2021,40.16,None,None,99,Collection
 9788575038413,Romance,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/anna_karienina.jpg,Anna Kariênina,Liev Tolstói,Cosacnaify,2005,233.15,None,None,814,Collection
 0,Romance,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/ciume_da_morte.jpg,Ciúme da Morte,L. Romanowski,Parga,1977,34.57,None,None,346,Collection
@@ -56,3 +57,4 @@ isbn,genre,cover,title,authors,publisher,year,preco_medio,collection,volume,page
 9788540504370,Romance,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/aos_7_e_aos_40.jpg,Aos 7 e aos 40,João Anzanello Carrascoza,Cosacnaify,2013,54.55,None,None,153,Collection
 9788575031056,Romance,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/leao_de_chacara.jpg,Leão de chácara,João Antônio,Cosacnaify,2002,19.33,None,None,181,Collection
 0,Romance,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/macunaima.jpg,Macunaíma,Mário de Andrade,Itatiaia,1983,33.96,None,None,135,Collection
+8571644020,Romance,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/um_caminho_no_mundo.jpg,Um caminho no mundo,V. S. Naipaul,Itatiaia,1994,11.56,None,None,335,Collection
