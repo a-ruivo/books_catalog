@@ -45,6 +45,8 @@ isbn,genre,cover,title,authors,publisher,year,preco_medio,collection,volume,page
 9781324006572,Teoria da literatura/linguística,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/journey_of_the_mind__how_thinking_emerged_from_chaos.jpg,Journey of the Mind: How Thinking Emerged from Chaos,Ogi Ogas,WW Norton,2022,0.0,,,448,Wishlist
 9788563560933,Contos,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/o_alienista.jpg,O alienista,Machado de Assis,Penguin,2021,40.16,,,99,Collection
 9788575038413,Romance,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/anna_karienina.jpg,Anna Kariênina,Liev Tolstói,Cosacnaify,2005,233.15,,,814,Collection
+0,Romance,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/ciume_da_morte.jpg,Ciúme da Morte,L. Romanowski,Parga,1977,34.57,,,346,Collection
 9788563560933,Contos,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/o_alienista.jpg,O alienista,Machado de Assis,Penguin,2021,40.16,None,None,99,Collection
 9788575038413,Romance,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/anna_karienina.jpg,Anna Kariênina,Liev Tolstói,Cosacnaify,2005,233.15,None,None,814,Collection
 0,Romance,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/ciume_da_morte.jpg,Ciúme da Morte,L. Romanowski,Parga,1977,34.57,None,None,346,Collection
+978857326680,Romance,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/o_mestre_e_margarida.jpg,O mestre e margarida,Mikhail Bulgákov,34,2017,73.67,None,None,404,Collection
