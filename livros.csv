@@ -18,7 +18,7 @@ isbn,genre,cover,title,authors,publisher,year,preco_medio,collection,volume,page
 9788582850879,Romance,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/euclides_da_cunha.jpg,Os Sertões,Euclides da Cunha,Penguin,2019,58.33,,,693,Collection
 9788573263053,Romance,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/os_demonios.jpg,Os Demônios,Fiódor Dostoievski,34,2004,104.5,,,699,Collection
 9788573266467,Romance,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/crime_e_castigo.jpg,Crime e Castigo,Fiódor Dostoievski,34,2024,91.98,,,591,Collection
-9788573262711,Romance,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/duas_narrativas_fantasticas__a_docil_e_o_sonho_de_um_homem_ridiculos.jpg,Duas narrativas fantásticas: a dócil e o sonho de um homem ridículos,Fiódor Dostoievski,34,2024,28.0,,,123,Collection
+9788573262711,Romance,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/duas_narrativas_fantasticas__a_docil_e_o_sonho_de_um_homem_ridiculos.jpg,Duas narrativas fantásticas: a dócil e o sonho de um homem ridículos,Fiódor Dostoievski,34,2024,30.0,,,123,Collection
 9788573262520,Romance,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/nietotchka_niezvanova.jpg,Niétotchka Niezvânova,Fiódor Dostoievski,34,2022,39.79,,,219,Collection
 9788573239415,Romance,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/os_irmaoes_karamazov.jpg,Os irmãoes Karamázov,Fiódor Dostoievski,Martin Claret,2022,95.67,,,911,Collection
 9788563560605,Romance,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/o_jardim_secreto.jpg,O jardim secreto,Frances Hodgson Burnett,Penguin,2022,20.0,,,338,Collection
@@ -30,7 +30,7 @@ isbn,genre,cover,title,authors,publisher,year,preco_medio,collection,volume,page
 9788501012074,Romance,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/cem_anos_de_solidao.jpg,Cem anos de solidão,Gabriel García Márquez,Record,2014,41.24,,,446,Collection
 0,Romance,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/a_divina_comedia.jpg,A Divina Comédia,Dante Alighieri,Edigraf,1965,298.57,A Divina Comédia,1.0,260,Collection
 0,Romance,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/on_the_road.jpg,On The Road,Jack Kerouac,Brasiliense,1984,49.62,,,326,Collection
-8571644756,Romance,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/o_mundo_de_sofia.jpg,O Mundo de Sofia,Jostein Gaarder,Companhia das Letras,1996,31.6,,,555,Collection
+8571644756,Romance,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/o_mundo_de_sofia.jpg,O Mundo de Sofia,Jostein Gaarder,Companhia das Letras,1996,31.54,,,555,Collection
 9786558823063,Autoajuda,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/a_solucao_mindfulness.jpg,A Solução Mindfulness,Ronald D. Siegel,Artmed,2025,90.0,,,358,Collection
 9788595083561,Biografia,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/blue_nights.jpg,Blue Nights,Joan Didion,Harper Collins,2011,28.3,,,187,Collection
 8571644055,Romance,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/cisnes_selvagens__tres_filhas_da_china.jpg,Cisnes Selvagens: três filhas da China,Jung Chang,Coma,1996,21.54,,,485,Collection
@@ -101,25 +101,4 @@ isbn,genre,cover,title,authors,publisher,year,preco_medio,collection,volume,page
 9786500279238,Quadrinhos,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/por_um_fio.jpg,Por um fio,Will Rez,Kitembo,2021,25.17,No collection,0.0,100,Collection
 97865555140927,Quadrinhos,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/lazarus.jpg,Lazarus,Greg Rucka,Devir,2022,57.09,Lazarus,5.0,138,Collection
 9786525917542,Quadrinhos,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/spawn_especial__visita_ao_inferno.jpg,Spawn especial: visita ao inferno,Alan Moore,Panini,2020,64.9,Spawn,0.0,100,Collection
-9786555112511,Romance,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/o_senhor_dos_aneis.jpg,O Senhor dos Anéis,J. R. R. Tolkien,Harper Collins,2021,97.5,O Senhor dos Anéis,None,1374,Collection
-0,Outros,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/jardim_do_seu_neca.jpg,Jardim do Seu Neca,Ana Rocha,Polvilho,2022,24.22,None,None,100,Collection
-9786555112894,Romance,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/mabinogion.jpg,Mabinogion,Vários,Harper Collins,2021,63.67,Feéria Antiga,None,382,Collection
-9786558380016,Romance,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/filha_da_fortuna.jpg,Filha da fortuna,Isabel Allende,Bertrand Brasil,2020,29.32,None,None,439,Collection
-9786558380023,Romance,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/a_ilha_sob_o_mar.jpg,A ilha sob o mar,Isabel Allende,Bertrand Brasil,2020,31.29,None,None,526,Collection
-9786558380009,Romance,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/a_casa_dos_espiritos.jpg,A casa dos espíritos,Isabel Allende,Bertrand Brasil,2020,35.09,None,None,503,Collection
-9781481465588,Romance,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/the_books_of_earthsea__the_complete_illustrated_edition.jpg,The books of earthsea: the complete illustrated edition,Ursula K. Le Guin,Saga Press,2018,152.02,The books of earthsea,None,992,Collection
-9788566636543,Outros,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/twin_peaks.jpg,Twin Peaks,Brad Dukes,Darkside,2017,49.18,None,None,317,Collection
-9786589132684,Romance,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/brandon_sanderson.jpg,Brandon Sanderson,Brandon Sanderson,Trama,2010,159.89,Os relatos da guerra das tempestades,1,1238,Collection
-9786589912613,Outros,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/o_grande_livro_dos_vampiros.jpg,O grande livro dos vampiros,Stephen Jones,Pipoca e Nanquim,2021,50.0,No collection,0,713,Collection
-9788576574484,Romance,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/a_mao_esquerda_da_escuridao.jpg,A mão esquerda da escuridão,Stephen Jones,Aleph,2019,57.44,No collection,0,300,Collection
-9788576574583,Romance,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/os_despossuidos.jpg,Os despossuídos,Ursula K. Le Guin,Aleph,2019,87.18,No collection,0,379,Collection
-9781473209329,Romance,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/the_slow_regard_of_silent_things.jpg,The slow regard of silent things,Patrick Rothfuss,Gollancz,2014,63.84,No collection,0,159,Collection
-9788578500085,Cozinha,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/a_cozinheira_e_o_guloso.jpg,A cozinheira e o guloso,Mazzo França Pinto,BEI,2008,53.18,No collection,0,213,Collection
-9786555372410,Cozinha,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/gilmore_girls__o_livro_de_receitas_oficial.jpg,Gilmore Girls: o livro de receitas oficial,Kristen Mulrooney,Belas Letras,2022,90.0,No collection,0,175,Collection
-9781974724468,Cozinha,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/one_piece__pirate_recipes.jpg,One Piece: pirate recipes,Nami Iijima,Viz Media,2012,41.1,No collection,0,95,Collection
-0,Cozinha,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/cozinhar_com_microondas.jpg,Cozinhar com microondas,Marlene Bispo dos Santos,Hamburg,1960,14.13,No collection,0,122,Collection
-9786586284430,Quadrinhos,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/toppi__fabulas_do_velho_mundo.jpg,Toppi: fábulas do velho mundo,Toppi,Skript,2021,32.37,No collection,0,106,Collection
-9786500279238,Quadrinhos,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/por_um_fio.jpg,Por um fio,Will Rez,Kitembo,2021,25.17,No collection,0,100,Collection
-97865555140927,Quadrinhos,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/lazarus.jpg,Lazarus,Greg Rucka,Devir,2022,57.09,Lazarus,5,138,Collection
-9786525917542,Quadrinhos,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/spawn_especial__visita_ao_inferno.jpg,Spawn especial: visita ao inferno,Alan Moore,Panini,2020,64.9,Spawn,0,100,Collection
-9771413335003,Quadrinhos,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/spawn.jpg,Spawn,Todd McFarlane,Image,1997,88.09,Spawn,11,100,Collection
+9771413335003,Quadrinhos,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/spawn.jpg,Spawn,Todd McFarlane,Image,1997,88.09,Spawn,11.0,100,Collection
