@@ -81,7 +81,7 @@ if st.session_state["aba_atual"] == "Books":
     df["nome_arquivo"] = df["title"].apply(formatar_nome_arquivo)
 
     # Filtros
-    ordenar_por = st.sidebar.selectbox("Ordenar por", ["Title", "Genre", "Author", "Price", "Publisher", "Year", "Collection", "Type"], index=0)
+    ordenar_por = st.sidebar.selectbox("Ordenar por", ["Title", "Genre", "Author", "Price", "Publisher", "Pages", "Volume", "Year", "Collection", "Type"], index=0)
     ordem = st.sidebar.radio("Ordem", ["Ascending", "Descending"], index=0)
     coluna_ordem = {
         "Title": "title",
@@ -89,6 +89,8 @@ if st.session_state["aba_atual"] == "Books":
         "Price": "preco_medio",
         "Genre": "genre",
         "Publisher": "publisher",
+        "Pages": "pages",
+        "Volume": "volume",
         "Year": "year",
         "Collection": "collection",
         "Type": "type"
@@ -170,6 +172,8 @@ if st.session_state["aba_atual"] == "Books":
                     st.markdown(f"**Title:** {livro.title}")
                     st.markdown(f"**Author:** {livro.authors}")
                     st.markdown(f"**Genre:** {livro.genre}")
+                    st.markdown(f"**Collection:** {livro.collection}")
+                    st.markdown(f"**Pages:** {livro.pages}")
                     st.markdown(f"**Publisher:** {livro.publisher}")
                     st.markdown(f"**Price:** R$ {livro.preco_medio:.2f}")
                     titulo_formatado = quote(str(livro.title).lower())
