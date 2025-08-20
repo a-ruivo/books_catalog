@@ -57,7 +57,7 @@ with col2:
         df_com_precos = adicionar_preco_medio(df)
         # Salva no GitHub e atualiza o estado
         alterar_csv_em_github(df_com_precos, REPO, CSV_PATH, GITHUB_TOKEN)
-        st.session_state["df"] = df_com_precos
+        st.session_state["df"] = df_com_precos.drop_duplicates(keep="last")
         st.success("Data updated!")
 
     else:
