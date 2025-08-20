@@ -99,6 +99,7 @@ isbn,genre,cover,title,authors,publisher,year,preco_medio,collection,volume,page
 0,Cozinha,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/cozinhar_com_microondas.jpg,Cozinhar com microondas,Marlene Bispo dos Santos,Hamburg,1960,14.13,No collection,0.0,122,Collection
 9786586284430,Quadrinhos,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/toppi__fabulas_do_velho_mundo.jpg,Toppi: fábulas do velho mundo,Toppi,Skript,2021,32.37,No collection,0.0,106,Collection
 9786500279238,Quadrinhos,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/por_um_fio.jpg,Por um fio,Will Rez,Kitembo,2021,25.17,No collection,0.0,100,Collection
+97865555140927,Quadrinhos,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/lazarus.jpg,Lazarus,Greg Rucka,Devir,2022,57.09,Lazarus,5.0,138,Collection
 9786555112511,Romance,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/o_senhor_dos_aneis.jpg,O Senhor dos Anéis,J. R. R. Tolkien,Harper Collins,2021,97.5,O Senhor dos Anéis,None,1374,Collection
 0,Outros,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/jardim_do_seu_neca.jpg,Jardim do Seu Neca,Ana Rocha,Polvilho,2022,24.22,None,None,100,Collection
 9786555112894,Romance,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/mabinogion.jpg,Mabinogion,Vários,Harper Collins,2021,63.67,Feéria Antiga,None,382,Collection
@@ -119,3 +120,4 @@ isbn,genre,cover,title,authors,publisher,year,preco_medio,collection,volume,page
 9786586284430,Quadrinhos,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/toppi__fabulas_do_velho_mundo.jpg,Toppi: fábulas do velho mundo,Toppi,Skript,2021,32.37,No collection,0,106,Collection
 9786500279238,Quadrinhos,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/por_um_fio.jpg,Por um fio,Will Rez,Kitembo,2021,25.17,No collection,0,100,Collection
 97865555140927,Quadrinhos,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/lazarus.jpg,Lazarus,Greg Rucka,Devir,2022,57.09,Lazarus,5,138,Collection
+9786525917542,Quadrinhos,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/spawn_especial__visita_ao_inferno.jpg,Spawn especial: visita ao inferno,Alan Moore,Panini,2020,64.9,Spawn,0,100,Collection
