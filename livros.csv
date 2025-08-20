@@ -96,6 +96,7 @@ isbn,genre,cover,title,authors,publisher,year,preco_medio,collection,volume,page
 9788578500085,Cozinha,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/a_cozinheira_e_o_guloso.jpg,A cozinheira e o guloso,Mazzo França Pinto,BEI,2008,53.18,No collection,0.0,213,Collection
 9786555372410,Cozinha,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/gilmore_girls__o_livro_de_receitas_oficial.jpg,Gilmore Girls: o livro de receitas oficial,Kristen Mulrooney,Belas Letras,2022,90.0,No collection,0.0,175,Collection
 9781974724468,Cozinha,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/one_piece__pirate_recipes.jpg,One Piece: pirate recipes,Nami Iijima,Viz Media,2012,41.1,No collection,0.0,95,Collection
+0,Cozinha,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/cozinhar_com_microondas.jpg,Cozinhar com microondas,Marlene Bispo dos Santos,Hamburg,1960,14.13,No collection,0.0,122,Collection
 9786555112511,Romance,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/o_senhor_dos_aneis.jpg,O Senhor dos Anéis,J. R. R. Tolkien,Harper Collins,2021,97.5,O Senhor dos Anéis,None,1374,Collection
 0,Outros,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/jardim_do_seu_neca.jpg,Jardim do Seu Neca,Ana Rocha,Polvilho,2022,24.22,None,None,100,Collection
 9786555112894,Romance,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/mabinogion.jpg,Mabinogion,Vários,Harper Collins,2021,63.67,Feéria Antiga,None,382,Collection
@@ -113,3 +114,4 @@ isbn,genre,cover,title,authors,publisher,year,preco_medio,collection,volume,page
 9786555372410,Cozinha,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/gilmore_girls__o_livro_de_receitas_oficial.jpg,Gilmore Girls: o livro de receitas oficial,Kristen Mulrooney,Belas Letras,2022,90.0,No collection,0,175,Collection
 9781974724468,Cozinha,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/one_piece__pirate_recipes.jpg,One Piece: pirate recipes,Nami Iijima,Viz Media,2012,41.1,No collection,0,95,Collection
 0,Cozinha,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/cozinhar_com_microondas.jpg,Cozinhar com microondas,Marlene Bispo dos Santos,Hamburg,1960,14.13,No collection,0,122,Collection
+9786586284430,Quadrinhos,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/toppi__fabulas_do_velho_mundo.jpg,Toppi: fábulas do velho mundo,Toppi,Skript,2021,32.37,No collection,0,106,Collection
