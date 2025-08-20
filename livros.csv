@@ -60,6 +60,7 @@ isbn,genre,cover,title,authors,publisher,year,preco_medio,collection,volume,page
 0,Romance,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/o_tempo_redescoberto.jpg,O tempo redescoberto,Marcel Proust,Globo,1983,29.96,Em busca do tempo perdido,7.0,251,Collection
 0,Romance,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/sodoma_e_gomorra.jpg,Sodoma e Gomorra,Marcel Proust,Globo,1983,28.56,Em busca do tempo perdido,4.0,417,Collection
 0,Romance,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/a_prisoneira.jpg,A prisoneira,Marcel Proust,Globo,1983,32.93,Em busca do tempo perdido,5.0,355,Collection
+0,Romance,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/o_caminho_de_guermantes.jpg,O caminho de guermantes,Marcel Proust,Globo,1983,28.45,Em busca do tempo perdido,3.0,466,Collection
 9788563560933,Contos,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/o_alienista.jpg,O alienista,Machado de Assis,Penguin,2021,40.16,None,None,99,Collection
 9788575038413,Romance,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/anna_karienina.jpg,Anna Kariênina,Liev Tolstói,Cosacnaify,2005,233.15,None,None,814,Collection
 0,Romance,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/ciume_da_morte.jpg,Ciúme da Morte,L. Romanowski,Parga,1977,34.57,None,None,346,Collection
@@ -78,3 +79,4 @@ isbn,genre,cover,title,authors,publisher,year,preco_medio,collection,volume,page
 0,Romance,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/sodoma_e_gomorra.jpg,Sodoma e Gomorra,Marcel Proust,Globo,1983,28.56,Em busca do tempo perdido,4,417,Collection
 0,Romance,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/a_prisoneira.jpg,A prisoneira,Marcel Proust,Globo,1983,32.93,Em busca do tempo perdido,5,355,Collection
 0,Romance,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/o_caminho_de_guermantes.jpg,O caminho de guermantes,Marcel Proust,Globo,1983,28.45,Em busca do tempo perdido,3,466,Collection
+0,Romance,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/no_caminho_de_swann.jpg,No caminho de swann,Marcel Proust,Globo,1983,24.24,Em busca do tempo perdido,1,352,Collection
