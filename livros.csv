@@ -72,6 +72,7 @@ isbn,genre,cover,title,authors,publisher,year,preco_medio,collection,volume,page
 9788576162285,Romance,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/jardins_de_kensington.jpg,Jardins de Kensington,Rodrigo Fresán,Conrad,2007,27.73,,,516,Collection
 9786558301967,Romance,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/historia_da_menina_perdida.jpg,História da menina perdida,Elena Ferrante,Biblioteca Azul,2024,39.53,A amiga genial,4.0,487,Collection
 9786558301929,Romance,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/historia_de_quem_foge_e_de_quem_fica.jpg,História de quem foge e de quem fica,Elena Ferrante,Biblioteca Azul,2024,40.52,A amiga genial,3.0,422,Collection
+9786558301936,Romance,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/historia_do_novo_sobrenome.jpg,História do novo sobrenome,Elena Ferrante,Biblioteca Azul,2024,36.98,A amiga genial,2.0,479,Collection
 9788582850749,Romance,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/noites_brancas.jpg,Noites brancas,Fiódor Dostoievski,Penguin,2018,36.43,,,110,Collection
 9788501014863,Romance,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/o_estrangeiro.jpg,O Estrangeiro,Albert Camus,Record,2023,54.2,,,126,Collection
 9788582850350,Romance,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/dom_casmurro.jpg,Dom Casmurro,Machado de Assis,Penguin,2016,49.9,,,389,Collection
@@ -146,3 +147,4 @@ isbn,genre,cover,title,authors,publisher,year,preco_medio,collection,volume,page
 9786558301967,Romance,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/historia_da_menina_perdida.jpg,História da menina perdida,Elena Ferrante,Biblioteca Azul,2024,39.53,A amiga genial,4,487,Collection
 9786558301929,Romance,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/historia_de_quem_foge_e_de_quem_fica.jpg,História de quem foge e de quem fica,Elena Ferrante,Biblioteca Azul,2024,40.52,A amiga genial,3,422,Collection
 9786558301936,Romance,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/historia_do_novo_sobrenome.jpg,História do novo sobrenome,Elena Ferrante,Biblioteca Azul,2024,36.98,A amiga genial,2,479,Collection
+9786558301912,Romance,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/a_amiga_genial.jpg,A amiga genial,Elena Ferrante,Biblioteca Azul,2024,65.41,A amiga genial,1,338,Collection
