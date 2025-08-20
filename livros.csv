@@ -89,6 +89,7 @@ isbn,genre,cover,title,authors,publisher,year,preco_medio,collection,volume,page
 9781481465588,Romance,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/the_books_of_earthsea__the_complete_illustrated_edition.jpg,The books of earthsea: the complete illustrated edition,Ursula K. Le Guin,Saga Press,2018,152.02,The books of earthsea,,992,Collection
 9788566636543,Outros,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/twin_peaks.jpg,Twin Peaks,Brad Dukes,Darkside,2017,49.18,,,317,Collection
 9786589132684,Romance,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/brandon_sanderson.jpg,Brandon Sanderson,Brandon Sanderson,Trama,2010,159.89,Os relatos da guerra das tempestades,1.0,1238,Collection
+9786589912613,Outros,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/o_grande_livro_dos_vampiros.jpg,O grande livro dos vampiros,Stephen Jones,Pipoca e Nanquim,2021,50.0,No collection,0.0,713,Collection
 9786555112511,Romance,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/o_senhor_dos_aneis.jpg,O Senhor dos Anéis,J. R. R. Tolkien,Harper Collins,2021,97.5,O Senhor dos Anéis,None,1374,Collection
 0,Outros,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/jardim_do_seu_neca.jpg,Jardim do Seu Neca,Ana Rocha,Polvilho,2022,24.22,None,None,100,Collection
 9786555112894,Romance,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/mabinogion.jpg,Mabinogion,Vários,Harper Collins,2021,63.67,Feéria Antiga,None,382,Collection
@@ -99,3 +100,4 @@ isbn,genre,cover,title,authors,publisher,year,preco_medio,collection,volume,page
 9788566636543,Outros,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/twin_peaks.jpg,Twin Peaks,Brad Dukes,Darkside,2017,49.18,None,None,317,Collection
 9786589132684,Romance,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/brandon_sanderson.jpg,Brandon Sanderson,Brandon Sanderson,Trama,2010,159.89,Os relatos da guerra das tempestades,1,1238,Collection
 9786589912613,Outros,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/o_grande_livro_dos_vampiros.jpg,O grande livro dos vampiros,Stephen Jones,Pipoca e Nanquim,2021,50.0,No collection,0,713,Collection
+9788576574484,Romance,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/a_mao_esquerda_da_escuridao.jpg,A mão esquerda da escuridão,Stephen Jones,Aleph,2019,57.44,No collection,0,300,Collection
