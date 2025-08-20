@@ -102,4 +102,6 @@ isbn,genre,cover,title,authors,publisher,year,preco_medio,collection,volume,page
 97865555140927,Quadrinhos,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/lazarus.jpg,Lazarus,Greg Rucka,Devir,2022,57.09,Lazarus,5.0,138,Collection
 9786525917542,Quadrinhos,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/spawn_especial__visita_ao_inferno.jpg,Spawn especial: visita ao inferno,Alan Moore,Panini,2020,64.9,Spawn Especial,0.0,100,Collection
 9771413335003,Quadrinhos,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/spawn.jpg,Spawn,Todd McFarlane,Image,1997,88.09,Spawn,11.0,100,Collection
+9771516361008,Quadrinhos,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/spawn__a_origem_de_angela.jpg,Spawn: A origem de Ângela,Alan McElroy,Image,1999,46.08,A maldição do Spawn,1.0,100,Collection
 9771516361008,Quadrinhos,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/spawn__a_origem_de_angela.jpg,Spawn: A origem de Ângela,Alan McElroy,Image,1999,46.08,A maldição do Spawn,1,100,Collection
+9771413336003,Quadrinhos,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/spawn_90.jpg,Spawn 90,Todd McFarlane,Abril,2000,15.0,Spawn,90,100,Collection
