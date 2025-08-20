@@ -68,6 +68,7 @@ isbn,genre,cover,title,authors,publisher,year,preco_medio,collection,volume,page
 0,Romance,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/bufo___spallanzani.jpg,Bufo & Spallanzani,Rubem Fonseca,Companhia das Letras,1991,16.24,,,238,Collection
 9788571640177,Romance,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/vastas_emocoes_e_pensamentos_imperfeitos.jpg,Vastas emoções e pensamentos imperfeitos,Rubem Fonseca,Companhia das Letras,2008,23.18,,,287,Collection
 9788579492,Romance,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/a_redoma_de_vidro.jpg,A redoma de vidro,Sylvia Plath,Folha de São Paulo,2016,60.84,Grandes nomes da literatura,22.0,239,Collection
+9788535912876,Artes,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/os_versos_satanicos.jpg,Os versos satânicos,Salman Rushdie,Companhia de bolso,2008,28.42,,,597,Collection
 9788563560933,Contos,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/o_alienista.jpg,O alienista,Machado de Assis,Penguin,2021,40.16,None,None,99,Collection
 9788575038413,Romance,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/anna_karienina.jpg,Anna Kariênina,Liev Tolstói,Cosacnaify,2005,233.15,None,None,814,Collection
 0,Romance,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/ciume_da_morte.jpg,Ciúme da Morte,L. Romanowski,Parga,1977,34.57,None,None,346,Collection
@@ -94,3 +95,4 @@ isbn,genre,cover,title,authors,publisher,year,preco_medio,collection,volume,page
 9788571640177,Romance,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/vastas_emocoes_e_pensamentos_imperfeitos.jpg,Vastas emoções e pensamentos imperfeitos,Rubem Fonseca,Companhia das Letras,2008,23.18,None,None,287,Collection
 9788579492,Romance,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/a_redoma_de_vidro.jpg,A redoma de vidro,Sylvia Plath,Folha de São Paulo,2016,60.84,Grandes nomes da literatura,22,239,Collection
 9788535912876,Artes,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/os_versos_satanicos.jpg,Os versos satânicos,Salman Rushdie,Companhia de bolso,2008,28.42,None,None,597,Collection
+9788576162285,Romance,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/jardins_de_kensington.jpg,Jardins de Kensington,Rodrigo Fresán,Conrad,2007,27.73,None,None,516,Collection
