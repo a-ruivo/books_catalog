@@ -80,4 +80,6 @@ isbn,genre,cover,title,authors,publisher,year,preco_medio,collection,volume,page
 9788526241834,Romance,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/a_megera_domada.jpg,A megera domada,William Shakespeare,Scipione,2009,22.6,,,119,Collection
 0,Romance,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/otelo.jpg,Otelo,William Shakespeare,Ediouro,2003,16.72,Universidade de bolso,,138,Collection
 9788582851425,Romance,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/o_morro_dos_ventos_uivantes.jpg,O morro dos ventos uivantes,Emily Bronte,P,2021,23.07,,,458,Collection
+9786555112511,Romance,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/o_senhor_dos_aneis.jpg,O Senhor dos Anéis,J. R. R. Tolkien,Harper Collins,2021,97.5,O Senhor dos Anéis,,1374,Collection
 9786555112511,Romance,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/o_senhor_dos_aneis.jpg,O Senhor dos Anéis,J. R. R. Tolkien,Harper Collins,2021,97.5,O Senhor dos Anéis,None,1374,Collection
+0,Outros,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/jardim_do_seu_neca.jpg,Jardim do Seu Neca,Ana Rocha,Polvilho,2022,24.22,None,None,100,Collection
