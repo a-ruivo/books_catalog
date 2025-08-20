@@ -93,6 +93,7 @@ isbn,genre,cover,title,authors,publisher,year,preco_medio,collection,volume,page
 9788576574484,Romance,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/a_mao_esquerda_da_escuridao.jpg,A mão esquerda da escuridão,Stephen Jones,Aleph,2019,57.44,No collection,0.0,300,Collection
 9788576574583,Romance,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/os_despossuidos.jpg,Os despossuídos,Ursula K. Le Guin,Aleph,2019,87.18,No collection,0.0,379,Collection
 9781473209329,Romance,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/the_slow_regard_of_silent_things.jpg,The slow regard of silent things,Patrick Rothfuss,Gollancz,2014,63.84,No collection,0.0,159,Collection
+9788578500085,Cozinha,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/a_cozinheira_e_o_guloso.jpg,A cozinheira e o guloso,Mazzo França Pinto,BEI,2008,53.18,No collection,0.0,213,Collection
 9786555112511,Romance,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/o_senhor_dos_aneis.jpg,O Senhor dos Anéis,J. R. R. Tolkien,Harper Collins,2021,97.5,O Senhor dos Anéis,None,1374,Collection
 0,Outros,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/jardim_do_seu_neca.jpg,Jardim do Seu Neca,Ana Rocha,Polvilho,2022,24.22,None,None,100,Collection
 9786555112894,Romance,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/mabinogion.jpg,Mabinogion,Vários,Harper Collins,2021,63.67,Feéria Antiga,None,382,Collection
@@ -107,3 +108,4 @@ isbn,genre,cover,title,authors,publisher,year,preco_medio,collection,volume,page
 9788576574583,Romance,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/os_despossuidos.jpg,Os despossuídos,Ursula K. Le Guin,Aleph,2019,87.18,No collection,0,379,Collection
 9781473209329,Romance,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/the_slow_regard_of_silent_things.jpg,The slow regard of silent things,Patrick Rothfuss,Gollancz,2014,63.84,No collection,0,159,Collection
 9788578500085,Cozinha,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/a_cozinheira_e_o_guloso.jpg,A cozinheira e o guloso,Mazzo França Pinto,BEI,2008,53.18,No collection,0,213,Collection
+9786555372410,Cozinha,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/gilmore_girls__o_livro_de_receitas_oficial.jpg,Gilmore Girls: o livro de receitas oficial,Kristen Mulrooney,Belas Letras,2022,90.0,No collection,0,175,Collection
