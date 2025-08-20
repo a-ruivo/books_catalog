@@ -78,6 +78,7 @@ isbn,genre,cover,title,authors,publisher,year,preco_medio,collection,volume,page
 9788594541970,Romance,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/medicina_macabra.jpg,Medicina Macabra,Thomas Morris,Darkside,2020,74.93,,,421,Collection
 8576160285,Romance,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/54.jpg,54,Wu Ming,Darkside,2005,96.61,,,604,Collection
 9788526241834,Romance,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/a_megera_domada.jpg,A megera domada,William Shakespeare,Scipione,2009,22.67,,,119,Collection
+0,Romance,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/otelo.jpg,Otelo,William Shakespeare,Ediouro,2003,16.72,Universidade de bolso,,138,Collection
 9788582850749,Romance,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/noites_brancas.jpg,Noites brancas,Fiódor Dostoievski,Penguin,2018,36.43,,,110,Collection
 9788501014863,Romance,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/o_estrangeiro.jpg,O Estrangeiro,Albert Camus,Record,2023,54.2,,,126,Collection
 9788582850350,Romance,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/dom_casmurro.jpg,Dom Casmurro,Machado de Assis,Penguin,2016,49.9,,,389,Collection
@@ -158,3 +159,4 @@ isbn,genre,cover,title,authors,publisher,year,preco_medio,collection,volume,page
 8576160285,Romance,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/54.jpg,54,Wu Ming,Darkside,2005,96.61,None,None,604,Collection
 9788526241834,Romance,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/a_megera_domada.jpg,A megera domada,William Shakespeare,Scipione,2009,22.67,None,None,119,Collection
 0,Romance,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/otelo.jpg,Otelo,William Shakespeare,Ediouro,2003,16.72,Universidade de bolso,None,138,Collection
+9788582851425,Romance,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/o_morro_dos_ventos_uivantes.jpg,O morro dos ventos uivantes,Emily Bronte,P,2021,23.07,None,None,458,Collection
