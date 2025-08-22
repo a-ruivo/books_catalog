@@ -132,6 +132,7 @@ isbn,genre,cover,title,authors,publisher,year,preco_medio,collection,volume,page
 0,Quadrinhos,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/garfield_beefs_up.jpg,Garfield beefs up,Jim Davis,Ballantine,2000,35.24,Garfield,37.0,93,Collection
 0,Quadrinhos,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/dead_boy_detectives.jpg,Dead Boy detectives,Jill Thompson,Ballantine,2005,30.62,No collection,0.0,140,Collection
 0,Quadrinhos,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/morte_a_festa.jpg,Morte a festa,Jill Thompson,Conrad,2004,40.74,No collection,0.0,215,Collection
+0,Quadrinhos,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/nunca_se_esqueca.jpg,Nunca se esqueça,Ryan Andrews,Conrad,2023,25.0,No collection,0.0,132,Collection
 9788582850749,Romance,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/noites_brancas.jpg,Noites brancas,Fiódor Dostoievski,Penguin,2018,36.43,No collection,0.0,110,Collection
 9788501014863,Romance,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/o_estrangeiro.jpg,O Estrangeiro,Albert Camus,Record,2023,55.0,No collection,0.0,126,Collection
 9788582850350,Romance,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/dom_casmurro.jpg,Dom Casmurro,Machado de Assis,Penguin,2016,25.0,No collection,0.0,389,Collection
@@ -266,3 +267,4 @@ isbn,genre,cover,title,authors,publisher,year,preco_medio,collection,volume,page
 0,Quadrinhos,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/dead_boy_detectives.jpg,Dead Boy detectives,Jill Thompson,Ballantine,2005,30.62,No collection,0,140,Collection
 0,Quadrinhos,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/morte_a_festa.jpg,Morte a festa,Jill Thompson,Conrad,2004,40.74,No collection,0,215,Collection
 0,Quadrinhos,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/nunca_se_esqueca.jpg,Nunca se esqueça,Ryan Andrews,Conrad,2023,25.0,No collection,0,132,Collection
+0,Quadrinhos,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/a_casta_dos_metabaroes_1.jpg,A casta dos metabarões 1,Jodorowsky,Pipoca e Nanquim,2022,79.0,Metabarões,1,249,Collection
