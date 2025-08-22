@@ -135,6 +135,7 @@ isbn,genre,cover,title,authors,publisher,year,preco_medio,collection,volume,page
 0,Quadrinhos,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/nunca_se_esqueca.jpg,Nunca se esqueça,Ryan Andrews,Conrad,2023,25.0,No collection,0.0,132,Collection
 0,Quadrinhos,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/a_casta_dos_metabaroes_1.jpg,A casta dos metabarões 1,Jodorowsky,Pipoca e Nanquim,2022,79.0,Metabarões,1.0,249,Collection
 0,Quadrinhos,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/a_casta_dos_metabaroes_2.jpg,A casta dos metabarões 2,Jodorowsky,Pipoca e Nanquim,2023,79.0,Metabarões,2.0,259,Collection
+0,Quadrinhos,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/as_armas_dos_metabaroes.jpg,As armas dos metabarões,Jodorowsky,Pipoca e Nanquim,2023,149.19,Metabarões,3.0,173,Collection
 9788582850749,Romance,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/noites_brancas.jpg,Noites brancas,Fiódor Dostoievski,Penguin,2018,36.43,No collection,0.0,110,Collection
 9788501014863,Romance,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/o_estrangeiro.jpg,O Estrangeiro,Albert Camus,Record,2023,55.0,No collection,0.0,126,Collection
 9788582850350,Romance,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/dom_casmurro.jpg,Dom Casmurro,Machado de Assis,Penguin,2016,25.0,No collection,0.0,389,Collection
@@ -272,3 +273,4 @@ isbn,genre,cover,title,authors,publisher,year,preco_medio,collection,volume,page
 0,Quadrinhos,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/a_casta_dos_metabaroes_1.jpg,A casta dos metabarões 1,Jodorowsky,Pipoca e Nanquim,2022,79.0,Metabarões,1,249,Collection
 0,Quadrinhos,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/a_casta_dos_metabaroes_2.jpg,A casta dos metabarões 2,Jodorowsky,Pipoca e Nanquim,2023,79.0,Metabarões,2,259,Collection
 0,Quadrinhos,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/as_armas_dos_metabaroes.jpg,As armas dos metabarões,Jodorowsky,Pipoca e Nanquim,2023,149.19,Metabarões,3,173,Collection
+0,Quadrinhos,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/o_papa_terrivel.jpg,O papa terrível,Jodorowsky,Conrad,2024,59.0,No collection,0,220,Collection
