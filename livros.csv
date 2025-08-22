@@ -107,6 +107,7 @@ isbn,genre,cover,title,authors,publisher,year,preco_medio,collection,volume,page
 9781524860677,Quadrinhos,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/fangs.jpg,Fangs,Sarah Andersen,Andrews McMeel,2020,162.0,No collection,0.0,98,Collection
 9786589912132,Quadrinhos,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/dente_de_leite.jpg,Dente de leite,Patrick Martins,Pipoca e Nanquim,2020,36.95,No collection,0.0,169,Collection
 9788576163398,Quadrinhos,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/genesis.jpg,Gênesis,Robert Crumb,Conrad,2009,16.73,No collection,0.0,211,Collection
+0,Quadrinhos,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/ciencia_maldita.jpg,Ciência Maldita,Velha Cosmo,Pé de cabra,2020,35.0,No collection,0.0,100,Collection
 9788582850749,Romance,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/noites_brancas.jpg,Noites brancas,Fiódor Dostoievski,Penguin,2018,36.43,No collection,0.0,110,Collection
 9788501014863,Romance,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/o_estrangeiro.jpg,O Estrangeiro,Albert Camus,Record,2023,55.0,No collection,0.0,126,Collection
 9788582850350,Romance,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/dom_casmurro.jpg,Dom Casmurro,Machado de Assis,Penguin,2016,25.0,No collection,0.0,389,Collection
@@ -216,3 +217,4 @@ isbn,genre,cover,title,authors,publisher,year,preco_medio,collection,volume,page
 9786589912132,Quadrinhos,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/dente_de_leite.jpg,Dente de leite,Patrick Martins,Pipoca e Nanquim,2020,36.95,No collection,0,169,Collection
 9788576163398,Quadrinhos,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/genesis.jpg,Gênesis,Robert Crumb,Conrad,2009,16.73,No collection,0,211,Collection
 0,Quadrinhos,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/ciencia_maldita.jpg,Ciência Maldita,Velha Cosmo,Pé de cabra,2020,35.0,No collection,0,100,Collection
+0,Quadrinhos,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/revista_pe_de_cabra_5.jpg,Revista Pé de Cabra 5,Vários,Pé de cabra,2023,24.45,Revista Pé de Cabra,5,144,Collection
