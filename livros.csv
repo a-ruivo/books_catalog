@@ -126,6 +126,7 @@ isbn,genre,cover,title,authors,publisher,year,preco_medio,collection,volume,page
 0,Quadrinhos,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/liget_5_5.jpg,Liget 5.5,KZ,Incompleta,2021,20.0,Liget,5.5,31,Collection
 0,Quadrinhos,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/um_sussurro_nas_trevas.jpg,Um sussurro nas trevas,H. P. Lovecraft,Skript,2021,35.0,No collection,0.0,117,Collection
 0,Quadrinhos,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/o_habitante_das_trevas.jpg,O habitante das trevas,H. P. Lovecraft,Skript,2020,69.5,No collection,0.0,78,Collection
+0,Quadrinhos,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/sob_as_piramides.jpg,Sob as pirâmides,H. P. Lovecraft,Skript,2022,39.9,No collection,0.0,114,Collection
 9788582850749,Romance,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/noites_brancas.jpg,Noites brancas,Fiódor Dostoievski,Penguin,2018,36.43,No collection,0.0,110,Collection
 9788501014863,Romance,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/o_estrangeiro.jpg,O Estrangeiro,Albert Camus,Record,2023,55.0,No collection,0.0,126,Collection
 9788582850350,Romance,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/dom_casmurro.jpg,Dom Casmurro,Machado de Assis,Penguin,2016,25.0,No collection,0.0,389,Collection
@@ -254,3 +255,4 @@ isbn,genre,cover,title,authors,publisher,year,preco_medio,collection,volume,page
 0,Quadrinhos,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/um_sussurro_nas_trevas.jpg,Um sussurro nas trevas,H. P. Lovecraft,Skript,2021,35.0,No collection,0,117,Collection
 0,Quadrinhos,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/o_habitante_das_trevas.jpg,O habitante das trevas,H. P. Lovecraft,Skript,2020,69.5,No collection,0,78,Collection
 0,Quadrinhos,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/sob_as_piramides.jpg,Sob as pirâmides,H. P. Lovecraft,Skript,2022,39.9,No collection,0,114,Collection
+0,Quadrinhos,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/o_chamado_de_cthulhu.jpg,O chamado de cthulhu,H. P. Lovecraft,Skript,2019,34.98,No collection,0,87,Collection
