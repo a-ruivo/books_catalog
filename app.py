@@ -262,8 +262,8 @@ elif st.session_state["aba_atual"] == "Dashboard":
 elif st.session_state["aba_atual"] == "Add Book":
     st.header("Add book to collection")
     
-    if "df" not in st.session_state:
-        st.session_state["df"] = carregar_csv_do_github(REPO, CSV_PATH, GITHUB_TOKEN)
+    st.session_state.pop("df", None)
+    st.session_state["df"] = carregar_csv_do_github(REPO, CSV_PATH, GITHUB_TOKEN)
 
     df_existente = st.session_state["df"]
 
