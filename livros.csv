@@ -112,6 +112,7 @@ isbn,genre,cover,title,authors,publisher,year,preco_medio,collection,volume,page
 0,Quadrinhos,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/revista_pe_de_cabra_2.jpg,Revista Pé de Cabra 2,Vários,Pé de cabra,2019,24.45,Revista Pé de Cabra,2.0,102,Collection
 0,Quadrinhos,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/revista_pe_de_cabra_4.jpg,Revista Pé de Cabra 4,Vários,Pé de cabra,2022,24.45,Revista Pé de Cabra,4.0,168,Collection
 0,Quadrinhos,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/notas_do_underground.jpg,Notas do Underground,Pedro D'apremont,Pé de cabra,2022,25.08,No collection,0.0,43,Collection
+9786558032793,Quadrinhos,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/o_pacto_da_letargia.jpg,O pacto da letargia,Miguelanxo Prado,Conrad,2022,44.75,No collection,0.0,101,Collection
 9788582850749,Romance,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/noites_brancas.jpg,Noites brancas,Fiódor Dostoievski,Penguin,2018,36.43,No collection,0.0,110,Collection
 9788501014863,Romance,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/o_estrangeiro.jpg,O Estrangeiro,Albert Camus,Record,2023,55.0,No collection,0.0,126,Collection
 9788582850350,Romance,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/dom_casmurro.jpg,Dom Casmurro,Machado de Assis,Penguin,2016,25.0,No collection,0.0,389,Collection
@@ -226,3 +227,4 @@ isbn,genre,cover,title,authors,publisher,year,preco_medio,collection,volume,page
 0,Quadrinhos,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/revista_pe_de_cabra_4.jpg,Revista Pé de Cabra 4,Vários,Pé de cabra,2022,24.45,Revista Pé de Cabra,4,168,Collection
 0,Quadrinhos,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/notas_do_underground.jpg,Notas do Underground,Pedro D'apremont,Pé de cabra,2022,25.08,No collection,0,43,Collection
 9786558032793,Quadrinhos,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/o_pacto_da_letargia.jpg,O pacto da letargia,Miguelanxo Prado,Conrad,2022,44.75,No collection,0,101,Collection
+9786525926742,Quadrinhos,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/invencivel_1.jpg,Invencível 1,Robert Kirkman,Panini,2025,78.5,Invencível,1,102,Collection
