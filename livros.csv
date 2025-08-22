@@ -116,6 +116,7 @@ isbn,genre,cover,title,authors,publisher,year,preco_medio,collection,volume,page
 9786525926742,Quadrinhos,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/invencivel_1.jpg,Invencível 1,Robert Kirkman,Panini,2025,78.5,Invencível,1.0,102,Collection
 9786525924731,Quadrinhos,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/invencivel_2.jpg,Invencível 2,Robert Kirkman,Panini,2025,35.0,Invencível,2.0,106,Collection
 9780857624475,Quadrinhos,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/frankenstein.jpg,Frankenstein,Mary Shelley,Quarto,2017,33.47,No collection,0.0,160,Collection
+9786558031345,Quadrinhos,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/goya_saturnalia.jpg,Goya Saturnália,Manuel Gutiérrez,Quarto,2023,93.88,No collection,0.0,133,Collection
 9788582850749,Romance,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/noites_brancas.jpg,Noites brancas,Fiódor Dostoievski,Penguin,2018,36.43,No collection,0.0,110,Collection
 9788501014863,Romance,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/o_estrangeiro.jpg,O Estrangeiro,Albert Camus,Record,2023,55.0,No collection,0.0,126,Collection
 9788582850350,Romance,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/dom_casmurro.jpg,Dom Casmurro,Machado de Assis,Penguin,2016,25.0,No collection,0.0,389,Collection
@@ -234,3 +235,4 @@ isbn,genre,cover,title,authors,publisher,year,preco_medio,collection,volume,page
 9786525924731,Quadrinhos,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/invencivel_2.jpg,Invencível 2,Robert Kirkman,Panini,2025,35.0,Invencível,2,106,Collection
 9780857624475,Quadrinhos,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/frankenstein.jpg,Frankenstein,Mary Shelley,Quarto,2017,33.47,No collection,0,160,Collection
 9786558031345,Quadrinhos,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/goya_saturnalia.jpg,Goya Saturnália,Manuel Gutiérrez,Quarto,2023,93.88,No collection,0,133,Collection
+9788576163299,Quadrinhos,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/melodia_infernal_1.jpg,Melodia Infernal 1,Lu Ming,Conrad,2009,11.41,Melodia Infernal,1,141,Collection
