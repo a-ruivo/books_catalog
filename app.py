@@ -79,9 +79,10 @@ if st.session_state["aba_atual"] == "Books":
     df = df.astype(str)
     df["preco_medio"] = df["preco_medio"].astype(float)
     df["nome_arquivo"] = df["title"].apply(formatar_nome_arquivo)
+    df["collectionvolume"] = df["collection"].fillna("") + " " + df["volume"].fillna("")
 
     # Filtros
-    ordenar_por = st.sidebar.selectbox("Ordenar por", ["Title", "Genre", "Author", "Price", "Publisher", "Pages", "Volume", "Year", "Collection", "Type"], index=0)
+    ordenar_por = st.sidebar.selectbox("Ordenar por", ["Title", "Genre", "Author", "Price", "Publisher", "Pages", "Year", "Collection", "Type"], index=0)
     ordem = st.sidebar.radio("Ordem", ["Ascending", "Descending"], index=0)
     coluna_ordem = {
         "Title": "title",
@@ -92,7 +93,7 @@ if st.session_state["aba_atual"] == "Books":
         "Pages": "pages",
         "Volume": "volume",
         "Year": "year",
-        "Collection": "collection",
+        "Collection": "collectionvolume",
         "Type": "type"
     }[ordenar_por]
     df = df.sort_values(by=coluna_ordem, ascending=(ordem == "Ascending"))
@@ -202,21 +203,6 @@ elif st.session_state["aba_atual"] == "Dashboard":
     df = df.astype(str)
     df["preco_medio"] = df["preco_medio"].astype(float)
 
-    # Filtros
-    ordenar_por = st.sidebar.selectbox("Ordenar por", ["Title", "Genre", "Author", "Price", "Publisher", "Year", "Collection", "Type"], index=0)
-    ordem = st.sidebar.radio("Ordem", ["Ascending", "Descending"], index=0)
-    coluna_ordem = {
-        "Title": "title",
-        "Author": "authors",
-        "Price": "preco_medio",
-        "Genre": "genre",
-        "Publisher": "publisher",
-        "Year": "year",
-        "Collection": "collection",
-        "Type": "type"
-    }[ordenar_por]
-    df = df.sort_values(by=coluna_ordem, ascending=(ordem == "Ascending"))
-
     # Filtros múltiplos
     filtros = {
         "Genre": "genre",
@@ -276,7 +262,11 @@ elif st.session_state["aba_atual"] == "Dashboard":
 
 elif st.session_state["aba_atual"] == "Add Book":
     st.header("Add book to collection")
-    df_existente = st.session_state.get("df", pd.DataFrame())
+    
+    if "df" not in st.session_state:
+        st.session_state["df"] = carregar_csv_do_github(REPO, CSV_PATH, GITHUB_TOKEN)
+
+    df_existente = st.session_state["df"]
 
     if acesso_restrito:
         st.warning("Enter the password to access this page.")
