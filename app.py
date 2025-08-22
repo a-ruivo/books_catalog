@@ -79,7 +79,7 @@ if st.session_state["aba_atual"] == "Books":
     df = df.astype(str)
     df["preco_medio"] = df["preco_medio"].astype(float)
     df["nome_arquivo"] = df["title"].apply(formatar_nome_arquivo)
-    df["collectionvolume"] = df["collection"].fillna("") + " " + df["volume"].fillna("")
+    df["collectionvolume"] = df["collection"].replace("No collection","Z").fillna("") + " " + df["volume"].fillna("")
 
     # Filtros
     ordenar_por = st.sidebar.selectbox("Ordenar por", ["Title", "Genre", "Author", "Price", "Publisher", "Pages", "Year", "Collection", "Type"], index=0)
@@ -91,7 +91,6 @@ if st.session_state["aba_atual"] == "Books":
         "Genre": "genre",
         "Publisher": "publisher",
         "Pages": "pages",
-        "Volume": "volume",
         "Year": "year",
         "Collection": "collectionvolume",
         "Type": "type"
