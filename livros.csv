@@ -79,7 +79,7 @@ isbn,genre,cover,title,authors,publisher,year,preco_medio,collection,volume,page
 8576160285,Romance,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/54.jpg,54,Wu Ming,Darkside,2005,96.32,No collection,0.0,604,Collection
 9788526241834,Romance,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/a_megera_domada.jpg,A megera domada,William Shakespeare,Scipione,2009,22.6,No collection,0.0,119,Collection
 0,Romance,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/otelo.jpg,Otelo,William Shakespeare,Ediouro,2003,16.72,Universidade de bolso,0.0,138,Collection
-9788582851425,Romance,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/o_morro_dos_ventos_uivantes.jpg,O morro dos ventos uivantes,Emily Bronte,P,2021,24.36,No collection,0.0,458,Collection
+9788582851425,Romance,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/o_morro_dos_ventos_uivantes.jpg,O morro dos ventos uivantes,Emily Bronte,Penguin,2021,24.36,No collection,0.0,458,Collection
 9786555112511,Romance,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/o_senhor_dos_aneis.jpg,O Senhor dos Anéis,J. R. R. Tolkien,Harper Collins,2021,97.5,O Senhor dos Anéis,0.0,1374,Collection
 0,Outros,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/jardim_do_seu_neca.jpg,Jardim do Seu Neca,Ana Rocha,Polvilho,2022,24.0,No collection,0.0,100,Collection
 9786555112894,Romance,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/mabinogion.jpg,Mabinogion,Vários,Harper Collins,2021,63.67,Feéria Antiga,0.0,382,Collection
@@ -105,6 +105,5 @@ isbn,genre,cover,title,authors,publisher,year,preco_medio,collection,volume,page
 9771516361008,Quadrinhos,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/spawn__a_origem_de_angela.jpg,Spawn: A origem de Ângela,Alan McElroy,Abril,1999,21.32,A maldição do Spawn,1.0,100,Collection
 9771413336003,Quadrinhos,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/spawn_90.jpg,Spawn 90,Todd McFarlane,Abril,2000,15.0,Spawn,90.0,100,Collection
 9781524860677,Quadrinhos,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/fangs.jpg,Fangs,Sarah Andersen,Andrews McMeel,2020,162.0,No collection,0.0,98,Collection
-9786589912132,Quadrinhos,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/dente_de_leite.jpg,Dente de leite,Patrick Martins,Pipoca e Nanquim,2020,36.95,No collection,0.0,169,Collection
 9786589912132,Quadrinhos,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/dente_de_leite.jpg,Dente de leite,Patrick Martins,Pipoca e Nanquim,2020,36.95,No collection,0,169,Collection
 9788576163398,Quadrinhos,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/genesis.jpg,Gênesis,Robert Crumb,Conrad,2009,16.73,No collection,0,211,Collection
