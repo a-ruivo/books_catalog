@@ -121,6 +121,7 @@ isbn,genre,cover,title,authors,publisher,year,preco_medio,collection,volume,page
 0,Quadrinhos,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/liget_3.jpg,Liget 3,KZ,Incompleta,2019,30.0,Liget,3.0,31,Collection
 0,Quadrinhos,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/liget_4.jpg,Liget 4,KZ,Incompleta,2020,15.0,Liget,4.0,31,Collection
 0,Quadrinhos,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/liget_5.jpg,Liget 5,KZ,Incompleta,2021,20.0,Liget,5.0,31,Collection
+0,Quadrinhos,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/liget_1.jpg,Liget 1,KZ,Incompleta,2018,20.0,Liget,1.0,31,Collection
 9788582850749,Romance,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/noites_brancas.jpg,Noites brancas,Fiódor Dostoievski,Penguin,2018,36.43,No collection,0.0,110,Collection
 9788501014863,Romance,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/o_estrangeiro.jpg,O Estrangeiro,Albert Camus,Record,2023,55.0,No collection,0.0,126,Collection
 9788582850350,Romance,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/dom_casmurro.jpg,Dom Casmurro,Machado de Assis,Penguin,2016,25.0,No collection,0.0,389,Collection
@@ -244,3 +245,4 @@ isbn,genre,cover,title,authors,publisher,year,preco_medio,collection,volume,page
 0,Quadrinhos,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/liget_4.jpg,Liget 4,KZ,Incompleta,2020,15.0,Liget,4,31,Collection
 0,Quadrinhos,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/liget_5.jpg,Liget 5,KZ,Incompleta,2021,20.0,Liget,5,31,Collection
 0,Quadrinhos,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/liget_1.jpg,Liget 1,KZ,Incompleta,2018,20.0,Liget,1,31,Collection
+0,Quadrinhos,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/liget_2.jpg,Liget 2,KZ,Incompleta,2018,20.0,Liget,2,31,Collection
