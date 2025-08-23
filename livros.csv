@@ -141,7 +141,7 @@ isbn,genre,cover,title,authors,publisher,year,preco_medio,collection,volume,page
 0,Quadrinhos,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/spawn_especial__feudo_de_sangue.jpg,Spawn especial: feudo de sangue,Alan Moore,Panini,2020,52.34,Spawn Especial,0,32,Collection,no
 0,Quadrinhos,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/weird_comix.jpg,Weird Comix 12,Fabio Vermelho,Weird Works,2022,21.41,Weird Comix,120,48,Collection,no
 0,Quadrinhos,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/weird_comix_11.jpg,Weird Comix 11,Fabio Vermelho,Weird Works,2021,21.83,Weird Comix,110,48,Collection,no
-0,Quadrinhos,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/ellas_iban__sin_sombrero.jpg,Ellas iban: Sin Sombrero,Carolina Corvillo,Ponent Mon,2023,56.27,No collection,0,101,Collection,no
+0,Quadrinhos,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/ellas_iban__sin_sombrero.jpg,Ellas iban: Sin Sombrero,Carolina Corvillo,Ponent Mon,2023,500.0,No collection,0,101,Collection,yes
 0,Quadrinhos,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/o_setimo_suspiro_do_samurai.jpg,O sétimo suspiro do samurai,Éric Adam,Conrad,2006,36.69,No collection,0,110,Collection,no
 0,Quadrinhos,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/beasts_of_burden__rituais_animais.jpg,Beasts of burden: rituais animais,Evan Dorkin,Dark Horse,2017,100.0,Beasts of Burden,0,170,Collection,no
 0,Quadrinhos,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/beasts_of_burden__guardioes_da_vizinhanca.jpg,Beasts of burden: guardiões da vizinhança,Evan Dorkin,Dark Horse,2020,80.0,Beasts of Burden,0,181,Collection,no
