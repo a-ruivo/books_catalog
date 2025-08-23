@@ -139,5 +139,5 @@ isbn,genre,cover,title,authors,publisher,year,preco_medio,collection,volume,page
 0,Quadrinhos,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/o_papa_terrivel.jpg,O papa terrível,Jodorowsky,Conrad,2024,59.0,No collection,0.0,220,Collection
 0,Quadrinhos,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/grande_sertao_veredas.jpg,Grande sertão veredas,João Guimarães Rosa,Quadrinhos na cia,2021,99.9,No collection,0.0,160,Collection
 0,Quadrinhos,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/spawn_especial__feudo_de_sangue.jpg,Spawn especial: feudo de sangue,Alan Moore,Panini,2020,52.34,Spawn Especial,0.0,32,Collection
-0,Quadrinhos,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/weird_comix.jpg,Weird Comix,Fabio Vermelho,Weird Works,2022,15.0,Weird Comix,12.0,48,Collection
-0,Quadrinhos,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/weird_comix_11.jpg,Weird Comix 11,Fabio Vermelho,Weird Works,2021,25.7,Weird Comix,11,48,Collection
+0,Quadrinhos,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/weird_comix.jpg,Weird Comix 12,Fabio Vermelho,Weird Works,2022,15.0,Weird Comix,12.0,48,Collection
+0,Quadrinhos,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/weird_comix_11.jpg,Weird Comix 11,Fabio Vermelho,Weird Works,2021,25.7,Weird Comix,11.0,48,Collection
