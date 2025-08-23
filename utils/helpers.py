@@ -77,11 +77,16 @@ def adicionar_preco_medio(df, nova_coluna="preco_medio"):
             else:
                 print(f"Nenhum preço encontrado para '{title}'")
                 return 0
+    df1 = df[df['preco_correto'] == 'yes']
+    df2 = df[df['preco_correto'] != 'yes']
 
-    df[nova_coluna] = df.apply(
+    df2[nova_coluna] = df2.apply(
         lambda row: buscar_preco(row["title"], row["year"], row["publisher"]),
         axis=1
     )
+
+    df = pd.concat([df1, df2], ignore_index=True).drop_duplicates()
+
     return df
 
 def autenticar():

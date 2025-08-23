@@ -52,7 +52,7 @@ with col2:
         df = df.drop_duplicates(keep="last")
 
         # Mantém apenas as colunas relevantes
-        df = df.loc[:, ["isbn", "genre", "cover", "title", "authors", "publisher", "year", "preco_medio", "collection", "volume", "pages", "type"]]
+        df = df.loc[:, ["isbn", "genre", "cover", "title", "authors", "publisher", "year", "preco_medio", "collection", "volume", "pages", "type","preco_correto"]]
 
         df_com_precos = adicionar_preco_medio(df)
         # Salva no GitHub e atualiza o estado
@@ -102,6 +102,12 @@ if st.session_state["aba_atual"] == "Books":
     genero_escolhido = st.sidebar.multiselect("Genre", ["All"] + generos, default=["All"])
     if "All" not in genero_escolhido:
         df = df[df["genre"].isin(genero_escolhido)]
+
+    # Filtro por gênero
+    precos = sorted(df["preco_correto"].dropna().unique())
+    preco_escolhico = st.sidebar.multiselect("Price ok", ["All"] + precos, default=["All"])
+    if "All" not in preco_escolhico:
+        df = df[df["preco_correto"].isin(preco_escolhico)]
 
     # Filtro por ano
     anos = sorted(df["year"].dropna().unique())
@@ -277,7 +283,7 @@ elif st.session_state["aba_atual"] == "Add Book":
     with st.form("form_books"):
         title_form = st.text_input("Title")
         isbn_form = st.text_input("ISBN")
-        genre_form = st.selectbox("Choose a genre", [ "Artes","Autoajuda","Biografia","Ciências","Contos","Cozinha","Crônicas","Demonologia","Economia","Educação","Filosofia","Quadrinhos", "História","Infantil","Infanto-juvenil","Mangás","Negócios","Outros",  "Poesia","Romance","Sociologia","Tecnologia","Teologia", "Teoria da literatura/linguística"])
+        genre_form = st.selectbox("Choose a genre", [ "Artes","Autoajuda","Biografia","Ciências","Contos","Cozinha","Crônicas","Demonologia","Economia","Educação","Filosofia", "História","Infantil","Infanto-juvenil","Mangás","Negócios","Outros",  "Poesia","Quadrinhos","Romance","Sociologia","Tecnologia","Teologia", "Teoria da literatura/linguística"])
 
         opcao_autor = st.selectbox("Select an author or choose 'New Author'", ["New Author"] + autores_existentes)
         if opcao_autor == "New Author":
@@ -311,6 +317,8 @@ elif st.session_state["aba_atual"] == "Add Book":
         nome_arquivo = formatar_nome_arquivo(title_form)
         caminho_imagem_repo = f"images/{nome_arquivo}.jpg"
 
+        preco_form = 'no'
+
         nova_carta = pd.DataFrame([{
             "title": title_form,
             "isbn": isbn_form,
@@ -322,6 +330,7 @@ elif st.session_state["aba_atual"] == "Add Book":
             "volume": volume_form,
             "pages": pages_form,
             "type": type_form,
+            "preco_correto": preco_form,
             "cover": f"https://raw.githubusercontent.com/a-ruivo/books_catalog/main/{caminho_imagem_repo}"
         }])
 
