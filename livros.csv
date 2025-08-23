@@ -152,4 +152,5 @@ isbn,genre,cover,title,authors,publisher,year,preco_medio,collection,volume,page
 0,Quadrinhos,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/peepland_2.jpg,Peepland 2,Christina Faust,Skript,2022,47.77,Peepland,2.0,136,Collection
 0,Quadrinhos,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/big_baby.jpg,Big Baby,Charles Burns,Darkside,2019,34.3,No collection,0.0,113,Collection
 0,Quadrinhos,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/a_lenda_de_korra__guerra_territorial.jpg,A lenda de korra: guerra territorial,Bryan Konietzko,Intrínseca,2023,30.0,A lenda de korra,0.0,240,Collection
-0,Quadrinhos,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/bichos.jpg,Bichos,Daniel Esteves,Zapata,2022,15.0,No collection,0,30,Collection
+0,Quadrinhos,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/bichos.jpg,Bichos,Daniel Esteves,Zapata,2022,15.0,No collection,0.0,30,Collection
+0,Quadrinhos,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/alho_poro.jpg,Alho poró,Bianca Pinheiro,Conrad,2022,30.38,No collection,0,72,Collection
