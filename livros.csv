@@ -150,4 +150,5 @@ isbn,genre,cover,title,authors,publisher,year,preco_medio,collection,volume,page
 0,Quadrinhos,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/mouse_guard__inverno_de_1152.jpg,Mouse Guard: inverno de 1152,David Petersen,Conrad,2023,89.78,Mouse Guard,0.0,180,Collection
 0,Quadrinhos,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/por_mais_um_dia_com_zapata.jpg,Por mais um dia com zapata,Daniel Esteves,Zapata,2015,42.3,No collection,0.0,132,Collection
 0,Quadrinhos,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/peepland_2.jpg,Peepland 2,Christina Faust,Skript,2022,47.77,Peepland,2.0,136,Collection
-0,Quadrinhos,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/big_baby.jpg,Big Baby,Charles Burns,Darkside,2019,34.3,No collection,0,113,Collection
+0,Quadrinhos,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/big_baby.jpg,Big Baby,Charles Burns,Darkside,2019,34.3,No collection,0.0,113,Collection
+0,Quadrinhos,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/a_lenda_de_korra__guerra_territorial.jpg,A lenda de korra: guerra territorial,Bryan Konietzko,Intrínseca,2023,30.0,A lenda de korra,0,240,Collection
