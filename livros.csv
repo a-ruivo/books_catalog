@@ -193,3 +193,4 @@ isbn,genre,cover,title,authors,publisher,year,preco_medio,collection,volume,page
 0,Quadrinhos,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/berlim.jpg,Berlim,Jason Lutes,Veneta,2020,144.3,No collection,0,592,Collection,no
 0,Quadrinhos,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/o_fotografo_1.jpg,O fotógrafo 1,Emmanuel Guibert,Conrad,2006,32.13,O fotógrafo,1,86,Collection,no
 0,Quadrinhos,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/o_fotografo_2.jpg,O fotógrafo 2,Emmanuel Guibert,Conrad,2008,37.52,O fotógrafo,2,86,Collection,no
+0,Quadrinhos,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/o_fotografo_3.jpg,O fotógrafo 3,Emmanuel Guibert,Conrad,2010,41.32,O fotógrafo,3,86,Collection,no
