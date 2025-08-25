@@ -209,3 +209,4 @@ isbn,genre,cover,title,authors,publisher,year,preco_medio,collection,volume,page
 0,Mangás,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/ryuko.jpg,Ryuko,Eldo Yoshimizu,JBC,2023,35.38,No collection,0,300,Collection,no
 0,Mangás,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/one_piece_blue.jpg,One piece blue,Eichiro Oda,Panini,2015,67.02,One Piece,0,100,Collection,no
 0,Mangás,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/one_piece_red.jpg,One piece red,Eichiro Oda,Panini,2022,323.98,One Piece,0,100,Collection,no
+0,Mangás,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/one_piece_yellow.jpg,One piece yellow,Eichiro Oda,Panini,2025,24.9,One Piece,0,300,Collection,no
