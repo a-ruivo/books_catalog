@@ -205,3 +205,4 @@ isbn,genre,cover,title,authors,publisher,year,preco_medio,collection,volume,page
 0,Quadrinhos,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/nao_era_voce_que_eu_esperava.jpg,Não era você que eu esperava,Fabien Toulme,Nemo,2022,54.0,No collection,0,244,Collection,no
 0,Quadrinhos,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/maus.jpg,Maus,Fabien Toulme,Quadrinhos na cia,2009,72.23,No collection,0,295,Collection,no
 0,Mangás,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/bambi_1.jpg,Bambi 1,Atsushi Kaneko,Conrad,2006,19.56,Bambi,1,198,Collection,no
+0,Mangás,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/nana_1.jpg,Nana 1,Ai Yazawa,JBC,2022,55.16,Nana,1,180,Collection,no
