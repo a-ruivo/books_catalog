@@ -199,3 +199,4 @@ isbn,genre,cover,title,authors,publisher,year,preco_medio,collection,volume,page
 0,Quadrinhos,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/shenzen.jpg,Shenzen,Guy Delisle,Zarabatana,2009,32.97,No collection,0,160,Collection,no
 0,Quadrinhos,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/um_cadaver_no_rio_imjin.jpg,Um cadáver no rio imjin,Harvey Kurtzman,Veneta,2022,0.0,No collection,0,264,Collection,no
 0,Outros,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/cidades_ilustradas_curitiba.jpg,Cidades ilustradas Curitiba,Cesar Lobo,Casa 21,2004,105.0,Cidades ilustradas,0,50,Collection,no
+0,Quadrinhos,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/metamaus.jpg,Metamaus,Art Spiegelman,Casa 21,2022,241.17,No collection,0,299,Collection,no
