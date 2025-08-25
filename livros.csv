@@ -201,3 +201,4 @@ isbn,genre,cover,title,authors,publisher,year,preco_medio,collection,volume,page
 0,Outros,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/cidades_ilustradas_curitiba.jpg,Cidades ilustradas Curitiba,Cesar Lobo,Casa 21,2004,105.0,Cidades ilustradas,0,50,Collection,no
 0,Quadrinhos,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/metamaus.jpg,Metamaus,Art Spiegelman,Casa 21,2022,241.17,No collection,0,299,Collection,no
 0,Quadrinhos,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/os_anos_allende.jpg,Os anos allende,Carlos Reyes,Zarabatana,2021,40.07,No collection,0,128,Collection,no
+0,Quadrinhos,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/quadrinhos_queer.jpg,Quadrinhos queer,Carlos Reyes,Skript,2020,80.08,No collection,0,300,Collection,no
