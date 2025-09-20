@@ -232,3 +232,4 @@ isbn,genre,cover,title,authors,publisher,year,preco_medio,collection,volume,page
 0,Mangás,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/divina_comedia.jpg,Divina Comédia,Go Nagai,New Pop,2000,45.0,Divina Comédia,1,358,Collection,no
 0,Mangás,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/divina_comedia_2_-_manga.jpg,Divina Comédia 2 - Mangá,Go Nagai,New Pop,2000,45.0,Divina Comédia,2000,408,Collection,no
 0,Mangás,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/nausicaa_1.jpg,Nausicaa 1,Hayao Miyazaki,JBC,2022,52.25,Nausicaa,1,132,Collection,no
+0,Mangás,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/nausicaa_2.jpg,Nausicaa 2,Hayao Miyazaki,JBC,2022,32.0,Nausicaa,2,132,Collection,no
