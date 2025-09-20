@@ -238,3 +238,4 @@ isbn,genre,cover,title,authors,publisher,year,preco_medio,collection,volume,page
 0,Mangás,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/nausicaa_5.jpg,Nausicaa 5,Hayao Miyazaki,JBC,2022,44.13,Nausicaa,5,132,Collection,no
 0,Mangás,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/diario_dos_gatos.jpg,Diário dos gatos,Junji Ito,JBC,2022,34.27,No collection,0,109,Collection,no
 0,Mangás,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/lady_snowblood_1.jpg,Lady Snowblood 1,Kazuo Koike,Panini,2021,42.73,Lady Snowblood,1,280,Collection,no
+0,Mangás,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/lady_snowblood_2.jpg,Lady Snowblood 2,Kazuo Koike,Panini,2020,22.97,Lady Snowblood,2,280,Collection,no
