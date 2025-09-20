@@ -230,3 +230,4 @@ isbn,genre,cover,title,authors,publisher,year,preco_medio,collection,volume,page
 0,Teoria da literatura/linguística,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/the_dictionary_of_imaginary_places.jpg,The dictionary of imaginary places,Alberto Manguel,Harper Collins,1999,96.61,No collection,0,755,Collection,no
 0,Quadrinhos,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/calvin_e_haroldo__os_dias_estao_simplesmente_lotados.jpg,Calvin e Haroldo: Os dias estão simplesmente lotados,Bill Watterson,Best,1995,47.49,Calvin e Haroldo,2,79,Collection,no
 0,Mangás,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/divina_comedia.jpg,Divina Comédia,Go Nagai,New Pop,2000,45.0,Divina Comédia,1,358,Collection,no
+0,Mangás,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/divina_comedia_2_-_manga.jpg,Divina Comédia 2 - Mangá,Go Nagai,New Pop,2000,45.0,Divina Comédia,2000,408,Collection,no
