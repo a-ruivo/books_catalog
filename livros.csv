@@ -229,8 +229,8 @@ isbn,genre,cover,title,authors,publisher,year,preco_medio,collection,volume,page
 0,Mangás,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/one_piece_17.jpg,One piece 3 em 1 17,Eichiro Oda,Panini,2024,31.37,One Piece,17,900,Collection,no
 0,Teoria da literatura/linguística,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/the_dictionary_of_imaginary_places.jpg,The dictionary of imaginary places,Alberto Manguel,Harper Collins,1999,96.61,No collection,0,755,Collection,no
 0,Quadrinhos,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/calvin_e_haroldo__os_dias_estao_simplesmente_lotados.jpg,Calvin e Haroldo: Os dias estão simplesmente lotados,Bill Watterson,Best,1995,47.49,Calvin e Haroldo,2,79,Collection,no
-0,Mangás,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/divina_comedia.jpg,Divina Comédia,Go Nagai,New Pop,2000,45.0,Divina Comédia,1,358,Collection,no
-0,Mangás,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/divina_comedia_2_-_manga.jpg,Divina Comédia 2 - Mangá,Go Nagai,New Pop,2000,45.0,Divina Comédia,2000,408,Collection,no
+0,Mangás,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/divina_comedia.jpg,Divina Comédia 1 - Mangá,Go Nagai,New Pop,2000,45.0,Divina Comédia,1,358,Collection,no
+0,Mangás,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/divina_comedia_2_-_manga.jpg,Divina Comédia 2 - Mangá,Go Nagai,New Pop,2000,45.0,Divina Comédia,2,408,Collection,no
 0,Mangás,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/nausicaa_1.jpg,Nausicaa 1,Hayao Miyazaki,JBC,2022,52.25,Nausicaa,1,132,Collection,no
 0,Mangás,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/nausicaa_2.jpg,Nausicaa 2,Hayao Miyazaki,JBC,2022,32.0,Nausicaa,2,132,Collection,no
 0,Mangás,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/nausicaa_3.jpg,Nausicaa 3,Hayao Miyazaki,JBC,2022,58.5,Nausicaa,3,132,Collection,no
