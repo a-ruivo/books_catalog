@@ -228,3 +228,4 @@ isbn,genre,cover,title,authors,publisher,year,preco_medio,collection,volume,page
 0,Mangás,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/one_piece_16.jpg,One piece 3 em 1 16,Eichiro Oda,Panini,2024,44.98,One Piece,16,900,Collection,no
 0,Mangás,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/one_piece_17.jpg,One piece 3 em 1 17,Eichiro Oda,Panini,2024,31.37,One Piece,17,900,Collection,no
 0,Teoria da literatura/linguística,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/the_dictionary_of_imaginary_places.jpg,The dictionary of imaginary places,Alberto Manguel,Harper Collins,1999,96.61,No collection,0,755,Collection,no
+0,Quadrinhos,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/calvin_e_haroldo__os_dias_estao_simplesmente_lotados.jpg,Calvin e Haroldo: Os dias estão simplesmente lotados,Bill Watterson,Best,1995,47.49,Calvin e Haroldo,2,79,Collection,no
