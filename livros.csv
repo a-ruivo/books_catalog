@@ -268,3 +268,4 @@ isbn,genre,cover,title,authors,publisher,year,preco_medio,collection,volume,page
 0,Mangás,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/ayako.jpg,Ayako,Osamu Tezuka,Veneta,2012,90.0,No collection,0,588,Collection,no
 0,Mangás,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/cowboy_bepop_4.jpg,Cowboy Bepop 4,Yutaka Nanten,JBC,1999,464.4,Cowboy Bepop,4,70,Collection,no
 0,Mangás,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/cowboy_bepop_6.jpg,Cowboy Bepop 6,Yutaka Nanten,JBC,1999,257.15,Cowboy Bepop,6,70,Collection,no
+0,Mangás,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/usagi_yojimbo.jpg,Usagi Yojimbo,Stan Sakai,Via Lettera,1988,33.53,Usagi Yojimbo,0,100,Collection,no
