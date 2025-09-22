@@ -284,3 +284,4 @@ isbn,genre,cover,title,authors,publisher,year,preco_medio,collection,volume,page
 0,Contos,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/todos_os_contos.jpg,Todos os contos,Clarice Lispector,Rocco,2016,117.06,No collection,0,650,Collection,no
 0,Contos,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/passaporte_para_a_china.jpg,Passaporte para a China,Lygia Faundes Telles,Companhia das Letras,2011,25.0,No collection,0,90,Collection,no
 0,Contos,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/a_noite_escura_e_mais_eu.jpg,A noite escura e mais eu,Lygia Faundes Telles,Companhia das Letras,2011,25.0,No collection,0,90,Collection,no
+0,Contos,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/antes_do_baile_verde.jpg,Antes do baile verde,Lygia Faundes Telles,Companhia das Letras,2011,36.57,No collection,0,100,Collection,no
