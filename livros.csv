@@ -281,3 +281,4 @@ isbn,genre,cover,title,authors,publisher,year,preco_medio,collection,volume,page
 0,Contos,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/o_vilarejo.jpg,O vilarejo,Raphael Montes,Suma,2015,47.1,No collection,0,200,Collection,no
 0,Contos,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/fairy_tales.jpg,Fairy Tales,Hans Andersen,Suma,1998,27.89,No collection,0,300,Collection,no
 0,Contos,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/secrecoes__excrecoes_e_desatinos.jpg,"Secreções, excreções e desatinos",Rubem Fonseca,Companhia das Letras,2001,17.94,No collection,0,150,Collection,no
+0,Contos,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/todos_os_contos.jpg,Todos os contos,Clarice Lispector,Rocco,2016,117.06,No collection,0,650,Collection,no
