@@ -278,3 +278,4 @@ isbn,genre,cover,title,authors,publisher,year,preco_medio,collection,volume,page
 0,Crônicas,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/bons_dias_.jpg,Bons dias!,Machado de Assis,Unicamp,2008,29.56,No collection,0,300,Collection,no
 0,Romance,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/azul_cobalto.jpg,Azul Cobalto,Maria Teresa Horta,Oficina Raquel,2014,26.95,No collection,0,200,Collection,no
 0,Contos,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/the_dangers_of_smoking_in_bed.jpg,The dangers of smoking in bed,Mariana Henriquez,Granta,2017,229.99,No collection,0,200,Collection,no
+0,Contos,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/o_vilarejo.jpg,O vilarejo,Raphael Montes,Suma,2015,47.1,No collection,0,200,Collection,no
