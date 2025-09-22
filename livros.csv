@@ -275,3 +275,4 @@ isbn,genre,cover,title,authors,publisher,year,preco_medio,collection,volume,page
 0,Contos,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/contos_e_lendas_da_europa_medieval.jpg,Contos e lendas da europa medieval,Gilles Massardier,Companhia das Letras,2005,15.52,No collection,0,200,Collection,no
 0,Contos,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/contos_e_lendas_da_mitologia_grega.jpg,Contos e lendas da mitologia grega,Claude Pouzadoux,Companhia das Letras,2005,22.76,No collection,0,200,Collection,no
 0,Romance,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/the_graveyard_book.jpg,The graveyard book,Niel Gaiman,Harper Collins,2008,30.99,No collection,0,312,Collection,no
+0,Crônicas,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/bons_dias_.jpg,Bons dias!,Machado de Assis,Unicamp,2008,29.56,No collection,0,300,Collection,no
