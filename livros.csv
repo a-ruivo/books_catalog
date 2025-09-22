@@ -294,3 +294,4 @@ isbn,genre,cover,title,authors,publisher,year,preco_medio,collection,volume,page
 0,Contos,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/contos_de_fantasmas.jpg,Contos de fantasmas,Daniel Defoe,L&PM,2005,16.21,No collection,0,100,Collection,no
 0,Contos,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/o_corvo__corvos_e_o_outro_corvo.jpg,"O corvo, corvos e o outro corvo",Edgar Allan Poe,UFSC,2005,17.84,No collection,0,100,Collection,no
 0,Contos,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/amalgama.jpg,Amálgama,Rubem Fonseca,Nova Fronteira,2005,41.17,No collection,0,100,Collection,no
+0,Contos,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/o_diabo_e_outras_historias.jpg,O diabo e outras histórias,Liev Tolstói,Companhia das Letras,2005,57.0,No collection,0,100,Collection,no
