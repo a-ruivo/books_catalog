@@ -284,7 +284,7 @@ elif st.session_state["aba_atual"] == "Add Book":
     if opcao_inserir == "Add to Collection":
         with st.form("form_books"):
                 title_form = st.text_input("Title")
-                isbn_form = st.text_input("ISBN")
+                isbn_form = "0"
                 genre_form = st.selectbox("Choose a genre", [ "Artes","Autoajuda","Biografia","Ciências","Contos","Cozinha","Crônicas","Demonologia","Economia","Educação","Filosofia", "História","Infantil","Infanto-juvenil","Mangás","Negócios","Outros",  "Poesia","Quadrinhos","Romance","Sociologia","Tecnologia","Teologia", "Teoria da literatura/linguística"])
 
                 opcao_autor = st.selectbox("Select an author or choose 'New Author'", ["New Author"] + autores_existentes)
@@ -299,10 +299,10 @@ elif st.session_state["aba_atual"] == "Add Book":
                 else:
                     publisher_form = opcao
 
-                year_form = st.text_input("Year")
+                year_form = "0"
                 collection_form = st.text_input("Collection")
                 volume_form = st.text_input("Volume")
-                pages_form = st.text_input("Pages")
+                pages_form = "0"
                 type_form = "Collection"
                 imagem_upload = st.file_uploader("Upload image (PNG or JPEG)", type=["png", "jpg", "jpeg"])
                 enviado = st.form_submit_button("Add book")
