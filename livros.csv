@@ -301,3 +301,4 @@ isbn,genre,cover,title,authors,publisher,year,preco_medio,collection,volume,page
 0,Mangás,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/devilman_1.jpg,Devilman 1,Go Nagai,No publisher,0,438.15,Devilman,1,0,Wishlist,no
 0,Teoria da literatura/linguística,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/e_o_cerebro_criou_o_homem.jpg,E o cérebro criou o homem,Antonio R. Damásio,No publisher,0,108.81,No collection,0,0,Wishlist,no
 0,Poesia,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/sobrevivendo_no_inferno.jpg,Sobrevivendo no inferno,Racionais Mc's,Companhia das Letras,0,41.17,No collection,0,0,Collection,no
+0,Poesia,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/poemas.jpg,Poemas,T. S. Eliot,Companhia das Letras,0,29.46,No collection,0,0,Collection,no
