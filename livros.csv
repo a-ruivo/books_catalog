@@ -305,3 +305,4 @@ isbn,genre,cover,title,authors,publisher,year,preco_medio,collection,volume,page
 0,Poesia,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/lira_dos_vinte_anos.jpg,Lira dos vinte anos,Álvares de Azevedo,L&PM,0,13.41,No collection,0,0,Collection,no
 0,Poesia,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/cem_sonetos_de_amor.jpg,Cem sonetos de amor,Pablo Neruda,L&PM,0,13.62,No collection,0,0,Collection,no
 0,Poesia,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/poemas_italianos.jpg,Poemas italianos,Cecília Meireles,Global,0,50.0,No collection,0,0,Collection,no
+0,Poesia,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/morte_e_vida_severina.jpg,Morte e vida severina,João Cabral de Melo Neto,José Olympio,0,40.98,No collection,0,0,Collection,no
