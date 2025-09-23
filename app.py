@@ -280,33 +280,35 @@ elif st.session_state["aba_atual"] == "Add Book":
     editoras_existentes = sorted(df_existente["publisher"].dropna().unique())
     autores_existentes = sorted(df_existente["authors"].dropna().unique())
 
-    with st.form("form_books"):
-        opcao_inserir = st.radio("Choose an option", ["Add to Collection", "Add to Wishlist"])
-        if opcao_inserir == "Add to Collection":
-            title_form = st.text_input("Title")
-            isbn_form = st.text_input("ISBN")
-            genre_form = st.selectbox("Choose a genre", [ "Artes","Autoajuda","Biografia","Ciências","Contos","Cozinha","Crônicas","Demonologia","Economia","Educação","Filosofia", "História","Infantil","Infanto-juvenil","Mangás","Negócios","Outros",  "Poesia","Quadrinhos","Romance","Sociologia","Tecnologia","Teologia", "Teoria da literatura/linguística"])
+    opcao_inserir = st.radio("Choose an option", ["Add to Collection", "Add to Wishlist"])
+    if opcao_inserir == "Add to Collection":
+        with st.form("form_books"):
+                title_form = st.text_input("Title")
+                isbn_form = st.text_input("ISBN")
+                genre_form = st.selectbox("Choose a genre", [ "Artes","Autoajuda","Biografia","Ciências","Contos","Cozinha","Crônicas","Demonologia","Economia","Educação","Filosofia", "História","Infantil","Infanto-juvenil","Mangás","Negócios","Outros",  "Poesia","Quadrinhos","Romance","Sociologia","Tecnologia","Teologia", "Teoria da literatura/linguística"])
 
-            opcao_autor = st.selectbox("Select an author or choose 'New Author'", ["New Author"] + autores_existentes)
-            if opcao_autor == "New Author":
-                author_form = st.text_input("Enter new author")
-            else:
-                author_form = opcao_autor
+                opcao_autor = st.selectbox("Select an author or choose 'New Author'", ["New Author"] + autores_existentes)
+                if opcao_autor == "New Author":
+                    author_form = st.text_input("Enter new author")
+                else:
+                    author_form = opcao_autor
 
-            opcao = st.selectbox("Select a publisher or choose 'New Publisher'",  ["New Publisher"] + editoras_existentes)
-            if opcao == "New Publisher":
-                publisher_form = st.text_input("Enter new publisher")
-            else:
-                publisher_form = opcao
+                opcao = st.selectbox("Select a publisher or choose 'New Publisher'",  ["New Publisher"] + editoras_existentes)
+                if opcao == "New Publisher":
+                    publisher_form = st.text_input("Enter new publisher")
+                else:
+                    publisher_form = opcao
 
-            year_form = st.text_input("Year")
-            collection_form = st.text_input("Collection")
-            volume_form = st.text_input("Volume")
-            pages_form = st.text_input("Pages")
-            type_form = "Collection"
-            imagem_upload = st.file_uploader("Upload image (PNG or JPEG)", type=["png", "jpg", "jpeg"])
+                year_form = st.text_input("Year")
+                collection_form = st.text_input("Collection")
+                volume_form = st.text_input("Volume")
+                pages_form = st.text_input("Pages")
+                type_form = "Collection"
+                imagem_upload = st.file_uploader("Upload image (PNG or JPEG)", type=["png", "jpg", "jpeg"])
 
-        else:
+    else:
+        with st.form("form_books"):
+            
             title_form = st.text_input("Title")
             isbn_form = "0"
             genre_form = st.selectbox("Choose a genre", [ "Artes","Autoajuda","Biografia","Ciências","Contos","Cozinha","Crônicas","Demonologia","Economia","Educação","Filosofia", "História","Infantil","Infanto-juvenil","Mangás","Negócios","Outros",  "Poesia","Quadrinhos","Romance","Sociologia","Tecnologia","Teologia", "Teoria da literatura/linguística"])
