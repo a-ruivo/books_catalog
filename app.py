@@ -305,10 +305,11 @@ elif st.session_state["aba_atual"] == "Add Book":
                 pages_form = st.text_input("Pages")
                 type_form = "Collection"
                 imagem_upload = st.file_uploader("Upload image (PNG or JPEG)", type=["png", "jpg", "jpeg"])
+                enviado = st.form_submit_button("Add book")
 
     else:
         with st.form("form_books"):
-            
+
             title_form = st.text_input("Title")
             isbn_form = "0"
             genre_form = st.selectbox("Choose a genre", [ "Artes","Autoajuda","Biografia","Ciências","Contos","Cozinha","Crônicas","Demonologia","Economia","Educação","Filosofia", "História","Infantil","Infanto-juvenil","Mangás","Negócios","Outros",  "Poesia","Quadrinhos","Romance","Sociologia","Tecnologia","Teologia", "Teoria da literatura/linguística"])
@@ -327,8 +328,7 @@ elif st.session_state["aba_atual"] == "Add Book":
             pages_form = "0"
             type_form = "Wishlist"
             imagem_upload = st.file_uploader("Upload image (PNG or JPEG)", type=["png", "jpg", "jpeg"])
-            
-        enviado = st.form_submit_button("Add book")
+            enviado = st.form_submit_button("Add book")
 
     if enviado:
         campos_obrigatorios = [
