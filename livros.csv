@@ -308,3 +308,4 @@ isbn,genre,cover,title,authors,publisher,year,preco_medio,collection,volume,page
 0,Poesia,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/morte_e_vida_severina.jpg,Morte e vida severina,João Cabral de Melo Neto,José Olympio,0,40.98,No collection,0,0,Collection,no
 0,Contos,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/ghost_stories.jpg,Ghost Stories,M. R. James,José Olympio,0,44.64,No collection,0,0,Collection,no
 0,Poesia,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/toda_poesia.jpg,Toda poesia,Paulo Leminski,Companhia das Letras,0,215.52,No collection,0,0,Collection,no
+0,Poesia,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/antologia_poetica.jpg,Antologia Poética,Luci Collin,Kotter,0,40.56,Antologicos,0,0,Collection,no
