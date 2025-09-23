@@ -297,3 +297,4 @@ isbn,genre,cover,title,authors,publisher,year,preco_medio,collection,volume,page
 0,Contos,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/o_diabo_e_outras_historias.jpg,O diabo e outras histórias,Liev Tolstói,Companhia das Letras,2005,57.0,No collection,0,100,Collection,no
 0,Mangás,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/kimba.jpg,Kimba,Osamu Tezuka,No publisher,0,45.63,Edição histórica,0,0,Wishlist,no
 0,Mangás,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/cutie_honey.jpg,Cutie Honey,Go Nagai,No publisher,0,75.92,Edição histórica,0,0,Wishlist,no
+0,Mangás,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/devilman_2.jpg,Devilman 2,Go Nagai,No publisher,0,487.5,Edição histórica,2,0,Wishlist,no
