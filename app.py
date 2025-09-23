@@ -281,7 +281,7 @@ elif st.session_state["aba_atual"] == "Add Book":
     autores_existentes = sorted(df_existente["authors"].dropna().unique())
 
     with st.form("form_books"):
-        opcao_inserir = st.selectbox("Choose an option", ["Add to Collection", "Add to Wishlist"])
+        opcao_inserir = st.radio("Choose an option", ["Add to Collection", "Add to Wishlist"])
         if opcao_inserir == "Add to Collection":
             title_form = st.text_input("Title")
             isbn_form = st.text_input("ISBN")
@@ -305,7 +305,6 @@ elif st.session_state["aba_atual"] == "Add Book":
             pages_form = st.text_input("Pages")
             type_form = "Collection"
             imagem_upload = st.file_uploader("Upload image (PNG or JPEG)", type=["png", "jpg", "jpeg"])
-            enviado = st.form_submit_button("Add book")
 
         else:
             title_form = st.text_input("Title")
@@ -326,7 +325,8 @@ elif st.session_state["aba_atual"] == "Add Book":
             pages_form = "0"
             type_form = "Wishlist"
             imagem_upload = st.file_uploader("Upload image (PNG or JPEG)", type=["png", "jpg", "jpeg"])
-            enviado = st.form_submit_button("Add book")
+            
+        enviado = st.form_submit_button("Add book")
 
     if enviado:
         campos_obrigatorios = [
