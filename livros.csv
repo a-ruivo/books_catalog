@@ -342,3 +342,4 @@ isbn,genre,cover,title,authors,publisher,year,preco_medio,collection,volume,page
 0,Infantil,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/fabulas_inesqueciveis.jpg,Fábulas Inesquecíveis,Mauricio de Sousa,Girassol,0,34.42,Turma da Mônica,0,0,Collection,no
 0,Infantil,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/fabulas.jpg,Fábulas,Liev Tolstói,Companhia das Letras,0,43.38,No collection,0,0,Collection,no
 0,Infantil,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/manual_do_cientista_do_franjinha.jpg,Manual do Cientista do Franjinha,Mauricio de Sousa,Globo,0,102.36,Turma da Mônica,0,0,Collection,no
+0,Infantil,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/cachorrologia.jpg,Cachorrologia,Felix Osborne,Pé da letra,0,21.18,No collection,0,0,Collection,no
