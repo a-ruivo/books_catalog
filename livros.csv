@@ -346,3 +346,4 @@ isbn,genre,cover,title,authors,publisher,year,preco_medio,collection,volume,page
 0,Infantil,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/gatologia.jpg,Gatologia,Ruby Foster,Pé da letra,0,17.2,No collection,0,0,Collection,no
 0,Infantil,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/the_neverending_story.jpg,The neverending story,Michael Ende,Firebird,0,70.0,No collection,0,0,Collection,no
 0,Infantil,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/a_volta_dos_gatos_alados.jpg,A volta dos gatos alados,Ursula K. Le Guin,Ática,0,39.0,Gatos alados,2,0,Collection,no
+0,Infantil,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/aventuras_e_perigos_de_um_copo_d_agua.jpg,Aventuras e perigos de um copo d'água,Julieta de Godoy Ladeira,Atual,0,15.24,No collection,0,0,Collection,no
