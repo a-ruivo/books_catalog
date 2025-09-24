@@ -335,3 +335,4 @@ isbn,genre,cover,title,authors,publisher,year,preco_medio,collection,volume,page
 0,Romance,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/depois_daquela_viagem.jpg,Depois daquela viagem,Valéria Piassa Polizzi,Ática,0,16.63,No collection,0,0,Collection,no
 0,Romance,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/coracao_de_tinta.jpg,Coração de tinta,Cornelia Funke,Companhia das Letras,0,37.48,Mundo de tinta,1,0,Collection,no
 0,Romance,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/o_senhor_dos_ladroes.jpg,O senhor dos ladrões,Cornelia Funke,Companhia das Letras,0,20.0,No collection,0,0,Collection,no
+0,Infantil,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/meu_primeiro_livro_do_corpo_humano.jpg,Meu primeiro livro do corpo humano,Mauricio de Sousa,Girassol,0,23.19,Turma da Mônica,0,0,Collection,no
