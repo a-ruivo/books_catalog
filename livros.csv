@@ -340,3 +340,4 @@ isbn,genre,cover,title,authors,publisher,year,preco_medio,collection,volume,page
 0,Infantil,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/contos_de_andersen__grimm_e_perrault.jpg,"Contos de Andersen, Grimm e Perrault",Mauricio de Sousa,Girassol,0,22.77,Turma da Mônica,0,0,Collection,no
 0,Infantil,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/contos_da_carochinha.jpg,Contos da Carochinha,Mauricio de Sousa,Girassol,0,43.32,Turma da Mônica,0,0,Collection,no
 0,Infantil,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/fabulas_inesqueciveis.jpg,Fábulas Inesquecíveis,Mauricio de Sousa,Girassol,0,34.42,Turma da Mônica,0,0,Collection,no
+0,Infantil,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/fabulas.jpg,Fábulas,Liev Tolstói,Companhia das Letras,0,43.38,No collection,0,0,Collection,no
