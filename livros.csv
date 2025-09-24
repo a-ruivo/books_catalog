@@ -309,8 +309,7 @@ isbn,genre,cover,title,authors,publisher,year,preco_medio,collection,volume,page
 0,Contos,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/ghost_stories.jpg,Ghost Stories,M. R. James,José Olympio,0,44.64,No collection,0,0,Collection,no
 0,Poesia,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/toda_poesia.jpg,Toda poesia,Paulo Leminski,Companhia das Letras,0,215.52,No collection,0,0,Collection,no
 0,Poesia,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/antologia_poetica.jpg,Antologia Poética,Luci Collin,Kotter,0,40.56,Antologicos,0,0,Collection,no
-0,Poesia,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/o_mochileiro_das_galaxias_5.jpg,O mochileiro das galáxias 5,Douglas Adams,Arqueiro,0,33.49,O mochileiro das galáxias,5,0,Collection,no
-0,Poesia,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/o_mochileiro_das_galaxias_4.jpg,O mochileiro das galáxias 4,Douglas Adams,Arqueiro,0,13.73,O mochileiro das galáxias,4,0,Collection,no
-0,Poesia,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/o_mochileiro_das_galaxias_3.jpg,O mochileiro das galáxias 3,Douglas Adams,Arqueiro,0,18.56,O mochileiro das galáxias,3,0,Collection,no
-0,Poesia,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/o_mochileiro_das_galaxias_2.jpg,O mochileiro das galáxias 2,Douglas Adams,Arqueiro,0,17.38,O mochileiro das galáxias,2,0,Collection,no
-0,Poesia,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/o_mochileiro_das_galaxias_1.jpg,O mochileiro das galáxias 1,Douglas Adams,Arqueiro,0,24.51,O mochileiro das galáxias,2,0,Collection,no
+0,Romance,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/o_mochileiro_das_galaxias_5.jpg,O mochileiro das galáxias 5,Douglas Adams,Arqueiro,0,33.49,O mochileiro das galáxias,5,0,Collection,no
+0,Romance,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/o_mochileiro_das_galaxias_4.jpg,O mochileiro das galáxias 4,Douglas Adams,Arqueiro,0,13.73,O mochileiro das galáxias,4,0,Collection,no
+0,Romance,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/o_mochileiro_das_galaxias_3.jpg,O mochileiro das galáxias 3,Douglas Adams,Arqueiro,0,18.56,O mochileiro das galáxias,3,0,Collection,no
+0,Romance,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/o_mochileiro_das_galaxias_2.jpg,O mochileiro das galáxias 2,Douglas Adams,Arqueiro,0,17.38,O mochileiro das galáxias,2,0,Collection,no
