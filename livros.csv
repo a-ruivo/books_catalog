@@ -390,3 +390,4 @@ isbn,genre,cover,title,authors,publisher,year,preco_medio,collection,volume,page
 0,Infantil,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/pooh_s_secret_garden.jpg,Pooh's Secret Garden,Catherine Hapka,Disney Press,0,20.5,No collection,0,0,Collection,no
 0,Infantil,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/meus_porquinhos.jpg,Meus porquinhos,Audrey Wood,Disney Press,0,10.0,No collection,0,0,Collection,no
 0,Infantil,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/aladim_e_outros_contos_de_as_mil_e_uma_noites.jpg,Aladim e outros contos de as mil e uma noites,Rosalind Kerven,Companhia das Letras,0,35.38,No collection,0,0,Collection,no
+0,Romance,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/a_bomba.jpg,A bomba,Frank Harris,Conrad,0,18.31,No collection,0,0,Collection,no
