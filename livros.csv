@@ -400,3 +400,4 @@ isbn,genre,cover,title,authors,publisher,year,preco_medio,collection,volume,page
 0,Romance,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/coisas_frageis_2.jpg,Coisas Frágeis 2,Niel Gaiman,Conrad,0,24.29,Coisas Frágeis,2,0,Collection,no
 0,Romance,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/o_iluminado.jpg,O iluminado,Stephen King,Suma,0,120.98,No collection,0,0,Collection,no
 0,Romance,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/tudo_e_eventual.jpg,Tudo é eventual,Stephen King,Suma,0,61.01,No collection,0,0,Collection,no
+0,Romance,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/o_oceano_no_fim_do_caminho.jpg,O oceano no fim do caminho,Niel Gaiman,Intrínseca,0,25.99,No collection,0,0,Collection,no
