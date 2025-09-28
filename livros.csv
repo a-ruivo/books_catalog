@@ -396,3 +396,4 @@ isbn,genre,cover,title,authors,publisher,year,preco_medio,collection,volume,page
 0,Romance,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/triste_fim_de_policarpo_quaresma.jpg,Triste fim de policarpo quaresma,Lima Barreto,UFPR,0,12.48,No collection,0,0,Collection,no
 0,Romance,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/humilhados_e_ofendidos.jpg,Humilhados e ofendidos,Fiódor Dostoiévski,UFPR,0,31.34,No collection,0,0,Collection,no
 0,Romance,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/deuses_americanos.jpg,Deuses Americanos,Neil Gaiman,Intrínseca,0,41.91,No collection,0,0,Collection,no
+0,Romance,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/coisas_frageis_1.jpg,Coisas Frágeis 1,Niel Gaiman,Conrad,0,59.4,Coisas Frágeis,1,0,Collection,no
