@@ -513,3 +513,4 @@ isbn,genre,cover,title,authors,publisher,year,preco_medio,collection,volume,page
 0,Economia,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/maonomics.jpg,Maonomics,Loretta Napoleoni,Bertrand Brasil,0,22.02,No collection,0,0,Collection,no
 0,Economia,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/a_ordem_do_progresso.jpg,A ordem do progresso,Marcelo de Paiva Abreu,Elsevier,0,116.22,No collection,0,0,Collection,no
 0,Economia,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/a_critica_do_capitalismo_em_tempos_de_catastrofe.jpg,A crítica do capitalismo em tempos de catástrofe,Marildo Menegat,Consequência,0,59.0,No collection,0,0,Collection,no
+0,Economia,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/etica_e_economia.jpg,Ética e economia,Manfredo Araújo de Oliveira,Ática,0,16.01,No collection,0,0,Collection,no
