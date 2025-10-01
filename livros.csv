@@ -503,3 +503,4 @@ isbn,genre,cover,title,authors,publisher,year,preco_medio,collection,volume,page
 0,Economia,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/estudo_e_debate_-_2001__no2.jpg,"Estudo e debate - 2001, nº2",UNIVATES,UNIVATES,0,10.0,Estudo e debate,2,0,Collection,no
 0,Economia,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/a_china_sacode_o_mundo.jpg,A China sacode o mundo,James Kynge,Globo,0,17.47,No collection,0,0,Collection,no
 0,Economia,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/ideias_economicas_no_brasil_oitocentista.jpg,Ideias econômicas no Brasil oitocentista,Ivan Colangelo Salomão,UFRGS,0,23.79,No collection,0,0,Collection,no
+0,Economia,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/a_organizacao_do_trabalho_no_seculo_20.jpg,A organização do trabalho no século 20,Geraldo Augusto Pinto,Expressão Popular,0,20.48,No collection,0,0,Collection,no
