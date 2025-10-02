@@ -526,3 +526,4 @@ isbn,genre,cover,title,authors,publisher,year,preco_medio,collection,volume,page
 0,Economia,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/o_capital_no_seculo_xxi.jpg,O capital no século XXI,Thomas Piketty,Intrínseca,0,58.56,No collection,0,0,Collection,no
 0,Economia,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/a_riqueza_das_nacoes_2.jpg,A riqueza das nações 2,Adam Smith,Nova Cultural,0,41.57,Os economistas,2,0,Collection,no
 0,Economia,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/a_economia_politica_do_desenvolvimento.jpg,A economia política do desenvolvimento,Baran,Nova Cultural,0,19.96,Os economistas,0,0,Collection,no
+0,Economia,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/a_economia_mundial_e_o_imperialismo.jpg,A economia mundial e o imperialismo,Bukharin,Nova Cultural,0,94.18,Os economistas,0,0,Collection,no
