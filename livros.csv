@@ -580,3 +580,4 @@ isbn,genre,cover,title,authors,publisher,year,preco_medio,collection,volume,page
 0,Filosofia,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/temas_de_filosofia.jpg,Temas de filosofia,Maria Lúcia de Arruda Aranha,Moderna,0,22.13,No collection,0,0,Collection,no
 0,Filosofia,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/iniciacao_a_filosofia.jpg,Iniciação à filosofia,Marilena Chaui,Ática,0,42.05,No collection,0,0,Collection,no
 0,Filosofia,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/vivendo_a_filosofia.jpg,Vivendo a filosofia,Gabriel Chalita,Ática,0,33.16,No collection,0,0,Collection,no
+0,Filosofia,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/ser_e_tempo_2.jpg,Ser e Tempo 2,Martin Heidegger,Vozes,0,86.05,Pensamento humano,2,0,Collection,no
