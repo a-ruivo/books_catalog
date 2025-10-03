@@ -539,3 +539,4 @@ isbn,genre,cover,title,authors,publisher,year,preco_medio,collection,volume,page
 0,Economia,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/tratado_de_economia_politica.jpg,Tratado de economia política,Jean-Baptiste Say,Nova Cultural,0,25.99,Os economistas,0,0,Collection,no
 0,Economia,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/a_teoria_da_economia_politica.jpg,A teoria da economia política,Jevons,Nova Cultural,0,17.97,Os economistas,0,0,Collection,no
 0,Economia,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/teoria_da_dinamica_economica.jpg,Teoria da dinâmica econômica,Kalecki,Nova Cultural,0,14.53,Os economistas,0,0,Collection,no
+0,Economia,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/a_questao_agraria.jpg,A questão agrária,Kautsky,Nova Cultural,0,57.56,Os economistas,0,0,Collection,no
