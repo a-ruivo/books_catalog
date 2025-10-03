@@ -585,3 +585,4 @@ isbn,genre,cover,title,authors,publisher,year,preco_medio,collection,volume,page
 0,Filosofia,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/introducao_ao_estudo_de_filosofia.jpg,Introdução ao estudo de filosofia,Antônio Xavier Teles,Ática,0,16.72,No collection,0,0,Collection,no
 0,Filosofia,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/introducao_ao_pensar.jpg,Introdução ao pensar,Arcangelo R. Buzzi,Vozes,0,25.66,No collection,0,0,Collection,no
 0,Filosofia,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/etica_profissional.jpg,Ética profissional,Antonio Lopes de Sá,Atlas,0,32.84,No collection,0,0,Collection,no
+0,Filosofia,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/curso_de_filosofia_1.jpg,Curso de filosofia 1,Battista Mondin,Paulinas,0,35.24,Curso de filosofia,1,0,Collection,no
