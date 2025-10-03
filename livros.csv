@@ -587,3 +587,4 @@ isbn,genre,cover,title,authors,publisher,year,preco_medio,collection,volume,page
 0,Filosofia,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/etica_profissional.jpg,Ética profissional,Antonio Lopes de Sá,Atlas,0,32.84,No collection,0,0,Collection,no
 0,Filosofia,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/curso_de_filosofia_1.jpg,Curso de filosofia 1,Battista Mondin,Paulinas,0,35.24,Curso de filosofia,1,0,Collection,no
 0,Filosofia,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/curso_de_filosofia_2.jpg,Curso de filosofia 2,Battista Mondin,Paulinas,0,31.88,Curso de filosofia,2,0,Collection,no
+0,Filosofia,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/curso_de_filosofia_3.jpg,Curso de filosofia 3,Battista Mondin,Paulinas,0,48.03,Curso de filosofia,3,0,Collection,no
