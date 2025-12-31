@@ -597,3 +597,4 @@ isbn,genre,cover,title,authors,publisher,year,preco_medio,collection,volume,page
 0,Filosofia,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/a_ideia_da_fenomenologia.jpg,A ideia da fenomenologia,Edmund Husserl,Edições 70,0,50.39,No collection,0,0,Collection,no
 0,Filosofia,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/discurso_24.jpg,Discurso 24,Revista do Departamento de Filosofia da USP,Discurso Editorial,0,17.98,Discurso,24,0,Collection,no
 0,Filosofia,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/discurso_22.jpg,Discurso 22,Revista do Departamento de Filosofia da USP,Discurso Editorial,0,19.5,Discurso,22,0,Collection,no
+0,Filosofia,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/curso_de_filosofia__logica_e_metodologia.jpg,Curso de filosofia: lógica e metodologia,Charbonneau,EPU,0,31.26,Curso de filosofia,0,0,Collection,no
