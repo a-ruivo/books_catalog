@@ -629,3 +629,4 @@ isbn,genre,cover,title,authors,publisher,year,preco_medio,collection,volume,page
 0,Filosofia,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/os_pensadores__pascal.jpg,Os pensadores: Pascal,Pascal,Abril,0,18.44,Os pensadores,0,0,Collection,no
 0,Filosofia,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/os_pensadores__locke.jpg,Os pensadores: Locke,Locke,Abril,0,24.54,Os pensadores,0,0,Collection,no
 0,Filosofia,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/os_pensadores__newton_leibniz.jpg,Os pensadores: Newton Leibniz,Newton Leibniz,Abril,0,27.61,Os pensadores,0,0,Collection,no
+0,Filosofia,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/os_pensadores__berkeley_hume.jpg,Os pensadores: Berkeley Hume,Berkeley Hume,Abril,0,24.32,Os pensadores,0,0,Collection,no
