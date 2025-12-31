@@ -620,3 +620,4 @@ isbn,genre,cover,title,authors,publisher,year,preco_medio,collection,volume,page
 0,Filosofia,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/os_pensadores__comte.jpg,Os pensadores: Comte,Comte,Abril,0,19.27,Os pensadores,0,0,Collection,no
 0,Filosofia,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/os_pensadores__diderot.jpg,Os pensadores: Diderot,Comte,Abril,0,20.79,Os pensadores,0,0,Collection,no
 0,Filosofia,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/os_pensadores__kant_1.jpg,Os pensadores: Kant 1,Kant,Abril,0,23.33,Os pensadores,1,0,Collection,no
+0,Filosofia,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/os_pensadores__kant_2.jpg,Os pensadores: Kant 2,Kant,Abril,0,26.25,Os pensadores,2,0,Collection,no
