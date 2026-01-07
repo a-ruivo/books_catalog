@@ -654,3 +654,4 @@ isbn,genre,cover,title,authors,publisher,year,preco_medio,collection,volume,page
 0,Filosofia,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/antropologia_filosofica_1.jpg,Antropologia Filosófica 1,Henrique C. L. Vaz,Loyola,0,37.26,Filosofia,0,0,Collection,no
 0,Filosofia,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/antropologia_filosofica_2.jpg,Antropologia Filosófica 2,Henrique C. L. Vaz,Loyola,0,61.68,Filosofia,0,0,Collection,no
 0,Filosofia,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/filosofia_do_direito.jpg,Filosofia do Direito,João Maurício Adeodato,Saraiva,0,64.77,Filosofia,0,0,Collection,no
+0,Filosofia,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/a_ciencia_da_logica.jpg,A ciência da lógica,G. W. F. Hegel,Loyola,0,85.0,Enciclopédia das Ciências Econômicas,1,0,Collection,no
