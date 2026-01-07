@@ -675,3 +675,4 @@ isbn,genre,cover,title,authors,publisher,year,preco_medio,collection,volume,page
 0,Filosofia,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/revista_vizivali_-_vol__5__n__2.jpg,"Revista Vizivali - Vol. 5, n. 2",CPEA,CPEA,0,30.05,Revista Vizivali,5,0,Collection,no
 0,Filosofia,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/ethos_mundial.jpg,Ethos Mundial,Leonardo Boff,Letraviva,0,18.14,No collection,0,0,Collection,no
 0,Filosofia,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/etica_da_vida.jpg,Ética da Vida,Leonardo Boff,Letraviva,0,15.64,No collection,0,0,Collection,no
+0,Filosofia,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/rousseau__da_teoria_a_praticca.jpg,Rousseau: da Teoria à Práticca,Luís Roberto Salinas Fortes,Ática,0,59.6,Ensaios,21,0,Collection,no
