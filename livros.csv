@@ -656,3 +656,4 @@ isbn,genre,cover,title,authors,publisher,year,preco_medio,collection,volume,page
 0,Filosofia,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/filosofia_do_direito.jpg,Filosofia do Direito,João Maurício Adeodato,Saraiva,0,64.77,Filosofia,0,0,Collection,no
 0,Filosofia,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/a_ciencia_da_logica.jpg,A ciência da lógica,G. W. F. Hegel,Loyola,0,85.0,Enciclopédia das Ciências Econômicas,1,0,Collection,no
 0,Filosofia,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/a_filosofia_do_espirito.jpg,A filosofia do espírito,G. W. F. Hegel,Loyola,0,51.4,Enciclopédia das Ciências Econômicas,3,0,Collection,no
+0,Filosofia,https://raw.githubusercontent.com/a-ruivo/books_catalog/main/images/dicionario_basico_de_filosofia.jpg,Dicionário básico de filosofia,Hilton Japiassu,Jorge Zahar,0,35.34,No collection,0,0,Collection,no
